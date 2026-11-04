@@ -90,7 +90,8 @@ def test_streams_british_and_double():
 
 def test_markdown_and_docx(tmp_path):
     md = tmp_path / "s.md"
-    md.write_text("# One\n\nShe *thought* of it.\nStill.\n\n* * *\n\n“Yes,” he said.\n", encoding="utf-8")
+    md.write_text("<!-- a note\nto self -->\n# One\n\nShe *thought* of it.\nStill.\n\n* * *\n\n“Yes,” he said.\n",
+                  encoding="utf-8")
     ps = reader.read(md)
     assert [p.text for p in ps] == ["One", "She thought of it. Still.", "“Yes,” he said."]
     assert ps[0].heading and ps[1].italic == [(4, 11)]

@@ -3,7 +3,7 @@
 Italic marks interior thought, so it is kept: *x* or _x_ in Markdown and
 plain text, italic runs (direct or by character style) in Word files.  Bold
 markers are dropped.  Headings are read as narration; scene-break lines
-(*, -, _ or # repeated) are skipped.
+(*, -, _ or # repeated) and <!-- notes --> are skipped.
 """
 from __future__ import annotations
 
@@ -61,7 +61,12 @@ def _inline(s: str) -> Paragraph:
     return Paragraph(text=text, italic=italic)
 
 
+_COMMENT = re.compile(r"<!--.*?-->", re.S)
+
+
 def read_markdown(src: str) -> list[Paragraph]:
+    """Paragraphs are separated by blank lines; <!-- notes --> are skipped."""
+    src = _COMMENT.sub("", src)
     paras: list[Paragraph] = []
     block: list[str] = []
 
