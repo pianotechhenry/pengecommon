@@ -23,7 +23,7 @@ from desk import paths
 def _checker(args):
     from desk.check.check import Checker, Config
     cfg = Config(year=args.year, window=args.window, note_min=args.note_min,
-                 use_watchlist=not args.no_watchlist,
+                 use_watchlist=not args.no_watchlist, phrase_heuristic=args.phrases,
                  watchlist_path=Path(args.watchlist) if args.watchlist else None,
                  baseline_path=Path(args.baseline) if args.baseline else None,
                  expect_min=args.phrase_expect)
@@ -263,6 +263,9 @@ def main(argv: list[str] | None = None) -> int:
         sp.add_argument("--baseline", help="Henry's own passages for the Latin/French comparison "
                                            "(default samples/baseline.md)")
         sp.add_argument("--index", help="the index file (default data/index.sqlite)")
+        sp.add_argument("--phrases", action="store_true",
+                        help="also flag phrases first printed later and common afterwards "
+                             "(a heuristic: about 0.3 false flags per 1,000 words of period text)")
         sp.add_argument("--phrase-expect", type=float, default=10.0,
                         help="phrase heuristic: texts expected before the year at the later "
                              "rate, below which a later phrase is not flagged (10)")

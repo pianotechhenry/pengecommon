@@ -243,7 +243,8 @@ function firstDate(ev, it){
 function citeLine(c){
   if(!c) return '—';
   const link = `https://texts.earlyprint.org/works/${encodeURIComponent(c.tcp)}.xml`;
-  return `<b>${c.year}</b> — ${esc(c.title).slice(0,160)}${c.author?' ('+esc(c.author).slice(0,60)+')':''} ` +
+  const au = c.author && c.author !== 'n/a' ? ' ('+esc(c.author).slice(0,60)+')' : '';
+  return `<b>${c.year}</b> — ${esc(c.title).slice(0,160)}${au} ` +
          `[<a href="${link}" target="_blank" rel="noopener">${esc(c.tcp)}</a>] <span class="small">imprint: ${esc(c.date_raw)} · ${esc(c.date_kind)}</span>`;
 }
 function hist(dec){

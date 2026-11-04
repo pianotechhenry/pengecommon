@@ -18,8 +18,8 @@ def idx(tmp_path_factory):
     return Index(p)
 
 
-def checker(idx, year=1589, watch=False, wl=None):
-    cfg = Config(year=year, use_watchlist=watch, watchlist_path=wl)
+def checker(idx, year=1589, watch=False, wl=None, phrases=False):
+    cfg = Config(year=year, use_watchlist=watch, watchlist_path=wl, phrase_heuristic=phrases)
     return Checker(cfg, idx, Etymology(Path("/nonexistent")))
 
 

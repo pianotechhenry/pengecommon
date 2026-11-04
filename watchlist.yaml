@@ -35,6 +35,7 @@
   tag: DOCUMENTED
   source: one source
   from_year: 1900
+  corpus: "earliest firm-dated print 1493 (A23590); 29 texts"
 
 - term: Janos
   kind: name
@@ -42,12 +43,14 @@
   also: [János]
   reason: Hungarian, not British Romani
   tag: REASONABLE INFERENCE
+  corpus: "earliest firm-dated print 1600 (A02495); 16 texts"
 
 - term: Danior
   kind: romani
   case: true
   reason: Romani plural "teeth"; reached the project via baby-name sites
   tag: DOCUMENTED
+  corpus: "no printed example in the corpus"
 
 - term: sar
   kind: romani
@@ -55,30 +58,35 @@
   reason: Early Romani "how"; "what" is so
   tag: DOCUMENTED
   source: Welsh forms unchecked
+  corpus: "earliest firm-dated print 1525 (A71319); 398 texts"
 
 - term: dej
   kind: romani
   match: exact
   reason: Vlax, not British
   tag: REASONABLE INFERENCE
+  corpus: "earliest firm-dated print 1589 (A00617); 18 texts"
 
 - term: jertis
   kind: romani
   match: exact
   reason: Vlax, not British
   tag: REASONABLE INFERENCE
+  corpus: "no printed example in the corpus"
 
 - term: marime
   kind: romani
   match: exact
   reason: Vlax, not British
   tag: REASONABLE INFERENCE
+  corpus: "earliest firm-dated print 1550 (A13758); 7 texts"
 
 - term: gadjo
   kind: romani
   also: [gadje, gadji]
   reason: Vlax, not British
   tag: REASONABLE INFERENCE
+  corpus: "no printed example in the corpus"
 
 - term: panam
   kind: cant
@@ -87,12 +95,14 @@
   tag: DOCUMENTED
   source: Thomas Harman, A Caveat or Warening for Commen Cursetors (1567)
   from_year: 1567
+  corpus: "earliest firm-dated print 1681 (B01850); 2 texts"
 
 - term: pal
   kind: romani
   reason: English from the 1680s
   tag: DOCUMENTED
   from_year: 1680
+  corpus: "earliest firm-dated print 1482 (A03319); 331 texts"
 
 - term: kushti
   kind: romani
@@ -100,61 +110,72 @@
   reason: no record before the 19th century
   tag: DOCUMENTED
   from_year: 1800
+  corpus: "no printed example in the corpus"
 
 - term: dukkeripen
   kind: romani
   reason: no record before the 19th century
   tag: DOCUMENTED
   from_year: 1800
+  corpus: "no printed example in the corpus"
 
 - term: veshengro
   kind: romani
   reason: no record before the 19th century
   tag: DOCUMENTED
   from_year: 1800
+  corpus: "no printed example in the corpus"
 
 - term: cosh
   kind: romani
   reason: 19th century
   tag: DOCUMENTED
   from_year: 1800
+  corpus: "earliest firm-dated print 1634 (A03065); 14 texts"
 
 - term: Kensal Rise
   kind: place
   reason: station name of 1890
   tag: DOCUMENTED
   from_year: 1890
+  corpus: "no printed example in the corpus"
 
 - term: Welsh Kale
   kind: place
   reason: not before c.1730
   tag: DOCUMENTED
   from_year: 1730
+  corpus: "no printed example in the corpus"
 
 - term: forest
   kind: sense
   reason: period sense "royal hunting district"; wood is the native word
   tag: REASONABLE INFERENCE
+  corpus: "earliest firm-dated print 1477 (A68341); earlier text dated 1473 or 1474] (A05232); 5344 texts"
 
 - term: connect
   kind: sense
   reason: listed for checking - the modern emotional sense
   tag: UNVERIFIED
+  corpus: "earliest firm-dated print 1555 (A20032); earlier text dated 1547?] (A02906); 402 texts"
 
 - term: get lost
   kind: idiom
   reason: listed for checking - as a dismissal
   tag: UNVERIFIED
+  corpus: "earlier text dated [1796?] (C97870); 1 texts"
 
 - term: see you later
   kind: idiom
   reason: listed for checking - as a farewell
   tag: UNVERIFIED
+  corpus: "no printed example in the corpus"
 
 - term: golden boy
   kind: idiom
   reason: listed for checking - as a name for a favoured young man
   tag: UNVERIFIED
+  corpus: "earliest firm-dated print 1605 (A17848); 5 texts"
 
 - term: ma'am
   kind: word
@@ -162,3 +183,4 @@
   also: [maam]
   reason: listed for checking - the contraction of madam
   tag: UNVERIFIED
+  corpus: "earliest firm-dated print 1700 (A40958); 162 texts"

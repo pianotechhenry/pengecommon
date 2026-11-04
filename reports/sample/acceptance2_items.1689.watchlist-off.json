@@ -1,12 +1,13 @@
 {
  "tool": "commons-desk check",
  "source": "tests/fixtures/acceptance2_items.md",
- "generated": "2026-11-04 10:10",
+ "generated": "2026-11-04 11:16",
  "settings": {
   "year": 1689,
   "window": 15,
   "note_min": 3,
   "watchlist": false,
+  "phrase_heuristic": false,
   "phrase_expect_min": 10.0,
   "quote_style": "double"
  },
@@ -18,9 +19,9 @@
   "words_total": 1380183963,
   "built": "2026-11-04 09:57",
   "holdout": 71,
-  "ngram_min_df": null,
-  "phrase_scan": false,
-  "punct_scan": false
+  "ngram_min_df": "5",
+  "phrase_scan": true,
+  "punct_scan": true
  },
  "paragraphs": [
   {
@@ -601,10 +602,73 @@
    "text": "!?",
    "key": "!?",
    "status": "NOTE",
-   "tag": "UNVERIFIED",
+   "tag": "DOCUMENTED",
    "reason": "modern-looking punctuation - reported whatever the corpus shows",
    "evidence": {
-    "basis": "punctuation scan not built (desk build --stage scan)"
+    "status": "OK",
+    "tag": "DOCUMENTED",
+    "basis": "exact",
+    "note": "",
+    "first_firm": {
+     "tcp": "A68672",
+     "title": "Certaine sermons, vpon seuerall texts of Scripture: preached by that reuerend and faithfull seruant of Iesus Christ M. Robert Rollok, minister of the Church (and rector of the Colledge) of Edinburgh. Whereof the first eleuen were before published, and the remnant seuen, are newly adjoyned thereunto",
+     "author": "Rollock, Robert, 1555?-1599.",
+     "year": 1616,
+     "date_kind": "firm",
+     "date_raw": "1616.",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 3,
+    "n_before_approx": true,
+    "ntexts": 4,
+    "decades": {
+     "1610": 1,
+     "1640": 1,
+     "1650": 1,
+     "1720": 1
+    },
+    "kwic": [
+     {
+      "tid": 7723,
+      "left": "but the god of this world, the Deuil",
+      "kw": "!",
+      "right": "? and therfore I giue this watch-word, Let no",
+      "tcp": "A68672",
+      "title": "Certaine sermons, vpon seuerall texts of Scripture: preached by that reuerend and faithfull seruant of Iesus Christ M. Robert Rollok, minister of the Church (and rector of the Colledge) of Edinburgh. Whereof the first eleuen were before published, and the remnant seuen, are newly adjoyned thereunto",
+      "author": "Rollock, Robert, 1555?-1599.",
+      "year": 1616,
+      "date_kind": "firm",
+      "date_raw": "1616.",
+      "collection": "eebo"
+     },
+     {
+      "tid": 17740,
+      "left": "they might and ought to put them away",
+      "kw": "!",
+      "right": "? I thinke they might and ought to keepe",
+      "tcp": "A79489",
+      "title": "A Christian plea for infants baptisme. Or a confutation of some things written by A.R. in his treatise, entitutled, The second part of the vanitie and childishnesse of infants baptisme. In the answer whereof, the lawfulnesse of infants baptisme is defended, and the arguments against it disproved, by sufficient grounds and forcible reasons, drawn from the sweet fountains of holy Scripture. S.C.",
+      "author": "Chidley, Samuel.",
+      "year": 1644,
+      "date_kind": "firm",
+      "date_raw": "1643. [i.e. 1644]",
+      "collection": "eebo"
+     },
+     {
+      "tid": 24560,
+      "left": "wretched hand / Durst to attempt this execrable fact",
+      "kw": "!",
+      "right": "? / Chaves, Picarro, and Balthasar slain? / Poor Roderiguez, and",
+      "tcp": "A51867",
+      "title": "The bastard, a tragedy",
+      "author": "Manuche, Cosmo, fl. 1650-1652.",
+      "year": 1652,
+      "date_kind": "firm",
+      "date_raw": "1652.",
+      "collection": "eebo"
+     }
+    ]
    },
    "watch": [],
    "occurrences": [
@@ -619,6 +683,32 @@
   }
  },
  "romani": [
+  {
+   "token": "dej",
+   "key": "dej",
+   "count": 1,
+   "paragraphs": [
+    13
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "OK: exact"
+  },
+  {
+   "token": "Janos",
+   "key": "janos",
+   "count": 1,
+   "paragraphs": [
+    11
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "OK: exact"
+  },
   {
    "token": "jertis",
    "key": "jertis",
@@ -699,7 +789,7 @@
    "interjection": 1,
    "punct": 1
   },
-  "romani_tokens": 1
+  "romani_tokens": 3
  },
  "latinate": {
   "label": "Heuristic. Share of content words whose Wiktionary etymology names Latin or French as the language they entered English from. A register indicator, not a period test.",

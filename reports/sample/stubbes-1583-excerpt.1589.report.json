@@ -1,0 +1,6511 @@
+{
+ "tool": "commons-desk check",
+ "source": "reports/sample/stubbes-1583-excerpt.md",
+ "generated": "2026-11-04 11:16",
+ "settings": {
+  "year": 1589,
+  "window": 15,
+  "note_min": 3,
+  "watchlist": true,
+  "phrase_heuristic": false,
+  "phrase_expect_min": 10.0,
+  "quote_style": "double"
+ },
+ "caveat": "Absence from the corpus is never proof. Print lags speech, often by decades, and early print is skewed to religious and learned registers: everyday, spoken, female, regional and criminal language is thinly represented, so a late first date or no date at all means only that this corpus has no printed example, not that the word was not in use.",
+ "corpus": {
+  "texts_before": 3516,
+  "words_before": 135929896,
+  "texts_total": 60932,
+  "words_total": 1380183963,
+  "built": "2026-11-04 09:57",
+  "holdout": 71,
+  "ngram_min_df": "5",
+  "phrase_scan": true,
+  "punct_scan": true
+ },
+ "paragraphs": [
+  {
+   "i": 0,
+   "text": "Spud",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 0,
+     "end": 4,
+     "item": "w:spud",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     4,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 1,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 1,
+   "text": "Of that sort he the other kind of plays, which you call Lords of Misrule? for me think, the very name itself carrieth a taste of some notorious evil.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     149,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 10,
+    "classified": 10,
+    "latin_french": 4,
+    "share": 0.4
+   }
+  },
+  {
+   "i": 2,
+   "text": "Lords of Misrule in Ailgna.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     27,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 1,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 3,
+   "text": "Philo",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     5,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 0,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 4,
+   "text": "The name indeed is odious both to God and good men,",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     51,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 5,
+    "classified": 4,
+    "latin_french": 1,
+    "share": null
+   }
+  },
+  {
+   "i": 5,
+   "text": "Lords of Misrule in Ailgna.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     27,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 1,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 6,
+   "text": "such as the very heathen people would have blushed at, once to have named amongst them. And if the name importeth some, then what may the thing itself be, judge you. But because you desire to know the manner of them, I will show you as I have seen them practised myself. First, all the wilde-heds of the Parish, conventing together, choose them a Graund-captain (of all mischief) whom they ennoble with the title of my Lord of Misrule,",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 286,
+     "end": 296,
+     "item": "w:wilde-heds",
+     "stream": "narration"
+    },
+    {
+     "start": 347,
+     "end": 361,
+     "item": "w:graund-captain",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     435,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 23,
+    "classified": 23,
+    "latin_french": 9,
+    "share": 0.391
+   }
+  },
+  {
+   "i": 7,
+   "text": "The manner how Lords of Misrule are used to be played.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     54,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 3,
+    "classified": 3,
+    "latin_french": 2,
+    "share": null
+   }
+  },
+  {
+   "i": 8,
+   "text": "and him they crown with great solemnity, and adopt for their king. This king anointed, chooseth forth twenty, forty, threescore or a hundred lusty Guts like to himself to weight upon his lordly Majesty, and to guard his noble person. Then every one of these his men, he investeth with his liveries, of green, yellow or some other light wanton colour. And as though that were not (bawdy) gaudy enough I should say, they bedeck themselves with scarves, ribbons laces hanged all over which gold rings, precious stones other jewels: this done,",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     539,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 43,
+    "classified": 42,
+    "latin_french": 16,
+    "share": 0.381
+   }
+  },
+  {
+   "i": 9,
+   "text": "The monstrous attiring of my Lord of Misrules' Men.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     51,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 2,
+    "classified": 2,
+    "latin_french": 2,
+    "share": null
+   }
+  },
+  {
+   "i": 10,
+   "text": "they tie about either leg xx. or xl. bells, with rich handkercheifs in their hands, and sometimes laid a cross over their shoulders necks, borrowed for the most part of their pretty Mopsies loving Bess', for bussing them in the dark. Thus all things set in order, then have they their Hobby-horses, dragons other Antiques,",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 54,
+     "end": 67,
+     "item": "w:handkercheifs",
+     "stream": "narration"
+    },
+    {
+     "start": 182,
+     "end": 189,
+     "item": "w:mopsies",
+     "stream": "narration"
+    },
+    {
+     "start": 197,
+     "end": 202,
+     "item": "w:bess'",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     322,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 21,
+    "classified": 20,
+    "latin_french": 2,
+    "share": 0.1
+   }
+  },
+  {
+   "i": 11,
+   "text": "The devils guards",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     17,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 2,
+    "classified": 2,
+    "latin_french": 1,
+    "share": null
+   }
+  },
+  {
+   "i": 12,
+   "text": "together with their bawdy Pipers and thundering Drummers to strike up the devils dance withal, then march these heathen company towards the Church and Church-yard, their pipers pipeing, their drummers thundering, their stumps dancing, their bells iyngling,",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 48,
+     "end": 56,
+     "item": "w:drummers",
+     "stream": "narration"
+    },
+    {
+     "start": 177,
+     "end": 184,
+     "item": "w:pipeing",
+     "stream": "narration"
+    },
+    {
+     "start": 192,
+     "end": 200,
+     "item": "w:drummers",
+     "stream": "narration"
+    },
+    {
+     "start": 247,
+     "end": 255,
+     "item": "w:iyngling",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     256,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 19,
+    "classified": 16,
+    "latin_french": 5,
+    "share": 0.312
+   }
+  },
+  {
+   "i": 13,
+   "text": "The of the Devils band in the temple of God.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     44,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 2,
+    "classified": 2,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 14,
+   "text": "their handkerchiefs swinging about their heads like madmen, their hobby horses and other monsters skirmishing amongst the rout: in this sort they go to the Church (I say) into the Church (though the Minister be at prayer or preaching) dancing swinging heir handkercheifs over their heads, in the Church, like devils incarnate with such a confuse noise, that no man can hear his own voice. Then the foolish people, they look, they stare, they laugh, they fleer, mount upon fourmes and pews to see these goodly pageants solemzed in this sort.",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 257,
+     "end": 270,
+     "item": "w:handkercheifs",
+     "stream": "narration"
+    },
+    {
+     "start": 518,
+     "end": 526,
+     "item": "w:solemzed",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     540,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 42,
+    "classified": 34,
+    "latin_french": 17,
+    "share": 0.5
+   }
+  },
+  {
+   "i": 15,
+   "text": "Receptacles. in the Cemiteries or church yards for the devils agents",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 20,
+     "end": 30,
+     "item": "w:cemiteries",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     68,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 5,
+    "classified": 5,
+    "latin_french": 2,
+    "share": 0.4
+   }
+  },
+  {
+   "i": 16,
+   "text": "Then after this, about the Church they go again and again, so forth into the churchyard, where they have commonly their Sommer-haules, their bowers, arbours, banqueting houses set up, wherein they feast, banquet dance all that day, (peradventure) all the night too. And thus these terrestrial furies spend the Sabaoth day.",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 120,
+     "end": 133,
+     "item": "w:sommer-haules",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     322,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 19,
+    "classified": 19,
+    "latin_french": 9,
+    "share": 0.474
+   }
+  },
+  {
+   "i": 17,
+   "text": "They have also certain papers, wherein is painted some babblerie or other, of Imagery work, these they call my Lord of mis-rules badges,",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 55,
+     "end": 64,
+     "item": "w:babblerie",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     136,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 9,
+    "classified": 8,
+    "latin_french": 5,
+    "share": 0.625
+   }
+  },
+  {
+   "i": 18,
+   "text": "My Lord of misrules cognisances.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     32,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 2,
+    "classified": 1,
+    "latin_french": 1,
+    "share": null
+   }
+  },
+  {
+   "i": 19,
+   "text": "these they give to every one, that will give money for them, to maintain them in their hethenrie, devilry, whoredom, drunkenness, pride, and what not. And who will not be buxom to them, and give them money for these their cognisances, they are mocked, flouted at,",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 87,
+     "end": 96,
+     "item": "w:hethenrie",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     263,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 15,
+    "classified": 13,
+    "latin_french": 4,
+    "share": 0.308
+   }
+  },
+  {
+   "i": 20,
+   "text": "Wearing Lord of misrules badges",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     31,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 3,
+    "classified": 2,
+    "latin_french": 2,
+    "share": null
+   }
+  },
+  {
+   "i": 21,
+   "text": "not a little. And so assoted are some, that they not only give them money, to maintain their abomination withal, but also wear their badges cognisances in their hats or caps openly. But let them take heed, for these are badges, seals, brands cognisances of the devil, whereby he knoweth his Servants and Clients, from the Children of God. And so long as they wear them:",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     369,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 25,
+    "classified": 21,
+    "latin_french": 5,
+    "share": 0.238
+   }
+  },
+  {
+   "i": 22,
+   "text": ". They fight under the banner and standard of the devil against Christ Jesus, and all his laws, Another sort of fantastical fools bring to these hellhounds (the Lord of misrule and his complices) some bread, some good-ale, some new-chéese, some old, some custards fine cakes, some one thing, some another:",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 228,
+     "end": 238,
+     "item": "w:new-chéese",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     305,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 20,
+    "classified": 17,
+    "latin_french": 8,
+    "share": 0.471
+   }
+  },
+  {
+   "i": 23,
+   "text": "Sacrifice brought to this filthy Ydol, my L of misrule.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     55,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 4,
+    "classified": 3,
+    "latin_french": 2,
+    "share": null
+   }
+  },
+  {
+   "i": 24,
+   "text": "but if they knew that as often as they bring any thing to the maintenance of these execrable pastimes, they offer sacrifice to the devil and, they would repent and withdraw their hands, which God grant they may.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     211,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 13,
+    "classified": 13,
+    "latin_french": 6,
+    "share": 0.462
+   }
+  },
+  {
+   "i": 25,
+   "text": "Spud",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 0,
+     "end": 4,
+     "item": "w:spud",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     4,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 1,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 26,
+   "text": "This is a horrible profanation of the sabbath (the Lord knoweth) more pestilent than pestilence itself, but what? be there any abuses in their May-ganes like unto these.",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 143,
+     "end": 152,
+     "item": "w:may-ganes",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     169,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 8,
+    "classified": 8,
+    "latin_french": 5,
+    "share": 0.625
+   }
+  },
+  {
+   "i": 27,
+   "text": "Philo",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     5,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 0,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 28,
+   "text": "As many as in the other. The order of them is thus, Against May, Whitsonday or other time, all the young men and maids, old men and wives run godding over night to the woods",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 142,
+     "end": 149,
+     "item": "w:godding",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     173,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 12,
+    "classified": 11,
+    "latin_french": 1,
+    "share": 0.091
+   }
+  },
+  {
+   "i": 29,
+   "text": "The order of their May-games.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     29,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 1,
+    "latin_french": 1,
+    "share": null
+   }
+  },
+  {
+   "i": 30,
+   "text": "groves hills mountains, where they spend all the night in pleasant pastimes, in the morning they return bringing with them birch branches of trees, to deck their assemblies withal, and no marvel, for there is a great Lord present amongst them, as superintendant and Lord over their pastimes and sports, namely, Satan prince of hell: But the chiefest jewel they bring from thence is their Maypole,",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     396,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 28,
+    "classified": 25,
+    "latin_french": 13,
+    "share": 0.52
+   }
+  },
+  {
+   "i": 31,
+   "text": "A great Lord present in May games, as superintendant thereof.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     61,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 5,
+    "classified": 4,
+    "latin_french": 1,
+    "share": null
+   }
+  },
+  {
+   "i": 32,
+   "text": "which they bring home with great veneration, as thus. They have twenty or forty yoke of Oxen, every Ox having a sweet nosegay of flowers placed on the tip of his horns, and these Oxen draw home this Maypole (this stinking Ydol rather) which is covered all over with flowers, and herbs bound round about with strings from the top to the bottom, and sometime painted with variable colours, with two or three hundred men,",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     418,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 33,
+    "classified": 31,
+    "latin_french": 8,
+    "share": 0.258
+   }
+  },
+  {
+   "i": 33,
+   "text": "The manner of bringing home their Maypoles.",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 34,
+     "end": 42,
+     "item": "w:maypoles",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     43,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 3,
+    "classified": 3,
+    "latin_french": 1,
+    "share": null
+   }
+  },
+  {
+   "i": 34,
+   "text": "women and children following it with great devotion. And thus being up, with handkerchéefs and flags hovering on the top, they straw the ground round about, bind green boughs about it, set up summer hauls, bowers and arbours hard by it. And then fall they to daunce about it like as the heathen people did at the dedication of the Idols, whereof this is a perfect pattern, or rather the thing itself.",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 77,
+     "end": 90,
+     "item": "w:handkerchéefs",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     400,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 32,
+    "classified": 31,
+    "latin_french": 8,
+    "share": 0.258
+   }
+  },
+  {
+   "i": 35,
+   "text": "Maypoles a pattern of the heathen Idols",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 0,
+     "end": 8,
+     "item": "w:maypoles",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     39,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 3,
+    "classified": 2,
+    "latin_french": 1,
+    "share": null
+   }
+  },
+  {
+   "i": 36,
+   "text": "I have heard it credibly reported (and that,) by men of great gravity and reputation, that of forty, threescore, or a hundred maids going to the wood over night, there have scarcely the third part of them returned home again undefiled",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     234,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 20,
+    "classified": 20,
+    "latin_french": 6,
+    "share": 0.3
+   }
+  },
+  {
+   "i": 37,
+   "text": "These be the fruits which these cursed pastimes bring forth.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     60,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 5,
+    "classified": 5,
+    "latin_french": 2,
+    "share": 0.4
+   }
+  },
+  {
+   "i": 38,
+   "text": "The fruit of May-games.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     23,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 1,
+    "latin_french": 1,
+    "share": null
+   }
+  },
+  {
+   "i": 39,
+   "text": "Neither the Jews, the Turcks, Saracens, nor Pagans, nor any other nations how wicked, orbarbarous soever, have ever used such devilish exercises as these, nay they would have been ashamed once to have named them, much less, have used them. Yet we that wouldst Christians, think them not amiss. The Lord forgive us, and remove them from us.",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 86,
+     "end": 97,
+     "item": "w:orbarbarous",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     339,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 14,
+    "classified": 13,
+    "latin_french": 5,
+    "share": 0.385
+   }
+  },
+  {
+   "i": 40,
+   "text": ",",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     1,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 0,
+    "classified": 0,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 41,
+   "text": "What is the manner of their church ales, which you say they use, for they seem uncouth and strange to mine ears?",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     112,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 9,
+    "classified": 9,
+    "latin_french": 3,
+    "share": 0.333
+   }
+  },
+  {
+   "i": 42,
+   "text": "The Manner of Church-ales in Ailgna.",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 14,
+     "end": 25,
+     "item": "w:church-ales",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     36,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 0,
+    "classified": 0,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 43,
+   "text": "Philoponus.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     11,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 0,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 44,
+   "text": "The manner of them is thus,",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     27,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 1,
+    "latin_french": 1,
+    "share": null
+   }
+  },
+  {
+   "i": 45,
+   "text": "The manner of Church-ales in Ailg.",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 14,
+     "end": 25,
+     "item": "w:church-ales",
+     "stream": "narration"
+    },
+    {
+     "start": 29,
+     "end": 33,
+     "item": "w:ailg",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     34,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 1,
+    "latin_french": 1,
+    "share": null
+   }
+  },
+  {
+   "i": 46,
+   "text": "In certain Towns where drunken Bacchus bears all the sway, against a Christmas, an Easter, Whitsonday, or some other time, the Churchwardens (for so they call them) of every parish, with the consent of the whole Parish, provide half a score or twenty quarters of malt, whereof some they buy of the Church-stock, and some is given them of the Parishioners themselves, every one conferring somewhat, according to his ability, which malt being made into very strongale or beer, it is set to sale, either in the Church or some other place assigned to that purpose.",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 298,
+     "end": 310,
+     "item": "w:church-stock",
+     "stream": "narration"
+    },
+    {
+     "start": 456,
+     "end": 465,
+     "item": "w:strongale",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     560,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 31,
+    "classified": 29,
+    "latin_french": 10,
+    "share": 0.345
+   }
+  },
+  {
+   "i": 47,
+   "text": "Then when the, this Hufcap (as they call it) and this Nectar of life, is set abroach, well is he that can get the soonest to it, and spend the most at it, for he that sitteth the closest to it, and spends the most at it, he is counted the godliest man of all the rest,",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 20,
+     "end": 26,
+     "item": "w:hufcap",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     268,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 15,
+    "classified": 15,
+    "latin_french": 1,
+    "share": 0.067
+   }
+  },
+  {
+   "i": 48,
+   "text": "The filthiest beast, the godlyest man.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     38,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 4,
+    "classified": 3,
+    "latin_french": 1,
+    "share": null
+   }
+  },
+  {
+   "i": 49,
+   "text": "but who, either cannot for pinching poverty, or otherwise will not stick to it, he is counted one destitute both of virtue and godliness. In so much, as you shall have many poor-men make hard shift for money to spend thereat, for it, being put into this Corban, they are persuaded it is meritorious a good service to God. In this kind of practice, they continued six weeks, a quarter of a year, yea half a year together, swilling and gulling, night and day, till they be as drunk as Apes, and as blockish as beasts.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     515,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 38,
+    "classified": 37,
+    "latin_french": 13,
+    "share": 0.351
+   }
+  },
+  {
+   "i": 50,
+   "text": "Spud",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 0,
+     "end": 4,
+     "item": "w:spud",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     4,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 1,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 51,
+   "text": "Seeing they have so good utterance, it should seem they have good gains. But I pray you how do they bestow that money, which is got thereby?",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     140,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 11,
+    "classified": 11,
+    "latin_french": 1,
+    "share": 0.091
+   }
+  },
+  {
+   "i": 52,
+   "text": "Philo",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     5,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 0,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 53,
+   "text": "Oh, well I warrant you, if all be true which they say: For they repair their Churches and Chapels with it,",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     106,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 5,
+    "classified": 5,
+    "latin_french": 2,
+    "share": 0.4
+   }
+  },
+  {
+   "i": 54,
+   "text": "How the money is spent which is got by Church-ales.",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 39,
+     "end": 50,
+     "item": "w:church-ales",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     51,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 3,
+    "classified": 3,
+    "latin_french": 1,
+    "share": null
+   }
+  },
+  {
+   "i": 55,
+   "text": "they buy books for service, cups for the celebration of the Sacrament, surplices for Sir John, and such other necessaries: And they maintain other extraordinary charges in the parishes besides. These be their exceptions, these be their excuses, and these be their pretenced allegations, whereby they blind the world, and convey themselves away invisibly in a cloud. But if they dance thus in a net, no doubt they will be espied.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     428,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 27,
+    "classified": 26,
+    "latin_french": 15,
+    "share": 0.577
+   }
+  },
+  {
+   "i": 56,
+   "text": "For if it were so, that they bestowed it as they say,",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     53,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 2,
+    "classified": 2,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 57,
+   "text": "Will the Lord have his house build with maintenance of evil.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     60,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 4,
+    "classified": 4,
+    "latin_french": 1,
+    "share": null
+   }
+  },
+  {
+   "i": 58,
+   "text": "do they think that the Lord will have his house build with drunkenness, gluttony and such like abomination? Must we do evil, that good may come of it? must we build this house of lime and stone, with the desolation, and utter overthrow of his spiritual house, cleansed and washed in the precious blood of our Saviour Jesus Christ? But, who seeth not that they bestow this money upon nothing less, than in building and repairing of Churches and Oratories? For, in most places, lie they not like swyn coats? their windows rend, their doors broken,",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     545,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 38,
+    "classified": 35,
+    "latin_french": 8,
+    "share": 0.229
+   }
+  },
+  {
+   "i": 59,
+   "text": "The decay of Churches, which are lacerate, rend and torn.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     57,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 4,
+    "classified": 4,
+    "latin_french": 2,
+    "share": null
+   }
+  },
+  {
+   "i": 60,
+   "text": "their walls fall down, the roof all bare, and what not, out of order? Who seeth not the book of God, rend ragged and all betorn, covered in dust, so as this Epitaph may be writ with one's finger upon it,: (Alas) behold I sleep in dust, and oblivion, not once scarce looked upon, which less red upon, and the least of all preached upon. And on the other side, who seeth not, (for this I speak but in way of parenthesis) in the mean time, their own houses and mansion places,",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     473,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 35,
+    "classified": 34,
+    "latin_french": 6,
+    "share": 0.176
+   }
+  },
+  {
+   "i": 61,
+   "text": "Sumpteousnes of their own mansions.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     35,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 2,
+    "classified": 1,
+    "latin_french": 1,
+    "share": null
+   }
+  },
+  {
+   "i": 62,
+   "text": "are curiously build, and sumptuously adorned: which plainly argueth, that they rather bestow this drunken got-money, upon profane uses and their own private affairs, than upon the house of prayer, or the temple of God: And yet this their doing is well liked of, and no man may say, black is their eye. For why? They do all things well, and according to good order, as the say. And when time cometh, like good accoumptantes they make their accounts, as please themselves.",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 409,
+     "end": 422,
+     "item": "w:accoumptantes",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     470,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 37,
+    "classified": 34,
+    "latin_french": 13,
+    "share": 0.382
+   }
+  },
+  {
+   "i": 63,
+   "text": "Sp",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     2,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 0,
+    "classified": 0,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 64,
+   "text": "Were it not better, more consonant to the truth, that every one contributed somewhat according to his ability to the maintenance of templaries oratory's, than thus to maintain them, by drunken church-ales? as you say, they do?",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 193,
+     "end": 204,
+     "item": "w:church-ales",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     226,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 14,
+    "classified": 12,
+    "latin_french": 7,
+    "share": 0.583
+   }
+  },
+  {
+   "i": 65,
+   "text": "Philo",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     5,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 0,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 66,
+   "text": "It wear much better: And so we read, the Fathers of the old Testament,",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     70,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 4,
+    "classified": 4,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 67,
+   "text": "Churges are to be maintained by mutual contribution of every one after his power.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     81,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 5,
+    "classified": 4,
+    "latin_french": 4,
+    "share": null
+   }
+  },
+  {
+   "i": 68,
+   "text": "every one after his ability did impart some what, to the building and restoration of the Tabernacle, which Moses erected to the Lord. So, as in the end, there was such abundance of all things, as the Artificers, consulting with Moses were glad to request the People, to stay their liberality, for they had more, than they knew what to do withal. These People made no drunken Church-ales to build their edefice withal: notwithstanding, their importable charges and intolerable costs. But as their zeel was fervent, and very commendable in bringing to the Church, so our zeal is more than frozen blame worthy in detracting from the Church: and bestowing it upon whoredom drunkenness,",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 375,
+     "end": 386,
+     "item": "w:church-ales",
+     "stream": "narration"
+    },
+    {
+     "start": 496,
+     "end": 500,
+     "item": "w:zeel",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     681,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 37,
+    "classified": 32,
+    "latin_french": 17,
+    "share": 0.531
+   }
+  },
+  {
+   "i": 69,
+   "text": "Our zeal waxed cold and frozen, in respect of the zeal of the former world",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     74,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 8,
+    "classified": 7,
+    "latin_french": 3,
+    "share": 0.429
+   }
+  },
+  {
+   "i": 70,
+   "text": "gluttony, pride, and such like abominations: God amend it",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     57,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 6,
+    "classified": 6,
+    "latin_french": 3,
+    "share": 0.5
+   }
+  },
+  {
+   "i": 71,
+   "text": "Spud",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 0,
+     "end": 4,
+     "item": "w:spud",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     4,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 1,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 72,
+   "text": "How do they solemnize their feasts and wakesses there, and what order do they observe in them?",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 39,
+     "end": 47,
+     "item": "w:wakesses",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     94,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 5,
+    "classified": 4,
+    "latin_french": 4,
+    "share": null
+   }
+  },
+  {
+   "i": 73,
+   "text": "The manner of keeping of Wakesses, and feasts in Ailgna.",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 25,
+     "end": 33,
+     "item": "w:wakesses",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     56,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 3,
+    "classified": 3,
+    "latin_french": 2,
+    "share": null
+   }
+  },
+  {
+   "i": 74,
+   "text": "Philoponus.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     11,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 0,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 75,
+   "text": "This is their order therein: every town, parish and Village, some at one time of the Year, some at another (but so that every town, parish village keep his proper day assigned and appropriate to itself, (which they call their Wak day) use to make great preparation, and ordinance for good cheer. To the which all their Friends and kynsfolks far and near are invited, where is such gluttony: such drunkenness: such saturity and impletion used, as the like was never seen. In so much, as the poor men that bear the charges of these feasts and wakesses,",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 226,
+     "end": 229,
+     "item": "w:wak",
+     "stream": "narration"
+    },
+    {
+     "start": 331,
+     "end": 340,
+     "item": "w:kynsfolks",
+     "stream": "narration"
+    },
+    {
+     "start": 427,
+     "end": 436,
+     "item": "w:impletion",
+     "stream": "narration"
+    },
+    {
+     "start": 541,
+     "end": 549,
+     "item": "w:wakesses",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     550,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 39,
+    "classified": 37,
+    "latin_french": 19,
+    "share": 0.514
+   }
+  },
+  {
+   "i": 76,
+   "text": "Saturity in feasts and wakesses.",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 23,
+     "end": 31,
+     "item": "w:wakesses",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     32,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 3,
+    "classified": 2,
+    "latin_french": 2,
+    "share": null
+   }
+  },
+  {
+   "i": 77,
+   "text": "are the poorer, and keep the Worse houses a long time after. And no marvel, for many spend more at one of these wakesses, than in all the whole year beside.",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 112,
+     "end": 120,
+     "item": "w:wakesses",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     156,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 11,
+    "classified": 10,
+    "latin_french": 2,
+    "share": 0.2
+   }
+  },
+  {
+   "i": 78,
+   "text": "The great charges of Wakesses.",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 21,
+     "end": 29,
+     "item": "w:wakesses",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     30,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 2,
+    "classified": 2,
+    "latin_french": 1,
+    "share": null
+   }
+  },
+  {
+   "i": 79,
+   "text": "This makes many a one to thripple pinch, to run into debt and danger, and finally, brings many a one to utter ruin and decay.",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 25,
+     "end": 33,
+     "item": "w:thripple",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     125,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 11,
+    "classified": 10,
+    "latin_french": 6,
+    "share": 0.6
+   }
+  },
+  {
+   "i": 80,
+   "text": "Spud",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 0,
+     "end": 4,
+     "item": "w:spud",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     4,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 1,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 81,
+   "text": "Would you not have one friend to visit another at certain times of the year?",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     76,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 5,
+    "classified": 4,
+    "latin_french": 2,
+    "share": null
+   }
+  },
+  {
+   "i": 82,
+   "text": "Philo",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     5,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 0,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 83,
+   "text": "I disallow it not, but much commend it. But why at one day, more than at another (except business urged it) why should one and the same day continue for ever,",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     158,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 8,
+    "classified": 8,
+    "latin_french": 5,
+    "share": 0.625
+   }
+  },
+  {
+   "i": 84,
+   "text": "Against wakes feasts.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     21,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 2,
+    "classified": 2,
+    "latin_french": 1,
+    "share": null
+   }
+  },
+  {
+   "i": 85,
+   "text": "or be distinct from other days, by the name of a wake day? why should there be more excess of meats and drinks at that day, than at another? why should they abstain from bodily labour. ij. or three days after, peradventure, the whole week, spending it in drunkenness, whoredom, gluttony, and other filthy Sodomitical exercises.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     327,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 23,
+    "classified": 22,
+    "latin_french": 7,
+    "share": 0.318
+   }
+  },
+  {
+   "i": 86,
+   "text": "Spud",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 0,
+     "end": 4,
+     "item": "w:spud",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     4,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 1,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 87,
+   "text": "Seeing you allow of one Friend to visit another, would you not have than to congratulat their coming with some good cheer?",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 76,
+     "end": 87,
+     "item": "w:congratulat",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     122,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 7,
+    "classified": 6,
+    "latin_french": 3,
+    "share": 0.5
+   }
+  },
+  {
+   "i": 88,
+   "text": "Philo",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     5,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 0,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 89,
+   "text": "Yes truly, but I allow not of such excess of riot superfluity as is there used. I think, it convenient for one Friend to visit another (at sometimes) as opportunity occasion shall offer itself,",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     193,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 13,
+    "classified": 13,
+    "latin_french": 9,
+    "share": 0.692
+   }
+  },
+  {
+   "i": 90,
+   "text": "Whereto wakesses and feasts do very aptly tend.",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 8,
+     "end": 16,
+     "item": "w:wakesses",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     47,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 5,
+    "classified": 4,
+    "latin_french": 3,
+    "share": null
+   }
+  },
+  {
+   "i": 91,
+   "text": "but wherefore should the whole town, parish, village and country, keep one and the same day, and make such gluttonous feasts as they do? And therefore, to conclude, they are to no end, except it be to draw a great frequency of whores, drabs, thieves and varlets together, to maintain whoredom, bawdry, gluttony, drunkenness, thiefte, murder, swearing and all kind of mischief and abomination. For, these be the ends whereto these feasts, and wakesses do tend.",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 325,
+     "end": 332,
+     "item": "w:thiefte",
+     "stream": "narration"
+    },
+    {
+     "start": 442,
+     "end": 450,
+     "item": "w:wakesses",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     459,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 39,
+    "classified": 35,
+    "latin_french": 16,
+    "share": 0.457
+   }
+  },
+  {
+   "i": 92,
+   "text": "Spud",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 0,
+     "end": 4,
+     "item": "w:spud",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     4,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 1,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 93,
+   "text": "From whence sprang these feasts and wakesses first of all, can you tell?",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 36,
+     "end": 44,
+     "item": "w:wakesses",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     72,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 5,
+    "classified": 4,
+    "latin_french": 1,
+    "share": null
+   }
+  },
+  {
+   "i": 94,
+   "text": "Philo",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     5,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 0,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 95,
+   "text": "I cannot tell,",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     14,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 2,
+    "classified": 2,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 96,
+   "text": "From whence these annual feasts and stacionarie wakesses had their beginning.",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 36,
+     "end": 47,
+     "item": "w:stacionarie",
+     "stream": "narration"
+    },
+    {
+     "start": 48,
+     "end": 56,
+     "item": "w:wakesses",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     77,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 5,
+    "classified": 3,
+    "latin_french": 2,
+    "share": null
+   }
+  },
+  {
+   "i": 97,
+   "text": "except from the Pagans and heathen People, who when they were assembled together, and had offered Sacrifices to their wooden Gods and blokish idols, made feasts and banquets together before them, in honour and reverence of them, so appointed the same yearly to be observed in memorial of the same, for ever: But whence soever they had their exordium, certain it is, the devil was the Father of them, of drown us in perdition and destruction of body and soul: which God forefend.",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 134,
+     "end": 141,
+     "item": "w:blokish",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     478,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 28,
+    "classified": 24,
+    "latin_french": 13,
+    "share": 0.542
+   }
+  },
+  {
+   "i": 98,
+   "text": "Sp",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     2,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 0,
+    "classified": 0,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 99,
+   "text": "As I remember, you spoke of dancing before, inferring that the sabaoth is greatly profaned thereby: whereof I pray you show me your judgement.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     142,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 12,
+    "classified": 9,
+    "latin_french": 4,
+    "share": 0.444
+   }
+  },
+  {
+   "i": 100,
+   "text": "The horrible Vice of pestiferous dancing, used in Ailgna.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     57,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 4,
+    "classified": 4,
+    "latin_french": 4,
+    "share": null
+   }
+  },
+  {
+   "i": 101,
+   "text": "Philoponus.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     11,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 0,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 102,
+   "text": "Dancing, as it is used (or rather abused) in these days, is an introduction to whoredom, a preparative to wantonness, a provocative to uncleanness, an to all kind of lewdness, rather than a pleasant exercise to the mind, or a wholesome practice for the body: yet notwithstanding, in Ailg. both men, women children, are so skilful in this laudable science, as they may be thought nothing inferior to, the prostitut ribald, nor yet to Sardanapalus that effeminate varlet. Yea they are not ashamed to erect schools of dancing,",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 120,
+     "end": 131,
+     "item": "w:provocative",
+     "stream": "narration"
+    },
+    {
+     "start": 283,
+     "end": 287,
+     "item": "w:ailg",
+     "stream": "narration"
+    },
+    {
+     "start": 404,
+     "end": 413,
+     "item": "w:prostitut",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     523,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 38,
+    "classified": 36,
+    "latin_french": 17,
+    "share": 0.472
+   }
+  },
+  {
+   "i": 103,
+   "text": "scholes of dancing erected.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     27,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 3,
+    "classified": 3,
+    "latin_french": 2,
+    "share": null
+   }
+  },
+  {
+   "i": 104,
+   "text": "thinking it an ornament to their children, to be expert in this noble science of heathen devilry: and yet this people glory of their christianitie integrity of life: Indeed,: But,. From the mouth outward, they may be said to be good Christians, but in life manners, far worser than the heathen, or Pagans: Whereof, if they repent not, amend, it shallbe easier for that Land of Sodoma and Gomorra at the day of judgement then for them.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     434,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 30,
+    "classified": 28,
+    "latin_french": 10,
+    "share": 0.357
+   }
+  },
+  {
+   "i": 105,
+   "text": "Sp",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     2,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 0,
+    "classified": 0,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 106,
+   "text": "I have heard it said, the dancing is both a recreation for the mind, also an exercise for the body, very wholesome, and not only that, but also, a mean whereby love is acquired.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     177,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 12,
+    "classified": 12,
+    "latin_french": 4,
+    "share": 0.333
+   }
+  },
+  {
+   "i": 107,
+   "text": "Ph",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     2,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 0,
+    "classified": 0,
+    "latin_french": 0,
+    "share": null
+   }
+  },
+  {
+   "i": 108,
+   "text": "I will not much deny,",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     21,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 1,
+    "classified": 1,
+    "latin_french": 1,
+    "share": null
+   }
+  },
+  {
+   "i": 109,
+   "text": "Dancing a pleasure to them that delight in vanities.",
+   "italic": [],
+   "heading": false,
+   "spans": [],
+   "stream_ranges": [
+    [
+     0,
+     52,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 4,
+    "classified": 4,
+    "latin_french": 4,
+    "share": null
+   }
+  },
+  {
+   "i": 110,
+   "text": "but being used in a mean, in time and place convenient, it is a certain solace to the minds of such as take pleasure in such vanities, but it is not good reason to say, some men take pleasure in a thing, it is good, but the contrary is true rather: For this is (basis) a ground of truth, that whatsoever a carnal man with uncircumcised heart, either desireth, or taketh pleasure in, is most abominable wicked before god: As on the other side, what the spiritual man regenerate, borne anew in Christ, by the direction of God his spirit desireth or taketh delight in, is good, and according to the will of God. And seeing man's nature is too procliue of itself to sin, it hath no need of allurements allections to sin (as dancing is) but rather of restraints inhibitions from the same",
+   "italic": [],
+   "heading": false,
+   "spans": [
+    {
+     "start": 640,
+     "end": 648,
+     "item": "w:procliue",
+     "stream": "narration"
+    },
+    {
+     "start": 698,
+     "end": 708,
+     "item": "w:allections",
+     "stream": "narration"
+    }
+   ],
+   "stream_ranges": [
+    [
+     0,
+     782,
+     "narration"
+    ]
+   ],
+   "latinate": {
+    "content_words": 62,
+    "classified": 59,
+    "latin_french": 27,
+    "share": 0.458
+   }
+  }
+ ],
+ "items": {
+  "w:allections": {
+   "id": "w:allections",
+   "type": "word",
+   "text": "allections",
+   "key": "allections",
+   "status": "FLAG",
+   "tag": "REASONABLE INFERENCE",
+   "reason": "form not printed; lemma 'allection'",
+   "evidence": {
+    "status": "FLAG",
+    "tag": "REASONABLE INFERENCE",
+    "basis": "form not printed; lemma 'allection'",
+    "note": "",
+    "first_firm": {
+     "tcp": "A00580",
+     "title": "The theater of honour and knight-hood. Or A compendious chronicle and historie of the whole Christian vvorld Containing the originall of all monarchies, kingdomes, and estates, with their emperours, kings, princes, and gouernours; their beginnings, continuance, and successions, to this present time. The first institution of armes, emblazons, kings, heralds, and pursuiuants of armes: with all the ancient and moderne military orders of knight-hood in euery kingdome. Of duelloes or single combates ... Likewise of ioustes, tourneyes, and tournaments, and orders belonging to them. Lastly of funerall pompe, for emperours, kings, princes, and meaner persons, with all the rites and ceremonies fitting for them. VVritten in French, by Andrew Fauine, Parisian: and aduocate in the High Court of Parliament. M.DC.XX.",
+     "author": "Favyn, André.",
+     "year": 1623,
+     "date_kind": "firm",
+     "date_raw": "1623.",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 0,
+    "n_before_approx": false,
+    "ntexts": 4,
+    "decades": {
+     "1620": 1,
+     "1640": 1,
+     "1650": 1,
+     "1680": 1
+    },
+    "matched": "allection",
+    "entry_id": 3036069,
+    "lemma_note": null,
+    "key": "allections",
+    "resolved_english": false,
+    "kwic": []
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 110,
+     "start": 698,
+     "end": 708,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:bess'": {
+   "id": "w:bess'",
+   "type": "word",
+   "text": "Bess'",
+   "key": "bess'",
+   "status": "FLAG",
+   "tag": "DOCUMENTED",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "FLAG",
+    "tag": "DOCUMENTED",
+    "basis": "exact",
+    "note": "",
+    "first_firm": {
+     "tcp": "A91134",
+     "title": "Aurorata· By Thomas Prujean, student of Gonvile and Caius Colledge in Cambridge.",
+     "author": "Prujean, Thomas, 1622 or 3-1662.",
+     "year": 1644,
+     "date_kind": "firm",
+     "date_raw": "1644.",
+     "collection": "eebo"
+    },
+    "first_any": {
+     "tcp": "A01793",
+     "title": "A mastif vvhelp and other ruff-island-lik currs fetcht from amongst the Antipedes Which bite and barke at the fantasticall humorists and abusers of the time.",
+     "author": "Goddard, William, fl. 1615.",
+     "year": 1616,
+     "date_kind": "conjectural",
+     "date_raw": "[1616?]",
+     "collection": "eebo"
+    },
+    "n_before": 0,
+    "n_before_approx": false,
+    "ntexts": 39,
+    "decades": {
+     "1610": 2,
+     "1630": 1,
+     "1640": 2,
+     "1650": 2,
+     "1660": 2,
+     "1670": 1,
+     "1680": 21,
+     "1690": 6,
+     "1700": 2
+    },
+    "matched": "bess'",
+    "entry_id": 2848510,
+    "lemma_note": "bess:39",
+    "key": "bess'",
+    "resolved_english": false,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "along the Midd'terranian gulfe, / Which lies right over",
+      "kw": "Besses",
+      "right": "equenoxtiall line / (Aye) there he met with such",
+      "tcp": "A01793",
+      "title": "A mastif vvhelp and other ruff-island-lik currs fetcht from amongst the Antipedes Which bite and barke at the fantasticall humorists and abusers of the time.",
+      "author": "Goddard, William, fl. 1615.",
+      "year": 1616,
+      "date_kind": "conjectural",
+      "date_raw": "[1616?]",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "tell, how hee doth me moue. / Enter Richard",
+      "kw": "Besses",
+      "right": "husband. To the tune of the Iewish dance",
+      "tcp": "A22584",
+      "title": "Frauncis new iigge, betweene Frauncis a gentleman, and Richard a farmer To the tune of Walsingham.",
+      "author": "Attowell, George.",
+      "year": 1617,
+      "date_kind": "conjectural",
+      "date_raw": "[1617?]]",
+      "collection": "eebo"
+     },
+     {
+      "slot": 2,
+      "left": "Loves Lunacie. Or, Mad",
+      "kw": "Besses",
+      "right": "Fegary. / Declaring her sorrow, care and mone, / Which",
+      "tcp": "A19008",
+      "title": "Loves lunacie. Or, Mad Besses fegary Declaring her sorrow, care and mone, which may cause many a sigh and grone: a young-man did this maid some wrong, wherefore she writ this mournfull song. To the tune of, The mad mans Morris.",
+      "author": "Crimsal, Richard.",
+      "year": 1638,
+      "date_kind": "conjectural",
+      "date_raw": "[1638?]",
+      "collection": "eebo"
+     },
+     {
+      "slot": 3,
+      "left": "there's no high power; but I / By",
+      "kw": "Besses",
+      "right": "voyce will prove he tells a ly. / Quinta",
+      "tcp": "A91134",
+      "title": "Aurorata· By Thomas Prujean, student of Gonvile and Caius Colledge in Cambridge.",
+      "author": "Prujean, Thomas, 1622 or 3-1662.",
+      "year": 1644,
+      "date_kind": "firm",
+      "date_raw": "1644.",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 10,
+     "start": 197,
+     "end": 202,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:blokish": {
+   "id": "w:blokish",
+   "type": "word",
+   "text": "blokish",
+   "key": "blokish",
+   "status": "FLAG",
+   "tag": "DOCUMENTED",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "FLAG",
+    "tag": "DOCUMENTED",
+    "basis": "exact",
+    "note": "",
+    "first_firm": {
+     "tcp": "A13075",
+     "title": "Christian observations and resolutions, or, The daylie practise of the renewed man, turning all occurrents to spirituall uses, and these uses to his vnion with God I. centurie : vvith a resolution for death, &c. / newlie published by Mr William Struther ...",
+     "author": "Struther, William, 1578-1633.",
+     "year": 1628,
+     "date_kind": "firm",
+     "date_raw": "1628.",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 0,
+    "n_before_approx": false,
+    "ntexts": 3,
+    "decades": {
+     "1620": 1,
+     "1670": 1,
+     "1690": 1
+    },
+    "matched": "blokish",
+    "entry_id": 3281080,
+    "lemma_note": "blokish:3",
+    "key": "blokish",
+    "resolved_english": true,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "to their bodie, and their Soule is more",
+      "kw": "blokish",
+      "right": ", than their bodie, in standing content with these",
+      "tcp": "A13075",
+      "title": "Christian observations and resolutions, or, The daylie practise of the renewed man, turning all occurrents to spirituall uses, and these uses to his vnion with God I. centurie : vvith a resolution for death, &c. / newlie published by Mr William Struther ...",
+      "author": "Struther, William, 1578-1633.",
+      "year": 1628,
+      "date_kind": "firm",
+      "date_raw": "1628.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "Name may without offence be given to such",
+      "kw": "blokish",
+      "right": "People) are so dull and stupid, that they",
+      "tcp": "A35244",
+      "title": "Miracles of art and nature, or, A brief description of the several varieties of birds, beasts, fishes, plants, and fruits of other countreys : together with several other remarkable things in the world by R.B., Gent.",
+      "author": "R. B., 1632?-1725?",
+      "year": 1678,
+      "date_kind": "firm",
+      "date_raw": "1678.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 2,
+      "left": "Reproaches he cast upon the Clergy, as generally",
+      "kw": "blokish",
+      "right": "and idle. This Treatise was immdiately fallen upon",
+      "tcp": "A52338",
+      "title": "The English historical library. Part III giving an account of our records, law-books, and coins, from the conquest to the end of Q. Elizabeth's reign, so far as they are serviceable to history / by William Nicolson.",
+      "author": "Nicolson, William, 1655-1727.",
+      "year": 1699,
+      "date_kind": "firm",
+      "date_raw": "MDCXCIX [1699]",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 97,
+     "start": 134,
+     "end": 141,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": true
+  },
+  "w:church-stock": {
+   "id": "w:church-stock",
+   "type": "word",
+   "text": "Church-stock",
+   "key": "church-stock",
+   "status": "FLAG",
+   "tag": "REASONABLE INFERENCE",
+   "reason": "spelling variant 'churchstock'",
+   "evidence": {
+    "status": "FLAG",
+    "tag": "REASONABLE INFERENCE",
+    "basis": "spelling variant 'churchstock'",
+    "note": "",
+    "first_firm": {
+     "tcp": "A19884",
+     "title": "An apologeticall reply to a booke called an ansvver to the unjust complaint of VV.B. Also an answer to Mr. I.D. touching his report of some passages. His allegation of Scriptures against the baptising of some kind of infants. His protestation about the publishing of his wrightings. By Iohn Davenporte BD.",
+     "author": "Davenport, John, 1597-1670.",
+     "year": 1636,
+     "date_kind": "firm",
+     "date_raw": "Anno 1636.",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 0,
+    "n_before_approx": false,
+    "ntexts": 1,
+    "decades": {
+     "1630": 1
+    },
+    "matched": "churchstock",
+    "entry_id": 3598713,
+    "lemma_note": "churchstock:1",
+    "key": "church-stock",
+    "resolved_english": false,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "kindnes. 3. I received no gratification from the",
+      "kw": "Churchstock",
+      "right": ", as other Ministers have done, by his procurement",
+      "tcp": "A19884",
+      "title": "An apologeticall reply to a booke called an ansvver to the unjust complaint of VV.B. Also an answer to Mr. I.D. touching his report of some passages. His allegation of Scriptures against the baptising of some kind of infants. His protestation about the publishing of his wrightings. By Iohn Davenporte BD.",
+      "author": "Davenport, John, 1597-1670.",
+      "year": 1636,
+      "date_kind": "firm",
+      "date_raw": "Anno 1636.",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 46,
+     "start": 298,
+     "end": 310,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:new-chéese": {
+   "id": "w:new-chéese",
+   "type": "word",
+   "text": "new-chéese",
+   "key": "new-chéese",
+   "status": "FLAG",
+   "tag": "REASONABLE INFERENCE",
+   "reason": "spelling variant 'new-cheese'",
+   "evidence": {
+    "status": "FLAG",
+    "tag": "REASONABLE INFERENCE",
+    "basis": "spelling variant 'new-cheese'",
+    "note": "",
+    "first_firm": {
+     "tcp": "A70281",
+     "title": "Poems on several choice and various subjects occasionally composed by an eminent author ; collected and published by Sergeant-Major P.F.",
+     "author": "Howell, James, 1594?-1666.",
+     "year": 1663,
+     "date_kind": "firm",
+     "date_raw": "1663.",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 0,
+    "n_before_approx": false,
+    "ntexts": 2,
+    "decades": {
+     "1660": 1,
+     "1690": 1
+    },
+    "matched": "new-cheese",
+    "entry_id": 5207005,
+    "lemma_note": "new-cheese:2",
+    "key": "new-chéese",
+    "resolved_english": false,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "a Monks Cell is to High-noon, / Or a",
+      "kw": "New-cheese",
+      "right": "to a Full-moon: / No more is Man, if",
+      "tcp": "A70281",
+      "title": "Poems on several choice and various subjects occasionally composed by an eminent author ; collected and published by Sergeant-Major P.F.",
+      "author": "Howell, James, 1594?-1666.",
+      "year": 1663,
+      "date_kind": "firm",
+      "date_raw": "1663.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "He takes Bobs, Humble-Bees, Gentles not over-scowred, Dew-worms,",
+      "kw": "New-Cheese",
+      "right": ", Red-worms, Pasts, the young brood of Wasps, Hornets",
+      "tcp": "A62402",
+      "title": "The true art of angling, or, The best and speediest way of taking all sorts of fresh-water fish with the worm, fly paste, and other baits, in their proper seasons how to know the haunts of fish, and angle for them in all waters and weathers, at the top, middle, and bottom, baiting of the ground, and night baits, oyls, and oyntments, baits natural and atificial : the several ways of angling, to make oyl of asper, and many rare secrets never before made publick, containing the whole body of angling, and mystery of a compleat angler / by J.S., gent., an brother of the angle.",
+      "author": "J. S. (John Smith)",
+      "year": 1696,
+      "date_kind": "firm",
+      "date_raw": "1696.",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 22,
+     "start": 228,
+     "end": 238,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:prostitut": {
+   "id": "w:prostitut",
+   "type": "word",
+   "text": "prostitut",
+   "key": "prostitut",
+   "status": "FLAG",
+   "tag": "DOCUMENTED",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "FLAG",
+    "tag": "DOCUMENTED",
+    "basis": "exact",
+    "note": "",
+    "first_firm": {
+     "tcp": "A03752",
+     "title": "Dendrologia Dodona's grove, or, the vocall forrest. By I.H. Esqr.",
+     "author": "Howell, James, 1594?-1666.",
+     "year": 1640,
+     "date_kind": "firm",
+     "date_raw": "1640.",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 0,
+    "n_before_approx": false,
+    "ntexts": 8,
+    "decades": {
+     "1640": 2,
+     "1650": 4,
+     "1660": 1,
+     "1670": 1
+    },
+    "matched": "prostitut",
+    "entry_id": 3706556,
+    "lemma_note": "prostitut:10",
+    "key": "prostitut",
+    "resolved_english": false,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "the Virgin honour, making her a kinde of",
+      "kw": "prostitut",
+      "right": ", and meere marchandise salable for white and redde",
+      "tcp": "A03752",
+      "title": "Dendrologia Dodona's grove, or, the vocall forrest. By I.H. Esqr.",
+      "author": "Howell, James, 1594?-1666.",
+      "year": 1640,
+      "date_kind": "firm",
+      "date_raw": "1640.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "not enough to sin, thou strumpet vilde, / By",
+      "kw": "prostitut",
+      "right": "on? and to have a childe / Vnlawfully be",
+      "tcp": "A07541",
+      "title": "A nights search· Discovering the nature and condition of all sorts of night-walkers; with their associates. As also, the life and death of many of them. Together with divers fearfull and strange accidents, occasioned by such ill livers. Digested into a poeme by Humphry Mill.",
+      "author": "Mill, Humphrey, fl. 1646.",
+      "year": 1640,
+      "date_kind": "firm",
+      "date_raw": "1640.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 2,
+      "left": "and glut, / The Mistress of the world did",
+      "kw": "prostitut",
+      "right": ". / This Arviragus, and brave Catarac / Sole free, when",
+      "tcp": "A44716",
+      "title": "Epistolæ Ho-elianæ familiar letters domestic and forren divided into sundry sections, partly historicall, politicall, philosophicall, vpon emergent occasions / by James Howell.",
+      "author": "Howell, James, 1594?-1666.",
+      "year": 1650,
+      "date_kind": "firm",
+      "date_raw": "1650.",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 102,
+     "start": 404,
+     "end": 413,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:thripple": {
+   "id": "w:thripple",
+   "type": "word",
+   "text": "thripple",
+   "key": "thripple",
+   "status": "FLAG",
+   "tag": "DOCUMENTED",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "FLAG",
+    "tag": "DOCUMENTED",
+    "basis": "exact",
+    "note": "",
+    "first_firm": {
+     "tcp": "A55155",
+     "title": "The natural history of Staffordshire by Robert Plot ...",
+     "author": "Plot, Robert, 1640-1696.",
+     "year": 1686,
+     "date_kind": "firm",
+     "date_raw": "1686.",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 0,
+    "n_before_approx": false,
+    "ntexts": 1,
+    "decades": {
+     "1680": 1
+    },
+    "matched": "thripple",
+    "entry_id": 6258085,
+    "lemma_note": "thripple:2",
+    "key": "thripple",
+    "resolved_english": true,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "a Cart or a Tumbrel, the Cart-ladder or",
+      "kw": "thripple",
+      "right": "both before and behind being to be taken",
+      "tcp": "A55155",
+      "title": "The natural history of Staffordshire by Robert Plot ...",
+      "author": "Plot, Robert, 1640-1696.",
+      "year": 1686,
+      "date_kind": "firm",
+      "date_raw": "1686.",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 79,
+     "start": 25,
+     "end": 33,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": true
+  },
+  "w:wakesses": {
+   "id": "w:wakesses",
+   "type": "word",
+   "text": "wakesses",
+   "key": "wakesses",
+   "status": "FLAG",
+   "tag": "DOCUMENTED",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "FLAG",
+    "tag": "DOCUMENTED",
+    "basis": "exact",
+    "note": "",
+    "first_firm": {
+     "tcp": "A44326",
+     "title": "A discourse concerning the witnesses, relating to the time, place, and manner of their being slain by William Hooke, late preacher of the Gospel.",
+     "author": "Hooke, William, 1600 or 1601-1678.",
+     "year": 1681,
+     "date_kind": "firm",
+     "date_raw": "1681.",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 0,
+    "n_before_approx": false,
+    "ntexts": 1,
+    "decades": {
+     "1680": 1
+    },
+    "matched": "wakesses",
+    "entry_id": 5961556,
+    "lemma_note": "wakess:1",
+    "key": "wakesses",
+    "resolved_english": false,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "Resurrection: the Earthquake here is reserved for the",
+      "kw": "Winesses",
+      "right": ". Asce●●on, after which it hasteth, coming in the",
+      "tcp": "A44326",
+      "title": "A discourse concerning the witnesses, relating to the time, place, and manner of their being slain by William Hooke, late preacher of the Gospel.",
+      "author": "Hooke, William, 1600 or 1601-1678.",
+      "year": 1681,
+      "date_kind": "firm",
+      "date_raw": "1681.",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 72,
+     "start": 39,
+     "end": 47,
+     "stream": "narration"
+    },
+    {
+     "para": 73,
+     "start": 25,
+     "end": 33,
+     "stream": "narration"
+    },
+    {
+     "para": 75,
+     "start": 541,
+     "end": 549,
+     "stream": "narration"
+    },
+    {
+     "para": 76,
+     "start": 23,
+     "end": 31,
+     "stream": "narration"
+    },
+    {
+     "para": 77,
+     "start": 112,
+     "end": 120,
+     "stream": "narration"
+    },
+    {
+     "para": 78,
+     "start": 21,
+     "end": 29,
+     "stream": "narration"
+    },
+    {
+     "para": 90,
+     "start": 8,
+     "end": 16,
+     "stream": "narration"
+    },
+    {
+     "para": 91,
+     "start": 442,
+     "end": 450,
+     "stream": "narration"
+    },
+    {
+     "para": 93,
+     "start": 36,
+     "end": 44,
+     "stream": "narration"
+    },
+    {
+     "para": 96,
+     "start": 48,
+     "end": 56,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:ailg": {
+   "id": "w:ailg",
+   "type": "word",
+   "text": "Ailg",
+   "key": "ailg",
+   "status": "UNVERIFIED",
+   "tag": "UNVERIFIED",
+   "reason": "not in the corpus",
+   "evidence": {
+    "status": "UNVERIFIED",
+    "tag": "UNVERIFIED",
+    "basis": "not in the corpus",
+    "note": "",
+    "first_firm": null,
+    "first_any": null,
+    "n_before": 0,
+    "ntexts": 0,
+    "decades": {},
+    "key": "ailg",
+    "resolved_english": false,
+    "kwic": []
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 45,
+     "start": 29,
+     "end": 33,
+     "stream": "narration"
+    },
+    {
+     "para": 102,
+     "start": 283,
+     "end": 287,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:babblerie": {
+   "id": "w:babblerie",
+   "type": "word",
+   "text": "babblerie",
+   "key": "babblerie",
+   "status": "UNVERIFIED",
+   "tag": "UNVERIFIED",
+   "reason": "not in the corpus",
+   "evidence": {
+    "status": "UNVERIFIED",
+    "tag": "UNVERIFIED",
+    "basis": "not in the corpus",
+    "note": "",
+    "first_firm": null,
+    "first_any": null,
+    "n_before": 0,
+    "ntexts": 0,
+    "decades": {},
+    "key": "babblerie",
+    "resolved_english": false,
+    "kwic": []
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 17,
+     "start": 55,
+     "end": 64,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:handkerchéefs": {
+   "id": "w:handkerchéefs",
+   "type": "word",
+   "text": "handkerchéefs",
+   "key": "handkerchéefs",
+   "status": "UNVERIFIED",
+   "tag": "UNVERIFIED",
+   "reason": "not in the corpus",
+   "evidence": {
+    "status": "UNVERIFIED",
+    "tag": "UNVERIFIED",
+    "basis": "not in the corpus",
+    "note": "",
+    "first_firm": null,
+    "first_any": null,
+    "n_before": 0,
+    "ntexts": 0,
+    "decades": {},
+    "key": "handkerchéefs",
+    "resolved_english": false,
+    "kwic": []
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 34,
+     "start": 77,
+     "end": 90,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:hethenrie": {
+   "id": "w:hethenrie",
+   "type": "word",
+   "text": "hethenrie",
+   "key": "hethenrie",
+   "status": "UNVERIFIED",
+   "tag": "UNVERIFIED",
+   "reason": "not in the corpus",
+   "evidence": {
+    "status": "UNVERIFIED",
+    "tag": "UNVERIFIED",
+    "basis": "not in the corpus",
+    "note": "",
+    "first_firm": null,
+    "first_any": null,
+    "n_before": 0,
+    "ntexts": 0,
+    "decades": {},
+    "key": "hethenrie",
+    "resolved_english": false,
+    "kwic": []
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 19,
+     "start": 87,
+     "end": 96,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:orbarbarous": {
+   "id": "w:orbarbarous",
+   "type": "word",
+   "text": "orbarbarous",
+   "key": "orbarbarous",
+   "status": "UNVERIFIED",
+   "tag": "UNVERIFIED",
+   "reason": "not in the corpus",
+   "evidence": {
+    "status": "UNVERIFIED",
+    "tag": "UNVERIFIED",
+    "basis": "not in the corpus",
+    "note": "",
+    "first_firm": null,
+    "first_any": null,
+    "n_before": 0,
+    "ntexts": 0,
+    "decades": {},
+    "key": "orbarbarous",
+    "resolved_english": false,
+    "kwic": []
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 39,
+     "start": 86,
+     "end": 97,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:solemzed": {
+   "id": "w:solemzed",
+   "type": "word",
+   "text": "solemzed",
+   "key": "solemzed",
+   "status": "UNVERIFIED",
+   "tag": "UNVERIFIED",
+   "reason": "not in the corpus",
+   "evidence": {
+    "status": "UNVERIFIED",
+    "tag": "UNVERIFIED",
+    "basis": "not in the corpus",
+    "note": "",
+    "first_firm": null,
+    "first_any": null,
+    "n_before": 0,
+    "ntexts": 0,
+    "decades": {},
+    "key": "solemzed",
+    "resolved_english": false,
+    "kwic": []
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 14,
+     "start": 518,
+     "end": 526,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:stacionarie": {
+   "id": "w:stacionarie",
+   "type": "word",
+   "text": "stacionarie",
+   "key": "stacionarie",
+   "status": "UNVERIFIED",
+   "tag": "UNVERIFIED",
+   "reason": "not in the corpus",
+   "evidence": {
+    "status": "UNVERIFIED",
+    "tag": "UNVERIFIED",
+    "basis": "not in the corpus",
+    "note": "",
+    "first_firm": null,
+    "first_any": null,
+    "n_before": 0,
+    "ntexts": 0,
+    "decades": {},
+    "key": "stacionarie",
+    "resolved_english": false,
+    "kwic": []
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 96,
+     "start": 36,
+     "end": 47,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:strongale": {
+   "id": "w:strongale",
+   "type": "word",
+   "text": "strongale",
+   "key": "strongale",
+   "status": "UNVERIFIED",
+   "tag": "UNVERIFIED",
+   "reason": "not in the corpus",
+   "evidence": {
+    "status": "UNVERIFIED",
+    "tag": "UNVERIFIED",
+    "basis": "not in the corpus",
+    "note": "",
+    "first_firm": null,
+    "first_any": null,
+    "n_before": 0,
+    "ntexts": 0,
+    "decades": {},
+    "key": "strongale",
+    "resolved_english": false,
+    "kwic": []
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 46,
+     "start": 456,
+     "end": 465,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:handkercheifs": {
+   "id": "w:handkercheifs",
+   "type": "word",
+   "text": "handkercheifs",
+   "key": "handkercheifs",
+   "status": "BORDERLINE",
+   "tag": "DOCUMENTED",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "BORDERLINE",
+    "tag": "DOCUMENTED",
+    "basis": "exact",
+    "note": "",
+    "first_firm": {
+     "tcp": "A19857",
+     "title": "A suruey of certaine dialogical discourses: vvritten by Iohn Deacon, and Iohn Walker, concerning the doctrine of the possession and dispossession of diuels VVherein is manifested the palpable ignorance and dangerous errors of the discoursers, and what according to proportion of God his truth, every christian is to hold in these poyntes. Published by Iohn Darrell minister of the gospell.",
+     "author": "Darrel, John, b. ca. 1562.",
+     "year": 1602,
+     "date_kind": "firm",
+     "date_raw": "1602.",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 0,
+    "n_before_approx": false,
+    "ntexts": 25,
+    "decades": {
+     "1600": 1,
+     "1640": 1,
+     "1650": 2,
+     "1660": 4,
+     "1670": 3,
+     "1680": 7,
+     "1690": 5,
+     "1720": 1,
+     "1760": 1
+    },
+    "matched": "handkercheifs",
+    "entry_id": 2183189,
+    "lemma_note": "handkercheif:22;handkerchief:4",
+    "key": "handkercheifs",
+    "resolved_english": false,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "did heale the sick: and the kerchers &",
+      "kw": "handkercheifs",
+      "right": "carried from S. Paul his body. All these",
+      "tcp": "A19857",
+      "title": "A suruey of certaine dialogical discourses: vvritten by Iohn Deacon, and Iohn Walker, concerning the doctrine of the possession and dispossession of diuels VVherein is manifested the palpable ignorance and dangerous errors of the discoursers, and what according to proportion of God his truth, every christian is to hold in these poyntes. Published by Iohn Darrell minister of the gospell.",
+      "author": "Darrel, John, b. ca. 1562.",
+      "year": 1602,
+      "date_kind": "firm",
+      "date_raw": "1602.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "from his body were brought unto the sick,",
+      "kw": "handkercheifs",
+      "right": "or aprons; & the diseases departed from them",
+      "tcp": "A41020",
+      "title": "A fountaine of teares emptying it selfe into three rivelets, viz. of (1) compunction, (2) compassion, (3) devotion, or, Sobs of nature sanctified by grace languaged in severall soliloquies and prayers upon various subjects ... / by Iohn Featley ...",
+      "author": "Featley, John, 1605?-1666.",
+      "year": 1646,
+      "date_kind": "firm",
+      "date_raw": "1646.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 2,
+      "left": "my clothes, which have this day served for",
+      "kw": "handkercheifs",
+      "right": "and spitting-Basons, to the foulest noses and loathsomest",
+      "tcp": "A91603",
+      "title": "The life and adventures of Buscon the witty Spaniard. Put into English by a person of honour. To which is added, the provident knight. By Don Francisco de Quevedo, a Spanish cavalier.",
+      "author": "Quevedo, Francisco de, 1580-1645.",
+      "year": 1657,
+      "date_kind": "firm",
+      "date_raw": "1657.",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 10,
+     "start": 54,
+     "end": 67,
+     "stream": "narration"
+    },
+    {
+     "para": 14,
+     "start": 257,
+     "end": 270,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:accoumptantes": {
+   "id": "w:accoumptantes",
+   "type": "word",
+   "text": "accoumptantes",
+   "key": "accoumptantes",
+   "status": "NOTE",
+   "tag": "REASONABLE INFERENCE",
+   "reason": "form not printed; lemma 'accoumptant'",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "REASONABLE INFERENCE",
+    "basis": "form not printed; lemma 'accoumptant'",
+    "note": "printed before 1589 in 1 text",
+    "first_firm": {
+     "tcp": "A01231",
+     "title": "The lavviers logike exemplifying the præcepts of logike by the practise of the common lawe, by Abraham Fraunce.",
+     "author": "Fraunce, Abraham, fl. 1587-1633.",
+     "year": 1588,
+     "date_kind": "firm",
+     "date_raw": "1588.",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 1,
+    "n_before_approx": false,
+    "ntexts": 6,
+    "decades": {
+     "1580": 1,
+     "1600": 1,
+     "1610": 1,
+     "1630": 1,
+     "1660": 1,
+     "1690": 1
+    },
+    "matched": "accoumptant",
+    "entry_id": 1695239,
+    "lemma_note": null,
+    "key": "accoumptantes",
+    "resolved_english": false,
+    "kwic": []
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 62,
+     "start": 409,
+     "end": 422,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:cemiteries": {
+   "id": "w:cemiteries",
+   "type": "word",
+   "text": "Cemiteries",
+   "key": "cemiteries",
+   "status": "NOTE",
+   "tag": "DOCUMENTED",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "DOCUMENTED",
+    "basis": "exact",
+    "note": "printed before 1589 in 1 text",
+    "first_firm": {
+     "tcp": "A01324",
+     "title": "A reioynder to Bristows replie in defence of Allens scroll of articles and booke of purgatorie Also the cauils of Nicholas Sander D. in Diuinitie about the supper of our Lord, and the apologie of the Church of England, touching the doctrine thereof, confuted by William Fulke, Doctor in Diuinitie, and master of Pembroke Hall in Cambridge. Seene and allowed.",
+     "author": "Fulke, William, 1538-1589.",
+     "year": 1581,
+     "date_kind": "firm",
+     "date_raw": "Anno. 1581.",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 1,
+    "n_before_approx": false,
+    "ntexts": 16,
+    "decades": {
+     "1580": 1,
+     "1600": 1,
+     "1610": 1,
+     "1620": 2,
+     "1630": 1,
+     "1640": 4,
+     "1650": 1,
+     "1660": 2,
+     "1690": 3
+    },
+    "matched": "cemiteries",
+    "entry_id": 1477191,
+    "lemma_note": "cemitery:19;cemetery:1",
+    "key": "cemiteries",
+    "resolved_english": false,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "nice in denying them buriall in the vsuall",
+      "kw": "cemiteries",
+      "right": ", although we communicate not with them in their",
+      "tcp": "A01324",
+      "title": "A reioynder to Bristows replie in defence of Allens scroll of articles and booke of purgatorie Also the cauils of Nicholas Sander D. in Diuinitie about the supper of our Lord, and the apologie of the Church of England, touching the doctrine thereof, confuted by William Fulke, Doctor in Diuinitie, and master of Pembroke Hall in Cambridge. Seene and allowed.",
+      "author": "Fulke, William, 1538-1589.",
+      "year": 1581,
+      "date_kind": "firm",
+      "date_raw": "Anno. 1581.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "it, that so our common burials becomming seemely",
+      "kw": "cemiteries",
+      "right": ", our Kirk buriers may be depriued of the",
+      "tcp": "A16166",
+      "title": "The blame of kirk-buriall, tending to persvvade cemiteriall ciuilitie First preached, then penned, and now at last propyned to the Lords inheritance in the Presbyterie of Lanerk, by M. William Birnie the Lord his minister in that ilk, as a pledge of his zeale, and care of that reformation.",
+      "author": "Birnie, William, 1563-1619.",
+      "year": 1606,
+      "date_kind": "firm",
+      "date_raw": "1606.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 2,
+      "left": "17. Pictures, 18. Graines, 19. Incense, 20. Hollowed",
+      "kw": "Cemiteries",
+      "right": ", 21. Holywater, 22. Oyle, 23. Salt, 24. Spittle",
+      "tcp": "A01009",
+      "title": "Purgatories triumph ouer hell maugre the barking of Cerberus in Syr Edvvard Hobyes Counter-snarle. Described in a letter to the sayd knight, from I.R. authour of the answere vnto the Protestants pulpit babels.",
+      "author": "Floyd, John, 1572-1649.",
+      "year": 1613,
+      "date_kind": "firm",
+      "date_raw": "Permissu superiorum, M. DC. XIII. [1613]",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 15,
+     "start": 20,
+     "end": 30,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:church-ales": {
+   "id": "w:church-ales",
+   "type": "word",
+   "text": "Church-ales",
+   "key": "church-ales",
+   "status": "NOTE",
+   "tag": "DOCUMENTED",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "DOCUMENTED",
+    "basis": "exact",
+    "note": "printed before 1589 in 1 text",
+    "first_firm": {
+     "tcp": "A68197",
+     "title": "The first and second volumes of Chronicles. [vol. 1] comprising 1 The description and historie of England, 2 The description and historie of Ireland, 3 The description and historie of Scotland: first collected and published by Raphaell Holinshed, William Harrison, and others: now newlie augmented and continued (with manifold matters of singular note and worthie memorie) to the yeare 1586. by Iohn Hooker aliàs Vowell Gent and others. With conuenient tables at the end of these volumes.",
+     "author": "Holinshed, Raphael, d. 1580?",
+     "year": 1587,
+     "date_kind": "firm",
+     "date_raw": "[1587]]",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 1,
+    "n_before_approx": false,
+    "ntexts": 64,
+    "decades": {
+     "1580": 1,
+     "1600": 7,
+     "1610": 9,
+     "1620": 4,
+     "1630": 12,
+     "1640": 9,
+     "1650": 6,
+     "1660": 5,
+     "1670": 5,
+     "1680": 1,
+     "1690": 3,
+     "1700": 1,
+     "1780": 1
+    },
+    "matched": "church-ales",
+    "entry_id": 1672661,
+    "lemma_note": "church-ale:85;church-ales:22",
+    "key": "church-ales",
+    "resolved_english": true,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "the superfluous numbers of idle waks, guilds, fraternities,",
+      "kw": "church-ales",
+      "right": ", helpe-ales, and soule-ales, called also dirge-ales, with the",
+      "tcp": "A68197",
+      "title": "The first and second volumes of Chronicles. [vol. 1] comprising 1 The description and historie of England, 2 The description and historie of Ireland, 3 The description and historie of Scotland: first collected and published by Raphaell Holinshed, William Harrison, and others: now newlie augmented and continued (with manifold matters of singular note and worthie memorie) to the yeare 1586. by Iohn Hooker aliàs Vowell Gent and others. With conuenient tables at the end of these volumes.",
+      "author": "Holinshed, Raphael, d. 1580?",
+      "year": 1587,
+      "date_kind": "firm",
+      "date_raw": "[1587]]",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "and pastimes. / Their feasts are commonly haruest dinners,",
+      "kw": "Church-ales",
+      "right": ", and the solemnizing of their parish Churches dedication",
+      "tcp": "A17958",
+      "title": "The survey of Cornvvall. Written by Richard Carew of Antonie, Esquire",
+      "author": "Carew, Richard, 1555-1620.",
+      "year": 1602,
+      "date_kind": "firm",
+      "date_raw": "1602.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 2,
+      "left": "Assistants shall suffer no Playes, Feasts, Banquets, Suppers,",
+      "kw": "Church-ales",
+      "right": ", Drinkings, temporall Courts or Leetes, Lay-iuries, Musters, or",
+      "tcp": "A72019",
+      "title": "Constitutio[ns] and canons ecclesiasticall treated vpon by the Bishop of London, president of the conuocation for the prouince of Canterbury, and the rest of the bishops and clergie of the said prouince: and agreed vpon with the Kings Maiesties licence in their synode begun at London anno Dom. 1603. And in the yeere of the raigne of our soueraigne Lord Iames by the grace of God King of England, France and Ireland the first, and of Scotland the 37. And now published for the due obseruation of them by his Maiesties authoritie, vnder the great Seale of England.",
+      "author": "Church of England.",
+      "year": 1604,
+      "date_kind": "firm",
+      "date_raw": "anno 1604.",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 42,
+     "start": 14,
+     "end": 25,
+     "stream": "narration"
+    },
+    {
+     "para": 45,
+     "start": 14,
+     "end": 25,
+     "stream": "narration"
+    },
+    {
+     "para": 54,
+     "start": 39,
+     "end": 50,
+     "stream": "narration"
+    },
+    {
+     "para": 64,
+     "start": 193,
+     "end": 204,
+     "stream": "narration"
+    },
+    {
+     "para": 68,
+     "start": 375,
+     "end": 386,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": true
+  },
+  "w:congratulat": {
+   "id": "w:congratulat",
+   "type": "word",
+   "text": "congratulat",
+   "key": "congratulat",
+   "status": "NOTE",
+   "tag": "DOCUMENTED",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "DOCUMENTED",
+    "basis": "exact",
+    "note": "printed before 1589 in 2 texts",
+    "first_firm": {
+     "tcp": "A02329",
+     "title": "The historie of Guicciardin conteining the vvarres of Italie and other partes, continued for many yeares vnder sundry kings and princes, together with the variations and accidents of the same, deuided into twenty bookes: and also the argumentes, vvith a table at large expressing the principall matters through the vvhole historie. Reduced into English by Geffray Fenton.",
+     "author": "Guicciardini, Francesco, 1483-1540.",
+     "year": 1579,
+     "date_kind": "firm",
+     "date_raw": "1579.",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 2,
+    "n_before_approx": false,
+    "ntexts": 25,
+    "decades": {
+     "1570": 1,
+     "1580": 1,
+     "1600": 2,
+     "1610": 3,
+     "1630": 3,
+     "1640": 1,
+     "1650": 3,
+     "1660": 3,
+     "1670": 1,
+     "1680": 4,
+     "1690": 3
+    },
+    "matched": "congratulat",
+    "entry_id": 1421129,
+    "lemma_note": "congratulat:40;congratulate:5;congratula:1",
+    "key": "congratulat",
+    "resolved_english": false,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "to goe to his Maiestie, not onely to",
+      "kw": "congratulat",
+      "right": "his right worthy ascending to the crowne, but",
+      "tcp": "A02329",
+      "title": "The historie of Guicciardin conteining the vvarres of Italie and other partes, continued for many yeares vnder sundry kings and princes, together with the variations and accidents of the same, deuided into twenty bookes: and also the argumentes, vvith a table at large expressing the principall matters through the vvhole historie. Reduced into English by Geffray Fenton.",
+      "author": "Guicciardini, Francesco, 1483-1540.",
+      "year": 1579,
+      "date_kind": "firm",
+      "date_raw": "1579.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "brother Dauid, to welcome him home, and to",
+      "kw": "congratulat",
+      "right": "his happie successe in his businesse on the",
+      "tcp": "A68202",
+      "title": "The first and second volumes of Chronicles. [vol. 3 (i.e. The Third Volume of Chronicles)] comprising 1 The description and historie of England, 2 The description and historie of Ireland, 3 The description and historie of Scotland: first collected and published by Raphaell Holinshed, William Harrison, and others: now newlie augmented and continued (with manifold matters of singular note and worthie memorie) to the yeare 1586. by Iohn Hooker aliàs Vowell Gent and others. With conuenient tables at the end of these volumes.",
+      "author": "Holinshed, Raphael, d. 1580?",
+      "year": 1587,
+      "date_kind": "firm",
+      "date_raw": "[1587]]",
+      "collection": "eebo"
+     },
+     {
+      "slot": 2,
+      "left": "loanes: or for the sending of ambassadours to",
+      "kw": "congratulat",
+      "right": "the good haps of other princes; or to",
+      "tcp": "A16275",
+      "title": "The six bookes of a common-weale. VVritten by I. Bodin a famous lawyer, and a man of great experience in matters of state. Out of the French and Latine copies, done into English, by Richard Knolles",
+      "author": "Bodin, Jean, 1530-1596.",
+      "year": 1606,
+      "date_kind": "firm",
+      "date_raw": "1606.",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 87,
+     "start": 76,
+     "end": 87,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:drummers": {
+   "id": "w:drummers",
+   "type": "word",
+   "text": "Drummers",
+   "key": "drummers",
+   "status": "NOTE",
+   "tag": "DOCUMENTED",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "DOCUMENTED",
+    "basis": "exact",
+    "note": "printed before 1589 in 2 texts",
+    "first_firm": {
+     "tcp": "A07415",
+     "title": "Philotimus. The warre betwixt nature and fortune. Compiled by Brian Melbancke student in Graies Inne",
+     "author": "Melbancke, Brian.",
+     "year": 1583,
+     "date_kind": "firm",
+     "date_raw": "1583.",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 2,
+    "n_before_approx": false,
+    "ntexts": 203,
+    "decades": {
+     "1580": 3,
+     "1590": 9,
+     "1600": 5,
+     "1610": 11,
+     "1620": 10,
+     "1630": 10,
+     "1640": 27,
+     "1650": 12,
+     "1660": 14,
+     "1670": 13,
+     "1680": 27,
+     "1690": 36,
+     "1700": 5,
+     "1730": 1,
+     "1760": 3,
+     "1770": 3,
+     "1780": 9,
+     "1790": 5
+    },
+    "matched": "drummers",
+    "entry_id": 1554980,
+    "lemma_note": "drummer:319;drummers:22;d●ummers:1",
+    "key": "drummers",
+    "resolved_english": true,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "his olde frend Ptolomie, hee had scarce Iacke",
+      "kw": "drummers",
+      "right": "enterteynement; for Iacke was shut out withouten harme",
+      "tcp": "A07415",
+      "title": "Philotimus. The warre betwixt nature and fortune. Compiled by Brian Melbancke student in Graies Inne",
+      "author": "Melbancke, Brian.",
+      "year": 1583,
+      "date_kind": "firm",
+      "date_raw": "1583.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "wood in winters weather. / With the strokes of",
+      "kw": "drummers",
+      "right": "sounding, / and with trampling horses than: / The earth",
+      "tcp": "A20130",
+      "title": "The Queenes visiting of the campe at Tilsburie with her entertainment there to the tune of Wilsons wilde",
+      "author": "Deloney, Thomas, 1543?-1600.",
+      "year": 1588,
+      "date_kind": "firm",
+      "date_raw": "1588.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 2,
+      "left": "of them two, euery officer one, & the",
+      "kw": "Drummers",
+      "right": "shall haue none: but they must be lodged",
+      "tcp": "A06617",
+      "title": "Instructions for the warres Amply, learnedly, and politiquely, discoursing the method of militarie discipline. Originally written in French by that rare and worthy generall, Monsieur William de Bellay, Lord of Langey, Knight of the order of Fraunce, and the Kings lieutenant in Thurin. Translated by Paule Iue, Gent.",
+      "author": "Fourquevaux, Raimond de Beccarie de Pavie, baron de, 1509-1574.",
+      "year": 1589,
+      "date_kind": "firm",
+      "date_raw": "1589.",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 12,
+     "start": 48,
+     "end": 56,
+     "stream": "narration"
+    },
+    {
+     "para": 12,
+     "start": 192,
+     "end": 200,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": true
+  },
+  "w:godding": {
+   "id": "w:godding",
+   "type": "word",
+   "text": "godding",
+   "key": "godding",
+   "status": "NOTE",
+   "tag": "DOCUMENTED",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "DOCUMENTED",
+    "basis": "exact",
+    "note": "printed before 1589 in 2 texts",
+    "first_firm": {
+     "tcp": "A15388",
+     "title": "A confutation of certaine articles deliuered vnto the Familye of Loue with the exposition of Theophilus, a supposed elder in the sayd Familye vpon the same articles. By William Wilkinson Maister of Artes and student of diuinitye. Hereunto are prefixed by the right reuerend Father in God I.Y. Byshop of Rochester, certaine notes collected out of their Gospell, and aunswered by the Fam. By the author, a description of the tyme, places, authors, and manner of spreading the same: of their liues, and wrestyng of Scriptures: with notes in the end how to know an heretique.",
+     "author": "Wilkinson, William, d. 1613.",
+     "year": 1579,
+     "date_kind": "firm",
+     "date_raw": "An. 1579.",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 2,
+    "n_before_approx": false,
+    "ntexts": 16,
+    "decades": {
+     "1570": 1,
+     "1580": 1,
+     "1590": 1,
+     "1600": 2,
+     "1610": 1,
+     "1630": 1,
+     "1640": 4,
+     "1660": 1,
+     "1680": 4
+    },
+    "matched": "godding",
+    "entry_id": 1442318,
+    "lemma_note": "godding:17;god:4",
+    "key": "godding",
+    "resolved_english": true,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "satisfy your questions which ye aske of me:",
+      "kw": "Goddyng",
+      "right": "into God what error and whose. / What errour",
+      "tcp": "A15388",
+      "title": "A confutation of certaine articles deliuered vnto the Familye of Loue with the exposition of Theophilus, a supposed elder in the sayd Familye vpon the same articles. By William Wilkinson Maister of Artes and student of diuinitye. Hereunto are prefixed by the right reuerend Father in God I.Y. Byshop of Rochester, certaine notes collected out of their Gospell, and aunswered by the Fam. By the author, a description of the tyme, places, authors, and manner of spreading the same: of their liues, and wrestyng of Scriptures: with notes in the end how to know an heretique.",
+      "author": "Wilkinson, William, d. 1613.",
+      "year": 1579,
+      "date_kind": "firm",
+      "date_raw": "An. 1579.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "that kept it, made capteins there sir Hugh",
+      "kw": "Godding",
+      "right": ", & sir Richard Aubemond. ¶ In this season",
+      "tcp": "A68202",
+      "title": "The first and second volumes of Chronicles. [vol. 3 (i.e. The Third Volume of Chronicles)] comprising 1 The description and historie of England, 2 The description and historie of Ireland, 3 The description and historie of Scotland: first collected and published by Raphaell Holinshed, William Harrison, and others: now newlie augmented and continued (with manifold matters of singular note and worthie memorie) to the yeare 1586. by Iohn Hooker aliàs Vowell Gent and others. With conuenient tables at the end of these volumes.",
+      "author": "Holinshed, Raphael, d. 1580?",
+      "year": 1587,
+      "date_kind": "firm",
+      "date_raw": "[1587]]",
+      "collection": "eebo"
+     },
+     {
+      "slot": 2,
+      "left": "' against their King attempting open Treason; / Some",
+      "kw": "Godding",
+      "right": "fortunen (Idol of Ambition) / Alas, we know our",
+      "tcp": "A20977",
+      "title": "The miracle of the peace in Fraunce Celebrated by the ghost of the diuine Du Bartas. / Translated, by Iosuah Sylvester.",
+      "author": "Du Nesme, Jean.",
+      "year": 1599,
+      "date_kind": "firm",
+      "date_raw": "1599.",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 28,
+     "start": 142,
+     "end": 149,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": true
+  },
+  "w:graund-captain": {
+   "id": "w:graund-captain",
+   "type": "word",
+   "text": "Graund-captain",
+   "key": "graund-captain",
+   "status": "NOTE",
+   "tag": "REASONABLE INFERENCE",
+   "reason": "compound not printed as a unit; parts: graund (NOTE), captain (OK)",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "REASONABLE INFERENCE",
+    "basis": "compound not printed as a unit; parts: graund (NOTE), captain (OK)",
+    "note": "this spelling first printed 1589; its lemma 'grand' (MorphAdorner) printed from 1485",
+    "first_firm": {
+     "tcp": "A19376",
+     "title": "The arte of nauigation conteyning a compendious description of the sphere, with the making of certayne instruments and rules for nauigations, and exemplifyed by many demonstrations. Written by Martin Cortes Spanyarde. Englished out of Spanishe by Richard Eden, and now newly corrected and amended in diuers places.",
+     "author": "Cortés, Martín, 1532-1589.",
+     "year": 1589,
+     "date_kind": "firm",
+     "date_raw": "1589.",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 0,
+    "n_before_approx": false,
+    "ntexts": 5,
+    "decades": {
+     "1580": 1,
+     "1600": 1,
+     "1610": 1,
+     "1620": 1,
+     "1670": 1
+    },
+    "matched": "graund",
+    "entry_id": 1727741,
+    "lemma_note": "grand:5;ground:1",
+    "lemma_evidence": {
+     "lemma": "grand",
+     "first_firm": {
+      "tcp": "A18452",
+      "title": "[Thystorye and lyf of the noble and crysten prynce Charles the grete kynge of Frauuce [sic]]",
+      "author": "Caxton, William, ca. 1422-1491.",
+      "year": 1485,
+      "date_kind": "firm",
+      "date_raw": "[1485]]",
+      "collection": "eebo"
+     },
+     "ntexts": 13205
+    },
+    "key": "graund-captain",
+    "resolved_english": false,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "the yeere 1522. Philippe Vrlerio Frencheman, beyng then",
+      "kw": "graund",
+      "right": "Maister of the Rhodes. Within this fourth Climate",
+      "tcp": "A19376",
+      "title": "The arte of nauigation conteyning a compendious description of the sphere, with the making of certayne instruments and rules for nauigations, and exemplifyed by many demonstrations. Written by Martin Cortes Spanyarde. Englished out of Spanishe by Richard Eden, and now newly corrected and amended in diuers places.",
+      "author": "Cortés, Martín, 1532-1589.",
+      "year": 1589,
+      "date_kind": "firm",
+      "date_raw": "1589.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "might freely appeal from the Magistrates, vnto the",
+      "kw": "Graund",
+      "right": "counsell of the people. Nether was Francis Valori",
+      "tcp": "A16275",
+      "title": "The six bookes of a common-weale. VVritten by I. Bodin a famous lawyer, and a man of great experience in matters of state. Out of the French and Latine copies, done into English, by Richard Knolles",
+      "author": "Bodin, Jean, 1530-1596.",
+      "year": 1606,
+      "date_kind": "firm",
+      "date_raw": "1606.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 2,
+      "left": "maruaile they so wished, seeing that was the",
+      "kw": "graund",
+      "right": "cause of such infinite confusions, factions, and wrongs",
+      "tcp": "A12738",
+      "title": "The history of Great Britaine under the conquests of ye Romans, Saxons, Danes and Normans Their originals, manners, warres, coines & seales: with ye successions, lives, acts & issues of the English monarchs from Iulius Cæsar, to our most gracious soueraigne King Iames. by Iohn Speed.",
+      "author": "Speed, John, 1552?-1629.",
+      "year": 1611,
+      "date_kind": "firm",
+      "date_raw": "[1611]",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 6,
+     "start": 347,
+     "end": 361,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:hufcap": {
+   "id": "w:hufcap",
+   "type": "word",
+   "text": "Hufcap",
+   "key": "hufcap",
+   "status": "NOTE",
+   "tag": "DOCUMENTED",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "DOCUMENTED",
+    "basis": "exact",
+    "note": "printed before 1589 in 2 texts",
+    "first_firm": {
+     "tcp": "A01351",
+     "title": "The first parte, of the eyghth liberall science: entituled, Ars adulandi, the arte of flatterie with the confutation therof, both very pleasaunt and profitable, deuised and compiled, by Vlpian Fulwell.",
+     "author": "Fulwell, Ulpian, fl. 1586.",
+     "year": 1579,
+     "date_kind": "firm",
+     "date_raw": "[1579]",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 2,
+    "n_before_approx": false,
+    "ntexts": 6,
+    "decades": {
+     "1570": 1,
+     "1580": 1,
+     "1590": 1,
+     "1600": 1,
+     "1610": 1,
+     "1630": 1
+    },
+    "matched": "hufcap",
+    "entry_id": 1418382,
+    "lemma_note": "hufcap:7",
+    "key": "hufcap",
+    "resolved_english": false,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "Nippitatum in this towne, which is commonly called",
+      "kw": "Hufcap",
+      "right": ", it will make a man looke as though",
+      "tcp": "A01351",
+      "title": "The first parte, of the eyghth liberall science: entituled, Ars adulandi, the arte of flatterie with the confutation therof, both very pleasaunt and profitable, deuised and compiled, by Vlpian Fulwell.",
+      "author": "Fulwell, Ulpian, fl. 1586.",
+      "year": 1579,
+      "date_kind": "firm",
+      "date_raw": "[1579]",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "and sharpe deuotion, as these men hale at",
+      "kw": "hufcap",
+      "right": ", till they be red as cockes, & litle",
+      "tcp": "A68197",
+      "title": "The first and second volumes of Chronicles. [vol. 1] comprising 1 The description and historie of England, 2 The description and historie of Ireland, 3 The description and historie of Scotland: first collected and published by Raphaell Holinshed, William Harrison, and others: now newlie augmented and continued (with manifold matters of singular note and worthie memorie) to the yeare 1586. by Iohn Hooker aliàs Vowell Gent and others. With conuenient tables at the end of these volumes.",
+      "author": "Holinshed, Raphael, d. 1580?",
+      "year": 1587,
+      "date_kind": "firm",
+      "date_raw": "[1587]]",
+      "collection": "eebo"
+     },
+     {
+      "slot": 2,
+      "left": "Slain, why Ale is strong Ale, tis",
+      "kw": "hufcap",
+      "right": ", I warrant you twill make a man",
+      "tcp": "A06185",
+      "title": "A looking glasse for London and England. Made by Thomas Lodge Gentleman, and Robert Greene. In Artibus Magister",
+      "author": "Lodge, Thomas, 1558?-1625.",
+      "year": 1594,
+      "date_kind": "firm",
+      "date_raw": "1594.",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 47,
+     "start": 20,
+     "end": 26,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:impletion": {
+   "id": "w:impletion",
+   "type": "word",
+   "text": "impletion",
+   "key": "impletion",
+   "status": "NOTE",
+   "tag": "DOCUMENTED",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "DOCUMENTED",
+    "basis": "exact",
+    "note": "printed before 1589 in 1 text",
+    "first_firm": {
+     "tcp": "A04700",
+     "title": "The refutation of the byshop of Winchesters derke declaratio[n] of his false articles, once before confuted by George Ioye Be not deceiued by this bysshops false bokes. Heare novve the tother parte, and iudge truely of the trueth. For the veritie vvyll haue the victorye.",
+     "author": "Joye, George, d. 1553.",
+     "year": 1546,
+     "date_kind": "firm",
+     "date_raw": "M.D.XLVI. [1546]",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 1,
+    "n_before_approx": false,
+    "ntexts": 63,
+    "decades": {
+     "1540": 1,
+     "1610": 5,
+     "1620": 2,
+     "1630": 6,
+     "1640": 7,
+     "1650": 15,
+     "1660": 7,
+     "1670": 8,
+     "1680": 7,
+     "1690": 4,
+     "1790": 1
+    },
+    "matched": "impletion",
+    "entry_id": 663759,
+    "lemma_note": "impletion:100",
+    "key": "impletion",
+    "resolved_english": true,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "free redemption, expectation, lyfe and resurrection and the",
+      "kw": "implecion",
+      "right": "of all my iust desires, my faith and",
+      "tcp": "A04700",
+      "title": "The refutation of the byshop of Winchesters derke declaratio[n] of his false articles, once before confuted by George Ioye Be not deceiued by this bysshops false bokes. Heare novve the tother parte, and iudge truely of the trueth. For the veritie vvyll haue the victorye.",
+      "author": "Joye, George, d. 1553.",
+      "year": 1546,
+      "date_kind": "firm",
+      "date_raw": "M.D.XLVI. [1546]",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "31 / Full, yet without satietie, of that / The",
+      "kw": "impletion",
+      "right": "of the Appetite. / Which whetts, and quiets greedy",
+      "tcp": "A00948",
+      "title": "Christs victorie, and triumph in Heauen, and earth, ouer, and after death",
+      "author": "Fletcher, Giles, 1588?-1623.",
+      "year": 1610,
+      "date_kind": "firm",
+      "date_raw": "1610.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 2,
+      "left": "It hath not an aspersion, nor imbution, but",
+      "kw": "impletion",
+      "right": "; it is filled to the brimme: full of",
+      "tcp": "A02265",
+      "title": "Mystical bedlam, or the vvorld of mad-men. By Tho: Adams",
+      "author": "Adams, Thomas, fl. 1612-1653.",
+      "year": 1615,
+      "date_kind": "firm",
+      "date_raw": "1615.",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 75,
+     "start": 427,
+     "end": 436,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": true
+  },
+  "w:iyngling": {
+   "id": "w:iyngling",
+   "type": "word",
+   "text": "iyngling",
+   "key": "iyngling",
+   "status": "NOTE",
+   "tag": "DOCUMENTED",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "DOCUMENTED",
+    "basis": "exact",
+    "note": "printed before 1589 in 1 text",
+    "first_firm": {
+     "tcp": "B00052",
+     "title": "A discouerie of the countries of Tartaria, Scithia, & Cataya, by the northeast: with the maners, fashions, and orders which are vsed in those countries. / Set foorth by Iohn Frampton merchaunt.",
+     "author": "Frampton, John, fl. 1577-1596.",
+     "year": 1580,
+     "date_kind": "firm",
+     "date_raw": "1580.",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 1,
+    "n_before_approx": false,
+    "ntexts": 4,
+    "decades": {
+     "1580": 1,
+     "1590": 1,
+     "1620": 1,
+     "1630": 1
+    },
+    "matched": "iyngling",
+    "entry_id": 1473547,
+    "lemma_note": "iyngle:4;iyngling:1",
+    "key": "iyngling",
+    "resolved_english": false,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "carry collers of belles to make a great",
+      "kw": "iyngling",
+      "right": ". Their speach is sharpe and high, when they",
+      "tcp": "B00052",
+      "title": "A discouerie of the countries of Tartaria, Scithia, & Cataya, by the northeast: with the maners, fashions, and orders which are vsed in those countries. / Set foorth by Iohn Frampton merchaunt.",
+      "author": "Frampton, John, fl. 1577-1596.",
+      "year": 1580,
+      "date_kind": "firm",
+      "date_raw": "1580.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "and to this effect manie doo vse the",
+      "kw": "iyngling",
+      "right": "of keyes, the sound of the harp, and",
+      "tcp": "A08006",
+      "title": "Pierce Penilesse his supplication to the diuell. Written by Tho. Nash, Gent",
+      "author": "Nash, Thomas, 1567-1601.",
+      "year": 1592,
+      "date_kind": "firm",
+      "date_raw": "1592.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 2,
+      "left": "warlike Morrices, as well of swords, as little",
+      "kw": "iyngling",
+      "right": "bels; for wee haue those in the towne",
+      "tcp": "A18335",
+      "title": "The second part of the history of the valorous and witty knight-errant, Don Quixote of the Mançha. Written in Spanish by Michael Ceruantes: and now translated into English",
+      "author": "Cervantes Saavedra, Miguel de, 1547-1616.",
+      "year": 1620,
+      "date_kind": "firm",
+      "date_raw": "1620.",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 12,
+     "start": 247,
+     "end": 255,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:kynsfolks": {
+   "id": "w:kynsfolks",
+   "type": "word",
+   "text": "kynsfolks",
+   "key": "kynsfolks",
+   "status": "NOTE",
+   "tag": "DOCUMENTED",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "DOCUMENTED",
+    "basis": "exact",
+    "note": "printed before 1589 in 2 texts",
+    "first_firm": {
+     "tcp": "A02296",
+     "title": "The dial of princes, compiled by the reuerend father in God, Don Antony of Gueuara, Byshop of Guadix, preacher, and chronicler to Charles the fifte, late of that name Emperour. Englished out of the Frenche by T. North, sonne of Sir Edvvard North knight, L. North of Kyrtheling",
+     "author": "Guevara, Antonio de, Bp., d. 1545?",
+     "year": 1568,
+     "date_kind": "firm",
+     "date_raw": "Anno Domini. 1568.",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 2,
+    "n_before_approx": false,
+    "ntexts": 2,
+    "decades": {
+     "1560": 1,
+     "1570": 1
+    },
+    "matched": "kynsfolks",
+    "entry_id": 1091796,
+    "lemma_note": "kynsfolk:5",
+    "key": "kynsfolks",
+    "resolved_english": false,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "I graunt that gold and siluer is good,",
+      "kw": "kynsfolks",
+      "right": "are good, and money is good, but true",
+      "tcp": "A02296",
+      "title": "The dial of princes, compiled by the reuerend father in God, Don Antony of Gueuara, Byshop of Guadix, preacher, and chronicler to Charles the fifte, late of that name Emperour. Englished out of the Frenche by T. North, sonne of Sir Edvvard North knight, L. North of Kyrtheling",
+      "author": "Guevara, Antonio de, Bp., d. 1545?",
+      "year": 1568,
+      "date_kind": "firm",
+      "date_raw": "Anno Domini. 1568.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "so chaunce that the sycke person dye, his",
+      "kw": "kynsfolks",
+      "right": ", by witchcrafte, / They make the dead to speake",
+      "tcp": "A20049",
+      "title": "The history of trauayle in the VVest and East Indies, and other countreys lying eyther way, towardes the fruitfull and ryche Moluccaes As Moscouia, Persia, Arabia, Syria, Ægypte, Ethiopia, Guinea, China in Cathayo, and Giapan: vvith a discourse of the Northwest passage. Gathered in parte, and done into Englyshe by Richarde Eden. Newly set in order, augmented, and finished by Richarde VVilles.",
+      "author": "Anghiera, Pietro Martire d', 1457-1526.",
+      "year": 1577,
+      "date_kind": "firm",
+      "date_raw": "1577.",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 75,
+     "start": 331,
+     "end": 340,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:may-ganes": {
+   "id": "w:may-ganes",
+   "type": "word",
+   "text": "May-ganes",
+   "key": "may-ganes",
+   "status": "NOTE",
+   "tag": "REASONABLE INFERENCE",
+   "reason": "compound not printed as a unit; parts: may (OK), ganes (OK)",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "REASONABLE INFERENCE",
+    "basis": "compound not printed as a unit; parts: may (OK), ganes (OK)",
+    "note": "",
+    "first_firm": {
+     "tcp": "A18343",
+     "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+     "author": "Jacobus, de Cessolis, fl. 1288-1322",
+     "year": 1474,
+     "date_kind": "firm",
+     "date_raw": "1474 (31 March)]",
+     "collection": "eebo"
+    },
+    "first_any": {
+     "tcp": "A05232",
+     "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+     "author": "Lefèvre, Raoul, fl. 1460.",
+     "year": 1473,
+     "date_kind": "ranged",
+     "date_raw": "1473 or 1474]",
+     "collection": "eebo"
+    },
+    "n_before": 4,
+    "n_before_approx": false,
+    "ntexts": 55522,
+    "decades": {
+     "1470": 15,
+     "1480": 35,
+     "1490": 51,
+     "1500": 61,
+     "1510": 60,
+     "1520": 94,
+     "1530": 258,
+     "1540": 400,
+     "1550": 410,
+     "1560": 497,
+     "1570": 632,
+     "1580": 872,
+     "1590": 1116,
+     "1600": 1612,
+     "1610": 1719,
+     "1620": 2008,
+     "1630": 1871,
+     "1640": 9490,
+     "1650": 6180,
+     "1660": 5108,
+     "1670": 4811,
+     "1680": 8114,
+     "1690": 7151,
+     "1700": 1103,
+     "1710": 147,
+     "1720": 107,
+     "1730": 115,
+     "1740": 106,
+     "1750": 143,
+     "1760": 265,
+     "1770": 280,
+     "1780": 329,
+     "1790": 336,
+     "1800": 26
+    },
+    "matched": "may",
+    "entry_id": 621,
+    "lemma_note": "may:3709021;maye:105;mai:36",
+    "key": "may-ganes",
+    "resolved_english": true,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "theschuyng of the lasse euyll that y",
+      "kw": "may",
+      "right": ". y shall make thre bookes. whiche put in",
+      "tcp": "A05232",
+      "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+      "author": "Lefèvre, Raoul, fl. 1460.",
+      "year": 1473,
+      "date_kind": "ranged",
+      "date_raw": "1473 or 1474]",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "estate or degre he or they stande in ▪",
+      "kw": "may",
+      "right": "see in this sayd lityll book / yf they",
+      "tcp": "A18343",
+      "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+      "author": "Jacobus, de Cessolis, fl. 1288-1322",
+      "year": 1474,
+      "date_kind": "firm",
+      "date_raw": "1474 (31 March)]",
+      "collection": "eebo"
+     },
+     {
+      "slot": 2,
+      "left": "all the Peers, / The wise Over-seers, / that they",
+      "kw": "may",
+      "right": "consider the poore Cavaliers, / For if they let",
+      "tcp": "B03842",
+      "title": "The joviall crew: or, Beggars-bush, in which a mad maunder doth vapour and swagger, with praiseing the trade of a bonney bold beggar. To the tune of, From hunger, and cold, &c.",
+      "author": "n/a",
+      "year": 1672,
+      "date_kind": "ranged",
+      "date_raw": "[not after 1672] (date corrected to 1672, ranged)",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 26,
+     "start": 143,
+     "end": 152,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": true
+  },
+  "w:maypoles": {
+   "id": "w:maypoles",
+   "type": "word",
+   "text": "Maypoles",
+   "key": "maypoles",
+   "status": "NOTE",
+   "tag": "REASONABLE INFERENCE",
+   "reason": "printed as two words 'may poles'",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "REASONABLE INFERENCE",
+    "basis": "printed as two words 'may poles'",
+    "note": "printed before 1589 in 2 texts",
+    "first_firm": {
+     "tcp": "A03448",
+     "title": "The firste [laste] volume of the chronicles of England, Scotlande, and Irelande conteyning the description and chronicles of England, from the first inhabiting vnto the conquest : the description and chronicles of Scotland, from the first original of the Scottes nation till the yeare of our Lorde 1571 : the description and chronicles of Yrelande, likewise from the first originall of that nation untill the yeare 1571 / faithfully gathered and set forth by Raphaell Holinshed.",
+     "author": "Holinshed, Raphael, d. 1580?",
+     "year": 1577,
+     "date_kind": "firm",
+     "date_raw": "1577.",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 2,
+    "n_before_approx": true,
+    "ntexts": 22,
+    "decades": {
+     "1570": 1,
+     "1580": 1,
+     "1590": 3,
+     "1600": 1,
+     "1620": 1,
+     "1640": 5,
+     "1650": 3,
+     "1660": 2,
+     "1670": 2,
+     "1690": 3
+    },
+    "matched": "may poles",
+    "entry_id": null,
+    "lemma_note": null,
+    "key": "maypoles",
+    "resolved_english": true,
+    "kwic": []
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 33,
+     "start": 34,
+     "end": 42,
+     "stream": "narration"
+    },
+    {
+     "para": 35,
+     "start": 0,
+     "end": 8,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": true
+  },
+  "w:mopsies": {
+   "id": "w:mopsies",
+   "type": "word",
+   "text": "Mopsies",
+   "key": "mopsies",
+   "status": "NOTE",
+   "tag": "REASONABLE INFERENCE",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "REASONABLE INFERENCE",
+    "basis": "exact",
+    "note": "this spelling first printed 1681; its lemma 'mopsy' (MorphAdorner) printed from 1582",
+    "first_firm": {
+     "tcp": "A58863",
+     "title": "Homer alamode, the second part, in English burlesque, or, A mock-poem upon the ninth book of Iliads",
+     "author": "n/a",
+     "year": 1681,
+     "date_kind": "firm",
+     "date_raw": "1681.",
+     "collection": "eebo"
+    },
+    "first_any": {
+     "tcp": "B04821",
+     "title": "The merry mans resolution or, His last farewell to his former acquaintance, declaring how hee rambled up and down, through all the suburbs of fair London town, where pretty wenches hee did plenty find, but some of them agreed not with his mind, till at the last by chance hee found out one, which pleas'd him best, so left the rest alone, to her hee then cling'd close as I heard tell, made her his mate and bid the rest farewell. To a gallant new tune, called the Highlanders new rant.",
+     "author": "L. P. (Laurence Price), fl. 1625-1680?",
+     "year": 1650,
+     "date_kind": "conjectural",
+     "date_raw": "[1650?]",
+     "collection": "eebo"
+    },
+    "n_before": 0,
+    "n_before_approx": false,
+    "ntexts": 2,
+    "decades": {
+     "1650": 1,
+     "1680": 1
+    },
+    "matched": "mopsies",
+    "entry_id": 4235661,
+    "lemma_note": "mopsy:3",
+    "lemma_evidence": {
+     "lemma": "mopsy",
+     "first_firm": {
+      "tcp": "A14485",
+      "title": "Thee first foure bookes of Virgil his Aeneis translated intoo English heroical verse by Richard Stanyhurst, wyth oother poëtical diuises theretoo annexed",
+      "author": "Virgil.",
+      "year": 1582,
+      "date_kind": "firm",
+      "date_raw": "Anno M.D.LXXXII. [1582]",
+      "collection": "eebo"
+     },
+     "ntexts": 9
+    },
+    "key": "mopsies",
+    "resolved_english": false,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "to the Strand / Where I had choyce of",
+      "kw": "mopseis",
+      "right": "even / at my own command, / Sing come Love",
+      "tcp": "B04821",
+      "title": "The merry mans resolution or, His last farewell to his former acquaintance, declaring how hee rambled up and down, through all the suburbs of fair London town, where pretty wenches hee did plenty find, but some of them agreed not with his mind, till at the last by chance hee found out one, which pleas'd him best, so left the rest alone, to her hee then cling'd close as I heard tell, made her his mate and bid the rest farewell. To a gallant new tune, called the Highlanders new rant.",
+      "author": "L. P. (Laurence Price), fl. 1625-1680?",
+      "year": 1650,
+      "date_kind": "conjectural",
+      "date_raw": "[1650?]",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "〈◊〉 〈◊〉 / House; / ‛ Rebecca, Susan, Katharine, / ‛ The loveliest",
+      "kw": "Mopsies",
+      "right": ", e'r were seen; / ‛ These (let him take 'um",
+      "tcp": "A58863",
+      "title": "Homer alamode, the second part, in English burlesque, or, A mock-poem upon the ninth book of Iliads",
+      "author": "n/a",
+      "year": 1681,
+      "date_kind": "firm",
+      "date_raw": "1681.",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 10,
+     "start": 182,
+     "end": 189,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:pipeing": {
+   "id": "w:pipeing",
+   "type": "word",
+   "text": "pipeing",
+   "key": "pipeing",
+   "status": "NOTE",
+   "tag": "REASONABLE INFERENCE",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "REASONABLE INFERENCE",
+    "basis": "exact",
+    "note": "this spelling first printed 1645; its lemma 'pipe' (MorphAdorner) printed from 1476",
+    "first_firm": {
+     "tcp": "A76085",
+     "title": "The second part of that book call'd Independency not Gods ordinance: or the post-script, discovering the uncharitable dealing of the Independents towards their Christian brethren, with the jugglings of many of their pastors and ministers, to the misleading of the poor people to the detriment of their own souls, and the hurt both of church and state, with the danger of novelties in religion; proving that Independency, is one of the most dangerous sects, that ever appeared in the world, since mortality inhabited the earth. In the which also there is a satisfactory answer given to the principall cavils of him that writ that railing pamphlet, stil'd The falshood of Mr Will. Prynnes Triumphing in the antiquity of popish princes and parliaments. With Doctor Bastvvicks just defence against some calumnies in way of preface. / By John Bastvvick, Dr in Physick.",
+     "author": "Bastwick, John, 1593-1654.",
+     "year": 1645,
+     "date_kind": "firm",
+     "date_raw": "1645.",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 0,
+    "n_before_approx": false,
+    "ntexts": 17,
+    "decades": {
+     "1640": 2,
+     "1650": 4,
+     "1670": 3,
+     "1680": 4,
+     "1690": 3,
+     "1700": 1
+    },
+    "matched": "pipeing",
+    "entry_id": 3960233,
+    "lemma_note": "pipe:17;pipein:1",
+    "lemma_evidence": {
+     "lemma": "pipe",
+     "first_firm": {
+      "tcp": "A18231",
+      "title": "Hic incipit paruus Catho",
+      "author": "Cato, Marcus Porcius, 234-149 B.C., attributed name.",
+      "year": 1476,
+      "date_kind": "firm",
+      "date_raw": "1476]",
+      "collection": "eebo"
+     },
+     "ntexts": 7534
+    },
+    "key": "pipeing",
+    "resolved_english": false,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "performances, as crouchings and cringings, capings and kneeings,",
+      "kw": "pipeing",
+      "right": "and tooting, in Popes, Surplices, and their four",
+      "tcp": "A76085",
+      "title": "The second part of that book call'd Independency not Gods ordinance: or the post-script, discovering the uncharitable dealing of the Independents towards their Christian brethren, with the jugglings of many of their pastors and ministers, to the misleading of the poor people to the detriment of their own souls, and the hurt both of church and state, with the danger of novelties in religion; proving that Independency, is one of the most dangerous sects, that ever appeared in the world, since mortality inhabited the earth. In the which also there is a satisfactory answer given to the principall cavils of him that writ that railing pamphlet, stil'd The falshood of Mr Will. Prynnes Triumphing in the antiquity of popish princes and parliaments. With Doctor Bastvvicks just defence against some calumnies in way of preface. / By John Bastvvick, Dr in Physick.",
+      "author": "Bastwick, John, 1593-1654.",
+      "year": 1645,
+      "date_kind": "firm",
+      "date_raw": "1645.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "minds were either for cudgell-playes, for dauncing, and",
+      "kw": "pipeing",
+      "right": ", and for drinking of a cup of good-ale",
+      "tcp": "A89442",
+      "title": "The malignants lamentation in which all sorts of royalists, bemoan the miseries which have fallen upon them for taking up armes against the Parliament. Together with an acknowledgement of their former errors. Published according to order.",
+      "author": "n/a",
+      "year": 1645,
+      "date_kind": "firm",
+      "date_raw": "1645.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 2,
+      "left": "of the Spirit is there. There is the",
+      "kw": "pipeing",
+      "right": ", and dancing, in a spirituall sence, and all",
+      "tcp": "A86450",
+      "title": "The valley of vision, or A clear sight of sundry sacred truths. Delivered in twenty-one sermons; by that learned and reverend divine, Richard Holsvvorth, Dr. in Divinity, sometimes Vice-Chancellor of Cambridge, Master of Emanuel Colledge, and late preacher at Peters Poore in London. The particular titles and texts are set downe in the next leafe.",
+      "author": "Holdsworth, Richard, 1590-1649.",
+      "year": 1651,
+      "date_kind": "firm",
+      "date_raw": "1651.",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 12,
+     "start": 177,
+     "end": 184,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:procliue": {
+   "id": "w:procliue",
+   "type": "word",
+   "text": "procliue",
+   "key": "procliue",
+   "status": "NOTE",
+   "tag": "REASONABLE INFERENCE",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "REASONABLE INFERENCE",
+    "basis": "exact",
+    "note": "this spelling first printed 1605; its lemma 'proclive' (MorphAdorner) printed from 1534",
+    "first_firm": {
+     "tcp": "A03927",
+     "title": "Reasons for refusal of subscription to the booke of common praier vnder the hands of certaine ministers of Devon, and Cornwall word for word as they were exhibited by them to the Right Reverend Father in God William Coton Doctor of Divinitie L. Bishop of Exceter. VVith an amsvvere [sic] at severall times returned them in publike conference and in diverse sermons vpon occasion preached in the cathedrall church of Exceter, by Thomas Hutton, Bachiler of Divinitie & fellow of St. Iohns Coll. in Oxon. And now published at the very earnest intreatie of some especiall friends for a farther contentment of other the Kings Maiesties good and loyall subiects.",
+     "author": "Hutton, Thomas, 1566-1639.",
+     "year": 1605,
+     "date_kind": "firm",
+     "date_raw": "1605.",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 0,
+    "n_before_approx": false,
+    "ntexts": 2,
+    "decades": {
+     "1600": 1,
+     "1610": 1
+    },
+    "matched": "procliue",
+    "entry_id": 2260324,
+    "lemma_note": "proclive:2",
+    "lemma_evidence": {
+     "lemma": "proclive",
+     "first_firm": {
+      "tcp": "A13615",
+      "title": "Floures for Latine spekynge selected and gathered oute of Terence, and the same translated in to Englysshe, together with the exposition and settynge forthe as welle of suche latyne wordes, as were thought nedefull to be annoted, as also of dyuers grammatical rules, very profytable [and] necessarye for the expedite knowledge in the latine tongue: compiled by Nicolas Vdall",
+      "author": "Terence.",
+      "year": 1534,
+      "date_kind": "firm",
+      "date_raw": "M.D.XXXIII. [1533, i.e. 1534 (pridie calendas Martias)]",
+      "collection": "eebo"
+     },
+     "ntexts": 99
+    },
+    "key": "procliue",
+    "resolved_english": false,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "a sure and certayne hope, / Facile est atque",
+      "kw": "procliue",
+      "right": "malot odisse, quia mali sunt, rarum autem et",
+      "tcp": "A03927",
+      "title": "Reasons for refusal of subscription to the booke of common praier vnder the hands of certaine ministers of Devon, and Cornwall word for word as they were exhibited by them to the Right Reverend Father in God William Coton Doctor of Divinitie L. Bishop of Exceter. VVith an amsvvere [sic] at severall times returned them in publike conference and in diverse sermons vpon occasion preached in the cathedrall church of Exceter, by Thomas Hutton, Bachiler of Divinitie & fellow of St. Iohns Coll. in Oxon. And now published at the very earnest intreatie of some especiall friends for a farther contentment of other the Kings Maiesties good and loyall subiects.",
+      "author": "Hutton, Thomas, 1566-1639.",
+      "year": 1605,
+      "date_kind": "firm",
+      "date_raw": "1605.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "the kinges people from allegiance. / the Pope (too",
+      "kw": "procliue",
+      "right": "of himself to set forth his own greatnesse",
+      "tcp": "A12738",
+      "title": "The history of Great Britaine under the conquests of ye Romans, Saxons, Danes and Normans Their originals, manners, warres, coines & seales: with ye successions, lives, acts & issues of the English monarchs from Iulius Cæsar, to our most gracious soueraigne King Iames. by Iohn Speed.",
+      "author": "Speed, John, 1552?-1629.",
+      "year": 1611,
+      "date_kind": "firm",
+      "date_raw": "[1611]",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 110,
+     "start": 640,
+     "end": 648,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:provocative": {
+   "id": "w:provocative",
+   "type": "word",
+   "text": "provocative",
+   "key": "provocative",
+   "status": "NOTE",
+   "tag": "DOCUMENTED",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "DOCUMENTED",
+    "basis": "exact",
+    "note": "printed before 1589 in 2 texts",
+    "first_firm": {
+     "tcp": "A01661",
+     "title": "This boke doth create all of the beste waters artyfycialles and the vertues and properties of the same, moche profytable for the poore sycke, set forth, by syr Roger Becon Freere.",
+     "author": "Bacon, Roger, 1214?-1294.",
+     "year": 1550,
+     "date_kind": "firm",
+     "date_raw": "[c1550.]]",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 2,
+    "n_before_approx": false,
+    "ntexts": 176,
+    "decades": {
+     "1550": 1,
+     "1570": 1,
+     "1590": 1,
+     "1600": 2,
+     "1610": 4,
+     "1620": 4,
+     "1630": 4,
+     "1640": 15,
+     "1650": 29,
+     "1660": 11,
+     "1670": 27,
+     "1680": 39,
+     "1690": 24,
+     "1700": 1,
+     "1710": 2,
+     "1720": 1,
+     "1740": 1,
+     "1750": 1,
+     "1770": 3,
+     "1780": 1,
+     "1790": 4
+    },
+    "matched": "provocative",
+    "entry_id": 744692,
+    "lemma_note": "provocative:223;pro●ocative:1;pr●vocative:1",
+    "key": "provocative",
+    "resolved_english": true,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "This water is subtylatyue, appertyue, abstersyue mondyfycatyue, and",
+      "kw": "prouocatyue",
+      "right": "of the vryne, and auayleth agaynst the storgyne",
+      "tcp": "A01661",
+      "title": "This boke doth create all of the beste waters artyfycialles and the vertues and properties of the same, moche profytable for the poore sycke, set forth, by syr Roger Becon Freere.",
+      "author": "Bacon, Roger, 1214?-1294.",
+      "year": 1550,
+      "date_kind": "firm",
+      "date_raw": "[c1550.]]",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "and hauing disourdened and disbalassed himselfe of his",
+      "kw": "prouocatiue",
+      "right": "supersluous Sperme, to fetch his breath the better",
+      "tcp": "A05313",
+      "title": "The touchstone of complexions generallye appliable, expedient and profitable for all such, as be desirous & carefull of their bodylye health : contayning most easie rules & ready tokens, whereby euery one may perfectly try, and throughly know, as well the exacte state, habite, disposition, and constitution, of his owne body outwardly : as also the inclinations, affections, motions, & desires of his mynd inwardly / first written in Latine, by Leuine Lemnie ; and now Englished by Thomas Newton.",
+      "author": "Lemnius, Levinus, 1505-1568.",
+      "year": 1576,
+      "date_kind": "firm",
+      "date_raw": "1576.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 2,
+      "left": "spare for any cost. Others speake such odoriferous",
+      "kw": "prouocatiue",
+      "right": "words, that you would imagine them to be",
+      "tcp": "A00410",
+      "title": "Questions of profitable and pleasant concernings talked of by two olde seniors, the one an ancient retired gentleman, the other a midling or new vpstart frankeling, vnder an oake in Kenelworth Parke, where they were met by an accident to defend the partching heate of a hoate day, in grasse or buck-hunting time called by the reporter the display of vaine life, together with a panacea or suppling plaister to cure if it were possible, the principall diseases wherewith this present time is especially vexed.",
+      "author": "O. B., fl. 1594.",
+      "year": 1594,
+      "date_kind": "firm",
+      "date_raw": "1594.",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 102,
+     "start": 120,
+     "end": 131,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": true
+  },
+  "w:sommer-haules": {
+   "id": "w:sommer-haules",
+   "type": "word",
+   "text": "Sommer-haules",
+   "key": "sommer-haules",
+   "status": "NOTE",
+   "tag": "REASONABLE INFERENCE",
+   "reason": "compound not printed as a unit; parts: sommer (OK), haules (OK)",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "REASONABLE INFERENCE",
+    "basis": "compound not printed as a unit; parts: sommer (OK), haules (OK)",
+    "note": "",
+    "first_firm": {
+     "tcp": "A68940",
+     "title": "The Newe Testament dylygently corrected and compared with the Greke by Willyam Tindale, and fynesshed in the yere of our Lorde God A.M.D. & xxxiiij. in the moneth of Nouember.",
+     "author": "Tyndale, William, d. 1536.",
+     "year": 1534,
+     "date_kind": "firm",
+     "date_raw": "M.D.xxxiiij [1534]",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 10,
+    "n_before_approx": true,
+    "ntexts": 77,
+    "decades": {
+     "1530": 2,
+     "1550": 1,
+     "1560": 1,
+     "1570": 6,
+     "1580": 7,
+     "1590": 4,
+     "1600": 9,
+     "1610": 12,
+     "1620": 8,
+     "1630": 5,
+     "1640": 6,
+     "1650": 4,
+     "1660": 1,
+     "1670": 2,
+     "1680": 2,
+     "1690": 2,
+     "1700": 1,
+     "1760": 1,
+     "1780": 2,
+     "1790": 1
+    },
+    "matched": "sommer",
+    "entry_id": 480242,
+    "lemma_note": "summer:237;sommer:54;somme:7",
+    "key": "sommer-haules",
+    "resolved_english": true,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "tender & his leves sprōge / ye knowe that",
+      "kw": "sommer",
+      "right": "is nye. So lyke wyse ye / when ye",
+      "tcp": "A68940",
+      "title": "The Newe Testament dylygently corrected and compared with the Greke by Willyam Tindale, and fynesshed in the yere of our Lorde God A.M.D. & xxxiiij. in the moneth of Nouember.",
+      "author": "Tyndale, William, d. 1536.",
+      "year": 1534,
+      "date_kind": "firm",
+      "date_raw": "M.D.xxxiiij [1534]",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "moltē. / Aesculum, / an oke that beareth maste. / Aestas,",
+      "kw": "Sommer",
+      "right": ". / Aestimabile, / that whiche may be valewed. / Aestimatio, / a",
+      "tcp": "A21313",
+      "title": "The dictionary of syr Thomas Eliot knyght",
+      "author": "Elyot, Thomas, Sir, 1490?-1546.",
+      "year": 1538,
+      "date_kind": "firm",
+      "date_raw": "[Anno .M. D. XXXVIII. [1538]]",
+      "collection": "eebo"
+     },
+     {
+      "slot": 2,
+      "left": "●et by anye other euell planete. And in",
+      "kw": "sommer",
+      "right": "they prouoke tempeste, the more if they be",
+      "tcp": "A00750",
+      "title": "The rules and righte ample documentes, touchinge the vse and practise of the common almanackes, which are named ephemerides A briefe and shorte introduction vpon the iudiciall astrologie, for to prognosticate of thinges to come, by the helpe of the sayde ephemerides. With a treatise added hereunto, touchinge the coniunction of the planets, in euery one of the. 12. signes, and of their prognostications and reuolutions of yeres. The hole faithfully, and clerely translated into Englyshe by Humfrey Baker.",
+      "author": "Fine, Oronce, 1494-1555.",
+      "year": 1558,
+      "date_kind": "conjectural",
+      "date_raw": "[1558?]]",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 16,
+     "start": 120,
+     "end": 133,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": true
+  },
+  "w:spud": {
+   "id": "w:spud",
+   "type": "word",
+   "text": "Spud",
+   "key": "spud",
+   "status": "NOTE",
+   "tag": "DOCUMENTED",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "DOCUMENTED",
+    "basis": "exact",
+    "note": "printed before 1589 in 1 text",
+    "first_firm": {
+     "tcp": "A00338",
+     "title": "A very pleasaunt [and] fruitful diologe called the Epicure, made by that famous clerke Erasmus of Roterodame, newly translated. 1545",
+     "author": "Erasmus, Desiderius, d. 1536.",
+     "year": 1545,
+     "date_kind": "firm",
+     "date_raw": "the. XXIX. daie of Iuly, the yere of our Lorde. M.D.XLV. [1545]]",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 1,
+    "n_before_approx": false,
+    "ntexts": 3,
+    "decades": {
+     "1540": 1,
+     "1740": 1,
+     "1790": 1
+    },
+    "matched": "spud",
+    "entry_id": 647700,
+    "lemma_note": "spud:6;spvd:2",
+    "key": "spud",
+    "resolved_english": true,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "it bee taken of honest and godly thynges.",
+      "kw": "Spud.",
+      "right": "I confesse that. / He. / Then (I pray you",
+      "tcp": "A00338",
+      "title": "A very pleasaunt [and] fruitful diologe called the Epicure, made by that famous clerke Erasmus of Roterodame, newly translated. 1545",
+      "author": "Erasmus, Desiderius, d. 1536.",
+      "year": 1545,
+      "date_kind": "firm",
+      "date_raw": "the. XXIX. daie of Iuly, the yere of our Lorde. M.D.XLV. [1545]]",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "strongest Weeds that grow these Stones betwixt: / My",
+      "kw": "Spud",
+      "right": "these Nettles from the Stones can part, / No",
+      "tcp": "C41310",
+      "title": "Miscellanies in verse and prose: By Alexander Pope, Esq; and Dean Swift. In one volume. Viz. The strange and deplorable frensy of Mr. John Dennis. ... Epitaph on Francis Ch-is. Soldier and scholar. With several more epigrams, epitaphs, and poems.",
+      "author": "Pope, Alexander, 1688-1744.",
+      "year": 1744,
+      "date_kind": "firm",
+      "date_raw": "1744.",
+      "collection": "ecco"
+     },
+     {
+      "slot": 2,
+      "left": "day, sally out into the fields, with his",
+      "kw": "spud",
+      "right": "in his hand; and cut up all the",
+      "tcp": "C90870",
+      "title": "Three dialogues on the amusements of clergymen:",
+      "author": "Gilpin, William, 1724-1804.",
+      "year": 1796,
+      "date_kind": "firm",
+      "date_raw": "1796.",
+      "collection": "ecco"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 0,
+     "start": 0,
+     "end": 4,
+     "stream": "narration"
+    },
+    {
+     "para": 25,
+     "start": 0,
+     "end": 4,
+     "stream": "narration"
+    },
+    {
+     "para": 50,
+     "start": 0,
+     "end": 4,
+     "stream": "narration"
+    },
+    {
+     "para": 71,
+     "start": 0,
+     "end": 4,
+     "stream": "narration"
+    },
+    {
+     "para": 80,
+     "start": 0,
+     "end": 4,
+     "stream": "narration"
+    },
+    {
+     "para": 86,
+     "start": 0,
+     "end": 4,
+     "stream": "narration"
+    },
+    {
+     "para": 92,
+     "start": 0,
+     "end": 4,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": true
+  },
+  "w:thiefte": {
+   "id": "w:thiefte",
+   "type": "word",
+   "text": "thiefte",
+   "key": "thiefte",
+   "status": "NOTE",
+   "tag": "DOCUMENTED",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "DOCUMENTED",
+    "basis": "exact",
+    "note": "printed before 1589 in 1 text",
+    "first_firm": {
+     "tcp": "A11308",
+     "title": "The fyrst dialogue in Englisshe with newe additions.",
+     "author": "Saint German, Christopher, 1460?-1540.",
+     "year": 1532,
+     "date_kind": "firm",
+     "date_raw": "In the yere of our lorde god. M.CCCCC. XXXii. [1532] The fyrst day of the moneth of Iuly]",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 1,
+    "n_before_approx": false,
+    "ntexts": 1,
+    "decades": {
+     "1530": 1
+    },
+    "matched": "thiefte",
+    "entry_id": 430937,
+    "lemma_note": "thiefte:1",
+    "key": "thiefte",
+    "resolved_english": false,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "the title furtum. Para. 13. / ❧ Item whether",
+      "kw": "thiefte",
+      "right": "be in a littell thing as well as",
+      "tcp": "A11308",
+      "title": "The fyrst dialogue in Englisshe with newe additions.",
+      "author": "Saint German, Christopher, 1460?-1540.",
+      "year": 1532,
+      "date_kind": "firm",
+      "date_raw": "In the yere of our lorde god. M.CCCCC. XXXii. [1532] The fyrst day of the moneth of Iuly]",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 91,
+     "start": 325,
+     "end": 332,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:wak": {
+   "id": "w:wak",
+   "type": "word",
+   "text": "Wak",
+   "key": "wak",
+   "status": "NOTE",
+   "tag": "DOCUMENTED",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "DOCUMENTED",
+    "basis": "exact",
+    "note": "printed before 1589 in 2 texts",
+    "first_firm": {
+     "tcp": "A03448",
+     "title": "The firste [laste] volume of the chronicles of England, Scotlande, and Irelande conteyning the description and chronicles of England, from the first inhabiting vnto the conquest : the description and chronicles of Scotland, from the first original of the Scottes nation till the yeare of our Lorde 1571 : the description and chronicles of Yrelande, likewise from the first originall of that nation untill the yeare 1571 / faithfully gathered and set forth by Raphaell Holinshed.",
+     "author": "Holinshed, Raphael, d. 1580?",
+     "year": 1577,
+     "date_kind": "firm",
+     "date_raw": "1577.",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 2,
+    "n_before_approx": false,
+    "ntexts": 21,
+    "decades": {
+     "1570": 1,
+     "1580": 1,
+     "1590": 1,
+     "1600": 1,
+     "1610": 1,
+     "1620": 1,
+     "1650": 4,
+     "1660": 1,
+     "1670": 1,
+     "1680": 4,
+     "1690": 1,
+     "1720": 1,
+     "1770": 2,
+     "1790": 1
+    },
+    "matched": "wak",
+    "entry_id": 1340872,
+    "lemma_note": "wak:62",
+    "key": "wak",
+    "resolved_english": false,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "the Fo●... estes, and Peter de Mallow, Hughe",
+      "kw": "Wak",
+      "right": ", Roberte Marmion, Peter de Bruys, Guys●... a●... Laidec",
+      "tcp": "A03448",
+      "title": "The firste [laste] volume of the chronicles of England, Scotlande, and Irelande conteyning the description and chronicles of England, from the first inhabiting vnto the conquest : the description and chronicles of Scotland, from the first original of the Scottes nation till the yeare of our Lorde 1571 : the description and chronicles of Yrelande, likewise from the first originall of that nation untill the yeare 1571 / faithfully gathered and set forth by Raphaell Holinshed.",
+      "author": "Holinshed, Raphael, d. 1580?",
+      "year": 1577,
+      "date_kind": "firm",
+      "date_raw": "1577.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "faulte wyth the grace sayd in Latine, he",
+      "kw": "wak",
+      "right": "detected and taken in hys Inne in the",
+      "tcp": "A67926",
+      "title": "Actes and monuments of matters most speciall and memorable, happenyng in the Church. [vol. 2, part 1] with an vniuersall history of the same, wherein is set forth at large the whole race and course of the Church, from the primitiue age to these latter tymes of ours, with the bloudy times, horrible troubles, and great persecutions agaynst the true martyrs of Christ, sought and wrought as well by heathen emperours, as nowe lately practised by Romish prelates, especially in this realme of England and Scotland. Newly reuised and recognised, partly also augmented, and now the fourth time agayne published and recommended to the studious reader, by the author (through the helpe of Christ our Lord) Iohn Foxe, which desireth thee good reader to helpe him with thy prayer.",
+      "author": "Foxe, John, 1516-1587.",
+      "year": 1583,
+      "date_kind": "firm",
+      "date_raw": "An. 1583. Mens. Octobr.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 2,
+      "left": "a concord blest / Resounded with the hie, / The",
+      "kw": "wak",
+      "right": "with dry, the cold agreed / With that which",
+      "tcp": "A04260",
+      "title": "His Maiesties poeticall exercises at vacant houres",
+      "author": "James I, King of England, 1566-1625.",
+      "year": 1591,
+      "date_kind": "firm",
+      "date_raw": "[1591]",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 75,
+     "start": 226,
+     "end": 229,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:wilde-heds": {
+   "id": "w:wilde-heds",
+   "type": "word",
+   "text": "wilde-heds",
+   "key": "wilde-heds",
+   "status": "NOTE",
+   "tag": "REASONABLE INFERENCE",
+   "reason": "compound not printed as a unit; parts: wilde (OK), heds (NOTE)",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "REASONABLE INFERENCE",
+    "basis": "compound not printed as a unit; parts: wilde (OK), heds (NOTE)",
+    "note": "printed before 1589 in 1 text",
+    "first_firm": {
+     "tcp": "B11035",
+     "title": "A registre of hystories conteining martiall exploites of worthy warriours, politique practises of ciuil magistrates, wise sentences of famous philosophers, and other matters manifolde and memorable. Written in Greeke, by Ælianus a Romane: and deliuered in Englishe (as well, according to the truth of the Greeke text, as of the Latine) by Abraham Fleming. Seene and allowed.",
+     "author": "Aelian, Claudius.",
+     "year": 1576,
+     "date_kind": "firm",
+     "date_raw": "Anno a Messia nato 1576.",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 1,
+    "n_before_approx": false,
+    "ntexts": 2,
+    "decades": {
+     "1570": 1,
+     "1600": 1
+    },
+    "matched": "heds",
+    "entry_id": 1291097,
+    "lemma_note": "head:4;heds:1",
+    "key": "wilde-heds",
+    "resolved_english": false,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "vpon the tops of mountains and on Hil",
+      "kw": "heds",
+      "right": "whiche as soone as they féele them selues wounded",
+      "tcp": "B11035",
+      "title": "A registre of hystories conteining martiall exploites of worthy warriours, politique practises of ciuil magistrates, wise sentences of famous philosophers, and other matters manifolde and memorable. Written in Greeke, by Ælianus a Romane: and deliuered in Englishe (as well, according to the truth of the Greeke text, as of the Latine) by Abraham Fleming. Seene and allowed.",
+      "author": "Aelian, Claudius.",
+      "year": 1576,
+      "date_kind": "firm",
+      "date_raw": "Anno a Messia nato 1576.",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "of earth, make haste to make vs earth.",
+      "kw": "Heds.",
+      "right": "Pleaseth the Lady Iane, ile helpe her",
+      "tcp": "A20096",
+      "title": "The famous history of Sir Thomas VVyat. With the coronation of Queen Mary, and the coming in of King Philip. As it was plaied by the Queens Maiesties Seruants. Written by Thomas Dickers, and Iohn Webster.",
+      "author": "Dekker, Thomas, ca. 1572-1632.",
+      "year": 1607,
+      "date_kind": "conjectural",
+      "date_raw": "2003 January (TCP phase 1) (year from EarlyPrint metadata: 1607)",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 6,
+     "start": 286,
+     "end": 296,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  },
+  "w:zeel": {
+   "id": "w:zeel",
+   "type": "word",
+   "text": "zeel",
+   "key": "zeel",
+   "status": "NOTE",
+   "tag": "DOCUMENTED",
+   "reason": "this form, as regularised in print",
+   "evidence": {
+    "status": "NOTE",
+    "tag": "DOCUMENTED",
+    "basis": "exact",
+    "note": "printed before 1589 in 2 texts",
+    "first_firm": {
+     "tcp": "A06558",
+     "title": "[The lyf of our lady]",
+     "author": "Lydgate, John, 1370?-1451?",
+     "year": 1484,
+     "date_kind": "firm",
+     "date_raw": "1484]",
+     "collection": "eebo"
+    },
+    "first_any": null,
+    "n_before": 2,
+    "n_before_approx": false,
+    "ntexts": 9,
+    "decades": {
+     "1480": 1,
+     "1540": 1,
+     "1650": 2,
+     "1670": 2,
+     "1690": 2,
+     "1700": 1
+    },
+    "matched": "zeel",
+    "entry_id": 128943,
+    "lemma_note": "zeel:10",
+    "key": "zeel",
+    "resolved_english": false,
+    "kwic": [
+     {
+      "slot": 0,
+      "left": "of pyte meuyd / Man to delyuer with a",
+      "kw": "zeel",
+      "right": "of routh / Rightwysnes wold than be agreuyd / With",
+      "tcp": "A06558",
+      "title": "[The lyf of our lady]",
+      "author": "Lydgate, John, 1370?-1451?",
+      "year": 1484,
+      "date_kind": "firm",
+      "date_raw": "1484]",
+      "collection": "eebo"
+     },
+     {
+      "slot": 1,
+      "left": "& prelates of dig nitie / Though in the",
+      "kw": "zeel",
+      "right": "of Phynes, & also Helias / I stomock your",
+      "tcp": "A06886",
+      "title": "A declaration of thee power of Gods worde concerning the holy supper of the Lord, confutynge all lyers and fals teachers, whych mayntayne theyr maskynge mass inuented agaynst the woorde of God, and the Kynges Maiesties most godly proceadynge compyled anno d[omi]ni M.D.XLVIII",
+      "author": "Mardeley, John.",
+      "year": 1548,
+      "date_kind": "firm",
+      "date_raw": "[1548]]",
+      "collection": "eebo"
+     },
+     {
+      "slot": 2,
+      "left": "the Heath van Harten, bee advanced to Sharp",
+      "kw": "Zeel",
+      "right": ", where hee would attend them; whereupon his Highˢ",
+      "tcp": "A26589",
+      "title": "Notable revolutions beeing a true relation of what hap'ned in the United Provinces of the Netherlands in the years MDCL and MDCLI somewhat before and after the death of the late Prince of Orange : according to the Dutch copie / collected and published at the Haghe 1652 by Lion Aitzema.",
+      "author": "Aitzema, Lieuwe van, 1600-1669.",
+      "year": 1653,
+      "date_kind": "firm",
+      "date_raw": "1653.",
+      "collection": "eebo"
+     }
+    ]
+   },
+   "watch": [],
+   "occurrences": [
+    {
+     "para": 68,
+     "start": 496,
+     "end": 500,
+     "stream": "narration"
+    }
+   ],
+   "resolved_english": false
+  }
+ },
+ "romani": [
+  {
+   "token": "accoumptantes",
+   "key": "accoumptantes",
+   "count": 1,
+   "paragraphs": [
+    63
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "NOTE: printed before 1589 in 1 text"
+  },
+  {
+   "token": "Ailg",
+   "key": "ailg",
+   "count": 2,
+   "paragraphs": [
+    46,
+    103
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "UNVERIFIED: not in the corpus"
+  },
+  {
+   "token": "Ailgna",
+   "key": "ailgna",
+   "count": 5,
+   "paragraphs": [
+    3,
+    6,
+    43,
+    74,
+    101
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "OK: exact"
+  },
+  {
+   "token": "allections",
+   "key": "allections",
+   "count": 1,
+   "paragraphs": [
+    111
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "FLAG: form not printed; lemma 'allection'"
+  },
+  {
+   "token": "assoted",
+   "key": "assoted",
+   "count": 1,
+   "paragraphs": [
+    22
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "OK: exact"
+  },
+  {
+   "token": "babblerie",
+   "key": "babblerie",
+   "count": 1,
+   "paragraphs": [
+    18
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "UNVERIFIED: not in the corpus"
+  },
+  {
+   "token": "Bess'",
+   "key": "bess'",
+   "count": 1,
+   "paragraphs": [
+    11
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "FLAG: exact"
+  },
+  {
+   "token": "Cemiteries",
+   "key": "cemiteries",
+   "count": 1,
+   "paragraphs": [
+    16
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "NOTE: printed before 1589 in 1 text"
+  },
+  {
+   "token": "Church-stock",
+   "key": "church-stock",
+   "count": 1,
+   "paragraphs": [
+    47
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "FLAG: spelling variant 'churchstock'"
+  },
+  {
+   "token": "Churges",
+   "key": "churges",
+   "count": 1,
+   "paragraphs": [
+    68
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "OK: exact"
+  },
+  {
+   "token": "congratulat",
+   "key": "congratulat",
+   "count": 1,
+   "paragraphs": [
+    88
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "NOTE: printed before 1589 in 2 texts"
+  },
+  {
+   "token": "edefice",
+   "key": "edefice",
+   "count": 1,
+   "paragraphs": [
+    69
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "OK: exact"
+  },
+  {
+   "token": "fourmes",
+   "key": "fourmes",
+   "count": 1,
+   "paragraphs": [
+    15
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "OK: exact"
+  },
+  {
+   "token": "godlyest",
+   "key": "godlyest",
+   "count": 1,
+   "paragraphs": [
+    49
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "OK: exact"
+  },
+  {
+   "token": "good-ale",
+   "key": "good-ale",
+   "count": 1,
+   "paragraphs": [
+    23
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "OK: spelling variant 'goodale'"
+  },
+  {
+   "token": "Graund-captain",
+   "key": "graund-captain",
+   "count": 1,
+   "paragraphs": [
+    7
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "NOTE: this spelling first printed 1589; its lemma 'grand' (MorphAdorner) printed from 1485"
+  },
+  {
+   "token": "handkercheifs",
+   "key": "handkercheifs",
+   "count": 2,
+   "paragraphs": [
+    11,
+    15
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "BORDERLINE: exact"
+  },
+  {
+   "token": "handkerchéefs",
+   "key": "handkerchéefs",
+   "count": 1,
+   "paragraphs": [
+    35
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "UNVERIFIED: not in the corpus"
+  },
+  {
+   "token": "hethenrie",
+   "key": "hethenrie",
+   "count": 1,
+   "paragraphs": [
+    20
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "UNVERIFIED: not in the corpus"
+  },
+  {
+   "token": "Hufcap",
+   "key": "hufcap",
+   "count": 1,
+   "paragraphs": [
+    48
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "NOTE: printed before 1589 in 2 texts"
+  },
+  {
+   "token": "iyngling",
+   "key": "iyngling",
+   "count": 1,
+   "paragraphs": [
+    13
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "NOTE: printed before 1589 in 1 text"
+  },
+  {
+   "token": "kynsfolks",
+   "key": "kynsfolks",
+   "count": 1,
+   "paragraphs": [
+    76
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "NOTE: printed before 1589 in 2 texts"
+  },
+  {
+   "token": "mis-rules",
+   "key": "mis-rules",
+   "count": 1,
+   "paragraphs": [
+    18
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "OK: spelling variant 'misrules'"
+  },
+  {
+   "token": "Misrules'",
+   "key": "misrules'",
+   "count": 1,
+   "paragraphs": [
+    10
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "OK: possessive of 'misrules'"
+  },
+  {
+   "token": "Mopsies",
+   "key": "mopsies",
+   "count": 1,
+   "paragraphs": [
+    11
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "NOTE: this spelling first printed 1681; its lemma 'mopsy' (MorphAdorner) printed from 1582"
+  },
+  {
+   "token": "new-chéese",
+   "key": "new-chéese",
+   "count": 1,
+   "paragraphs": [
+    23
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "FLAG: spelling variant 'new-cheese'"
+  },
+  {
+   "token": "orbarbarous",
+   "key": "orbarbarous",
+   "count": 1,
+   "paragraphs": [
+    40
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "UNVERIFIED: not in the corpus"
+  },
+  {
+   "token": "pipeing",
+   "key": "pipeing",
+   "count": 1,
+   "paragraphs": [
+    13
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "NOTE: this spelling first printed 1645; its lemma 'pipe' (MorphAdorner) printed from 1476"
+  },
+  {
+   "token": "procliue",
+   "key": "procliue",
+   "count": 1,
+   "paragraphs": [
+    111
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "NOTE: this spelling first printed 1605; its lemma 'proclive' (MorphAdorner) printed from 1534"
+  },
+  {
+   "token": "prostitut",
+   "key": "prostitut",
+   "count": 1,
+   "paragraphs": [
+    103
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "FLAG: exact"
+  },
+  {
+   "token": "solemzed",
+   "key": "solemzed",
+   "count": 1,
+   "paragraphs": [
+    15
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "UNVERIFIED: not in the corpus"
+  },
+  {
+   "token": "stacionarie",
+   "key": "stacionarie",
+   "count": 1,
+   "paragraphs": [
+    97
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "UNVERIFIED: not in the corpus"
+  },
+  {
+   "token": "strongale",
+   "key": "strongale",
+   "count": 1,
+   "paragraphs": [
+    47
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "UNVERIFIED: not in the corpus"
+  },
+  {
+   "token": "Sumpteousnes",
+   "key": "sumpteousnes",
+   "count": 1,
+   "paragraphs": [
+    62
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "OK: exact"
+  },
+  {
+   "token": "swyn",
+   "key": "swyn",
+   "count": 1,
+   "paragraphs": [
+    59
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "OK: exact"
+  },
+  {
+   "token": "templaries",
+   "key": "templaries",
+   "count": 1,
+   "paragraphs": [
+    65
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "OK: exact"
+  },
+  {
+   "token": "thiefte",
+   "key": "thiefte",
+   "count": 1,
+   "paragraphs": [
+    92
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "NOTE: printed before 1589 in 1 text"
+  },
+  {
+   "token": "Wak",
+   "key": "wak",
+   "count": 1,
+   "paragraphs": [
+    76
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "NOTE: printed before 1589 in 2 texts"
+  },
+  {
+   "token": "wakesses",
+   "key": "wakesses",
+   "count": 10,
+   "paragraphs": [
+    73,
+    74,
+    76,
+    77,
+    78,
+    79,
+    91,
+    92,
+    94,
+    97
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "FLAG: exact"
+  },
+  {
+   "token": "wilde-heds",
+   "key": "wilde-heds",
+   "count": 1,
+   "paragraphs": [
+    7
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "NOTE: printed before 1589 in 1 text"
+  },
+  {
+   "token": "Ydol",
+   "key": "ydol",
+   "count": 2,
+   "paragraphs": [
+    24,
+    33
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "OK: exact"
+  },
+  {
+   "token": "zeel",
+   "key": "zeel",
+   "count": 1,
+   "paragraphs": [
+    69
+   ],
+   "streams": [
+    "narration"
+   ],
+   "watch": null,
+   "corpus": "NOTE: printed before 1589 in 2 texts"
+  }
+ ],
+ "accepted": {},
+ "streams_words": {
+  "narration": 3057,
+  "dialogue": 0,
+  "interior": 0
+ },
+ "summary": {
+  "occurrences": {
+   "FLAG": {
+    "narration": 17,
+    "dialogue": 0,
+    "interior": 0
+   },
+   "BORDERLINE": {
+    "narration": 2,
+    "dialogue": 0,
+    "interior": 0
+   },
+   "NOTE": {
+    "narration": 35,
+    "dialogue": 0,
+    "interior": 0
+   },
+   "UNVERIFIED": {
+    "narration": 9,
+    "dialogue": 0,
+    "interior": 0
+   },
+   "WATCH": {
+    "narration": 0,
+    "dialogue": 0,
+    "interior": 0
+   }
+  },
+  "types": {
+   "FLAG": {
+    "narration": 8,
+    "dialogue": 0,
+    "interior": 0
+   },
+   "BORDERLINE": {
+    "narration": 1,
+    "dialogue": 0,
+    "interior": 0
+   },
+   "NOTE": {
+    "narration": 23,
+    "dialogue": 0,
+    "interior": 0
+   },
+   "UNVERIFIED": {
+    "narration": 8,
+    "dialogue": 0,
+    "interior": 0
+   },
+   "WATCH": {
+    "narration": 0,
+    "dialogue": 0,
+    "interior": 0
+   }
+  },
+  "by_kind": {
+   "word": 40
+  },
+  "romani_tokens": 42
+ },
+ "latinate": {
+  "label": "Heuristic. Share of content words whose Wiktionary etymology names Latin or French as the language they entered English from. A register indicator, not a period test.",
+  "mean": 0.396,
+  "baseline": null
+ }
+}

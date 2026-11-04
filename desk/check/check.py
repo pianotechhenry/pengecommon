@@ -176,6 +176,7 @@ class Config:
     window: int = 15
     note_min: int = 3
     use_watchlist: bool = True
+    phrase_heuristic: bool = False  # flag later collocations automatically (opt-in, noisy)
     expect_min: float = 10.0      # phrase heuristic: expected texts before the year
     phrase_min_after: int = 20    # phrase heuristic: texts in the 50 years after first print
     watchlist_path: Path | None = None
@@ -513,7 +514,7 @@ class Checker:
                         stream = lab[m.start()] if m.start() < len(lab) else NARRATION
                         occ(it, pi, m.start(), m.end(), stream)
                         spans.append({"start": m.start(), "end": m.end(), "item": it.id, "stream": stream})
-            if idx.has_ngrams:
+            if idx.has_ngrams and cfg.phrase_heuristic:
                 for n in (3, 2):
                     for j in range(len(seq) - n + 1):
                         win = seq[j:j + n]
@@ -567,7 +568,8 @@ class Checker:
             "source": source,
             "generated": _dt.datetime.now().strftime("%Y-%m-%d %H:%M"),
             "settings": {"year": cfg.year, "window": cfg.window, "note_min": cfg.note_min,
-                         "watchlist": cfg.use_watchlist, "phrase_expect_min": cfg.expect_min,
+                         "watchlist": cfg.use_watchlist, "phrase_heuristic": cfg.phrase_heuristic,
+                         "phrase_expect_min": cfg.expect_min,
                          "quote_style": style},
             "caveat": CAVEAT,
             "corpus": self._corpus_summary(),
