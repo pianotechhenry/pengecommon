@@ -34,12 +34,35 @@ def book_for(day: C.Day) -> tuple[str, str]:
     return "1559", note
 
 
+LEAP_RULE = ("in a leap year the day after 23 February is the doubled day, so St Matthias "
+             "falls on the 25th: \"When the yeeres of our Lord may be diuided into foure euen "
+             "partes ... the Sunday letter leapeth, and that yere the Psalmes and Lessons which "
+             "serue for the xxiij day of February, shall be read againe the day following\" "
+             "(TCP A05983)")
+
+
+def _is_leap(day: C.Day) -> bool:
+    y = day.civil[0]
+    if day.civil_calendar == C.JULIAN:
+        return y % 4 == 0
+    return y % 4 == 0 and (y % 100 != 0 or y % 400 == 0)
+
+
 def fixed_days(day: C.Day) -> tuple[list, list]:
     book, _ = book_for(day)
     m, d = day.civil[1], day.civil[2]
     b = PRAYERBOOK[book]
-    holy = [h for h in b["holy_days"] if h["month"] == m and h["day"] == d]
-    # St Matthias falls on 25 February in leap years (bissextile day)
+    leap_feb = m == 2 and _is_leap(day)
+    holy = []
+    for h in b["holy_days"]:
+        hm_, hd = h["month"], h["day"]
+        if leap_feb and (hm_, hd) == (2, 24):
+            hd = 25
+            h = {**h, "tag": "DOCUMENTED" if book == "1559" else "REASONABLE INFERENCE",
+                 "date_evidence": [LEAP_RULE] + (["the 1662 transcription does not restate the rule"]
+                                                 if book == "1662" else [])}
+        if (hm_, hd) == (m, d):
+            holy.append(h)
     other = [c for c in b["calendar_days"] if c["month"] == m and c["day"] == d]
     return holy, other
 
