@@ -55,6 +55,25 @@ def build(path: Path) -> Path:
     for d in range(1470, 1810, 10):
         n = sum(1 for _, y, _ in TEXTS if y // 10 * 10 == d)
         con.execute("INSERT INTO corpus_decades VALUES (?,?,?)", (d, n, n * 10000))
+    # phrase tables: "every thing" printed early (closed-compound fallback);
+    # "golden boy" only from 1650; "!?" never; "!!" from 1570
+    from desk.build.ngrams import pack_decades
+    import numpy as np
+    from desk.keys import ngram_hash, to_signed
+    con.executescript("""
+      CREATE TABLE ngrams(hash INTEGER PRIMARY KEY, n INTEGER, first_any INTEGER,
+        first_firm INTEGER, ntexts INTEGER, decades BLOB) WITHOUT ROWID;
+      CREATE TABLE phrases(phrase TEXT PRIMARY KEY, first_any INTEGER, first_firm INTEGER,
+        ntexts INTEGER, decades TEXT, kwic TEXT);
+      CREATE TABLE punct(seq TEXT PRIMARY KEY, first_any INTEGER, first_firm INTEGER,
+        ntexts INTEGER, decades TEXT, kwic TEXT);""")
+    for words, tids in ((["every", "thing"], [0, 1, 2, 4]), (["golden", "boy"], [8, 9])):
+        dec = sorted({TEXTS[t][1] // 10 * 10 for t in tids})
+        blob = pack_decades(np.array([(d - 1470) // 10 for d in dec]),
+                            np.array([sum(1 for t in tids if TEXTS[t][1] // 10 * 10 == d) for d in dec]))
+        con.execute("INSERT INTO ngrams VALUES (?,?,?,?,?,?)",
+                    (to_signed(ngram_hash(words)), 2, tids[0], tids[0], len(tids), blob))
+    con.execute("INSERT INTO punct VALUES ('!!', 2, 2, 1, '1570:1', '[]')")
     con.execute("INSERT INTO info VALUES ('built', 'test')")
     con.commit()
     con.close()

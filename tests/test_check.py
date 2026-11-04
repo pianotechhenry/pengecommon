@@ -90,3 +90,20 @@ def test_accepted_words_are_not_flagged(idx, tmp_path):
     wl.write_text("- term: late\n  kind: accepted\n  reason: vetted\n  tag: DOCUMENTED\n", encoding="utf-8")
     res = checker(idx, watch=True, wl=wl).check_paragraphs([Paragraph("The late word.", italic=[])])
     assert "w:late" not in res["items"] and res["accepted"] == {"late": 1}
+
+
+def test_phrases_compounds_and_punctuation(idx, tmp_path):
+    ch = checker(idx)
+    r = ch.resolve("everything")                       # not printed closed: "every thing"
+    assert r["status"] == "OK" and "every thing" in r["basis"]
+    ev = ch.phrase_evidence(("golden", "boy"))
+    assert ev["status"] == "FLAG" and ev["first_firm"]["year"] == 1650
+    res = ch.check_paragraphs([Paragraph("Ha!! Who!? Kensal  Rise.", italic=[])])
+    assert res["items"]["x:!!"]["status"] == "NOTE"            # printed before the year
+    assert res["items"]["x:!?"]["status"] == "UNVERIFIED"      # never printed
+    wl = tmp_path / "wl.yaml"
+    wl.write_text("- term: 'Kensal\\s+Rise'\n  match: regex\n  kind: place\n  reason: station\n"
+                  "  tag: DOCUMENTED\n  from_year: 1890\n", encoding="utf-8")
+    res = checker(idx, watch=True, wl=wl).check_paragraphs([Paragraph("At Kensal  Rise.", italic=[])])
+    hit = res["items"]["wl:Kensal\\s+Rise"]
+    assert hit["status"] == "FLAG" and hit["occurrences"][0]["start"] == 3

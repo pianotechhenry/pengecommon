@@ -469,8 +469,6 @@ class Checker:
                         stream = lab[a] if a < len(lab) else NARRATION
                         occ(it, pi, a, b, stream)
                         spans.append({"start": a, "end": b, "item": it.id, "stream": stream})
-                if e.match == "regex" and e.regex:
-                    pass
             for e in self.watch:
                 if e.match == "regex" and e.regex:
                     for m in e.regex.finditer(p.text):
