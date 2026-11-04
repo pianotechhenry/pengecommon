@@ -37,6 +37,7 @@ CAVEAT = ("Absence from the corpus is never proof. Print lags speech, often by d
           "example, not that the word was not in use.")
 
 STATUS_RANK = {"FLAG": 0, "UNVERIFIED": 1, "BORDERLINE": 2, "NOTE": 3, "WATCH": 4, "OK": 5}
+ENGLISH_MIN_TEXTS = 50     # corpus texts that make an unlisted word count as English
 
 # Hesitation fillers and modern discourse markers: reported whatever the
 # corpus says, because a printed form may be another word entirely.
@@ -339,7 +340,13 @@ class Checker:
                 res["note"] = ("printed only as a foreign-language word (Latin, French, "
                                "Welsh or other), never tagged as English")
         res["key"] = key
-        res["resolved_english"] = res["status"] != "UNVERIFIED" or self.etym.is_english(key)
+        # "Resolved as English" (for the Romani/cant stream): a Wiktionary English
+        # word, or printed in many texts.  A thin attestation is not enough - 'Dej'
+        # in the corpus is Latin Dei, 'Janos' a Latin or Hungarian name.
+        base = key[:-2] if key.endswith("'s") else key
+        res["resolved_english"] = (self.etym.is_english(key) or self.etym.is_english(base)
+                                   or (res["status"] != "UNVERIFIED"
+                                       and (res.get("ntexts") or 0) >= ENGLISH_MIN_TEXTS))
         self._res[key] = res
         return res
 
