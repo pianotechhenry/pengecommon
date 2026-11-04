@@ -1,7 +1,7 @@
 {
  "tool": "commons-desk check",
  "source": "reports/sample/stubbes-1583-excerpt.md",
- "generated": "2026-11-04 11:16",
+ "generated": "2026-11-04 18:37",
  "settings": {
   "year": 1589,
   "window": 15,
@@ -6435,6 +6435,2413 @@
    ],
    "watch": null,
    "corpus": "NOTE: printed before 1589 in 2 texts"
+  }
+ ],
+ "names": [
+  {
+   "token": "Ailgna",
+   "key": "ailgna",
+   "count": 5,
+   "paragraphs": [
+    3,
+    6,
+    43,
+    74,
+    101
+   ],
+   "first_firm": {
+    "tcp": "A68419",
+    "title": "Siuqila too good, to be true : omen : though so at a vewe yet all I tolde you is true, I vpholde you, now cease to aske why? for I can not lye : herein is shewed by way of dialogue, the wonderful maners of the people of Mauqsun, with other talke not friuolous.",
+    "author": "Lupton, Thomas.",
+    "year": 1580,
+    "date_kind": "firm",
+    "date_raw": "1580.",
+    "collection": "eebo"
+   },
+   "ntexts": 3,
+   "context": {
+    "slot": 0,
+    "left": "in a famous and most fertile Iland called",
+    "kw": "Ailgna",
+    "right": ". / OMEN. / If I do not mistake it, there",
+    "tcp": "A68419",
+    "title": "Siuqila too good, to be true : omen : though so at a vewe yet all I tolde you is true, I vpholde you, now cease to aske why? for I can not lye : herein is shewed by way of dialogue, the wonderful maners of the people of Mauqsun, with other talke not friuolous.",
+    "author": "Lupton, Thomas.",
+    "year": 1580,
+    "date_kind": "firm",
+    "date_raw": "1580.",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Antiques",
+   "key": "antiques",
+   "count": 1,
+   "paragraphs": [
+    11
+   ],
+   "first_firm": {
+    "tcp": "A22011",
+    "title": "Toxophilus the schole of shootinge contayned in tvvo bookes. To all gentlemen and yomen of Englande, pleasaunte for theyr pastyme to rede, and profitable for theyr use to folow, both in war and peace ...",
+    "author": "Ascham, Roger, 1515-1568.",
+    "year": 1545,
+    "date_kind": "firm",
+    "date_raw": "1545]",
+    "collection": "eebo"
+   },
+   "ntexts": 165,
+   "context": {
+    "slot": 0,
+    "left": "bodye, as it were menne that shoulde daunce",
+    "kw": "antiques",
+    "right": ", be farre from the comelye porte in shootynge",
+    "tcp": "A22011",
+    "title": "Toxophilus the schole of shootinge contayned in tvvo bookes. To all gentlemen and yomen of Englande, pleasaunte for theyr pastyme to rede, and profitable for theyr use to folow, both in war and peace ...",
+    "author": "Ascham, Roger, 1515-1568.",
+    "year": 1545,
+    "date_kind": "firm",
+    "date_raw": "1545]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Apes",
+   "key": "apes",
+   "count": 1,
+   "paragraphs": [
+    50
+   ],
+   "first_firm": {
+    "tcp": "A03319",
+    "title": "Prolicionycion [sic]",
+    "author": "Higden, Ranulf, d. 1364.",
+    "year": 1482,
+    "date_kind": "firm",
+    "date_raw": "after 2 July 1482]",
+    "collection": "eebo"
+   },
+   "ntexts": 2154,
+   "context": {
+    "slot": 0,
+    "left": "& tenderly nourysshed and worshipped ¶ Hugo capitulo",
+    "kw": "Apes",
+    "right": "That bole hete Apis that was wonte to",
+    "tcp": "A03319",
+    "title": "Prolicionycion [sic]",
+    "author": "Higden, Ranulf, d. 1364.",
+    "year": 1482,
+    "date_kind": "firm",
+    "date_raw": "after 2 July 1482]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Artificers",
+   "key": "artificers",
+   "count": 1,
+   "paragraphs": [
+    69
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 2794,
+   "context": {
+    "slot": 0,
+    "left": "spirytuell and also corporall werkis / and therfore amonge",
+    "kw": "Artificers",
+    "right": "ther is no plesant reste / But that reson",
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Bacchus",
+   "key": "bacchus",
+   "count": 1,
+   "paragraphs": [
+    47
+   ],
+   "first_firm": {
+    "tcp": "A68181",
+    "title": "Here endeth the discripcion of Britayne ...",
+    "author": "Higden, Ranulf, d. 1364.",
+    "year": 1480,
+    "date_kind": "firm",
+    "date_raw": "1480 (18 Aug.)]",
+    "collection": "eebo"
+   },
+   "ntexts": 3051,
+   "context": {
+    "slot": 0,
+    "left": "Of kyng haralde / pouder is ther yet y halde",
+    "kw": "Bachus",
+    "right": "and mercurius / Mars and venus / also lauerna / Protheus",
+    "tcp": "A68181",
+    "title": "Here endeth the discripcion of Britayne ...",
+    "author": "Higden, Ranulf, d. 1364.",
+    "year": 1480,
+    "date_kind": "firm",
+    "date_raw": "1480 (18 Aug.)]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Chapels",
+   "key": "chapels",
+   "count": 1,
+   "paragraphs": [
+    54
+   ],
+   "first_firm": {
+    "tcp": "A03047",
+    "title": "Here begynneth the boke intituled Eracles, and also of Godefrey of Boloyne the whiche speketh of the conquest of the holy londe of Iherusalem ...",
+    "author": "Caxton, William, ca. 1422-1491.",
+    "year": 1481,
+    "date_kind": "firm",
+    "date_raw": "1481 (20 Nov.)]",
+    "collection": "eebo"
+   },
+   "ntexts": 2659,
+   "context": {
+    "slot": 0,
+    "left": "lynen cloth this places were strayte as lytil",
+    "kw": "chapellys",
+    "right": "But after that oure cristen men had the",
+    "tcp": "A03047",
+    "title": "Here begynneth the boke intituled Eracles, and also of Godefrey of Boloyne the whiche speketh of the conquest of the holy londe of Iherusalem ...",
+    "author": "Caxton, William, ca. 1422-1491.",
+    "year": 1481,
+    "date_kind": "firm",
+    "date_raw": "1481 (20 Nov.)]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Children",
+   "key": "children",
+   "count": 1,
+   "paragraphs": [
+    22
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 32442,
+   "context": {
+    "slot": 0,
+    "left": "Iubyter his owen sone.. / WHat tyme alle the",
+    "kw": "Children",
+    "right": "of Noe were sprad bi the Climates. regnes",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Christ",
+   "key": "christ",
+   "count": 3,
+   "paragraphs": [
+    23,
+    59,
+    111
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 28377,
+   "context": {
+    "slot": 0,
+    "left": "that at the comyng of our saueour Ihesus",
+    "kw": "criste",
+    "right": ". Alle ydolatrye sholde haue an ende. And Amonge",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Christians",
+   "key": "christians",
+   "count": 2,
+   "paragraphs": [
+    40,
+    105
+   ],
+   "first_firm": {
+    "tcp": "A16638",
+    "title": "The shyppe of fooles",
+    "author": "Brant, Sebastian, 1458-1521.",
+    "year": 1509,
+    "date_kind": "firm",
+    "date_raw": "the yere of our lorde. M.CCCCC.ix. [1509] the fyrste yere of the reygne of our souerayne lorde kynge Henry the viii. The. vi. daye of Iulii]",
+    "collection": "eebo"
+   },
+   "ntexts": 22511,
+   "context": {
+    "slot": 0,
+    "left": "Ecc●. xxvii. / no rauysshers of goodes as the",
+    "kw": "crystyens",
+    "right": "is. We dysprayse god euery day. And yf",
+    "tcp": "A16638",
+    "title": "The shyppe of fooles",
+    "author": "Brant, Sebastian, 1458-1521.",
+    "year": 1509,
+    "date_kind": "firm",
+    "date_raw": "the yere of our lorde. M.CCCCC.ix. [1509] the fyrste yere of the reygne of our souerayne lorde kynge Henry the viii. The. vi. daye of Iulii]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Christmas",
+   "key": "christmas",
+   "count": 1,
+   "paragraphs": [
+    47
+   ],
+   "first_firm": {
+    "tcp": "A14548",
+    "title": "Here endeth this doctrine at Westmestre by london in fourmes enprinted. In the whiche one euerich may shortly lerne. Frenssh and englissh ...",
+    "author": "Caxton, William, ca. 1422-1491, attributed name.",
+    "year": 1480,
+    "date_kind": "firm",
+    "date_raw": "1480]]",
+    "collection": "eebo"
+   },
+   "ntexts": 3746,
+   "context": {
+    "slot": 0,
+    "left": "In gods name sith it soo is At",
+    "kw": "cristemasse",
+    "right": "at estre At assencion at whitsontid The trinite",
+    "tcp": "A14548",
+    "title": "Here endeth this doctrine at Westmestre by london in fourmes enprinted. In the whiche one euerich may shortly lerne. Frenssh and englissh ...",
+    "author": "Caxton, William, ca. 1422-1491, attributed name.",
+    "year": 1480,
+    "date_kind": "firm",
+    "date_raw": "1480]]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Church",
+   "key": "church",
+   "count": 8,
+   "paragraphs": [
+    13,
+    15,
+    17,
+    47,
+    69
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 34772,
+   "context": {
+    "slot": 0,
+    "left": "not the beste and the most holiest / holy",
+    "kw": "church",
+    "right": "wold neuer suffre hit in religion And acordynge",
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Church-yard",
+   "key": "church-yard",
+   "count": 1,
+   "paragraphs": [
+    13
+   ],
+   "first_firm": {
+    "tcp": "A14559",
+    "title": "[Legenda aurea sanctorum, sive, Lombardica historia] [Wyllyam Caxton]",
+    "author": "Jacobus, de Voragine, ca. 1229-1298.",
+    "year": 1483,
+    "date_kind": "firm",
+    "date_raw": "1483]",
+    "collection": "eebo"
+   },
+   "ntexts": 7120,
+   "context": {
+    "slot": 0,
+    "left": "sette thre bombardes of grete vyolence in the",
+    "kw": "chyrcheyarde",
+    "right": "and gardens of Seynte Antony: whiche was but",
+    "tcp": "A17935",
+    "title": "[The siege of Rhodes]",
+    "author": "Caoursin, Guillaume, d. 1501.",
+    "year": 1482,
+    "date_kind": "conjectural",
+    "date_raw": "ca. 1482?]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Churches",
+   "key": "churches",
+   "count": 3,
+   "paragraphs": [
+    54,
+    59,
+    60
+   ],
+   "first_firm": {
+    "tcp": "A68341",
+    "title": "For as moche as late by the comau[n]dement of the right hye [and] noble princesse my right redoubted lady my lady Margarete by the grace of god Duchesse of Bourgoyne Brabant [et]c. [...] as to the historie of Iason [...]",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1477,
+    "date_kind": "firm",
+    "date_raw": "1477]",
+    "collection": "eebo"
+   },
+   "ntexts": 19271,
+   "context": {
+    "slot": 0,
+    "left": "many places. & goon to the temples and",
+    "kw": "chirches",
+    "right": "or in the holy places ordo●ned to god",
+    "tcp": "A68341",
+    "title": "For as moche as late by the comau[n]dement of the right hye [and] noble princesse my right redoubted lady my lady Margarete by the grace of god Duchesse of Bourgoyne Brabant [et]c. [...] as to the historie of Iason [...]",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1477,
+    "date_kind": "firm",
+    "date_raw": "1477]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Churchwardens",
+   "key": "churchwardens",
+   "count": 1,
+   "paragraphs": [
+    47
+   ],
+   "first_firm": {
+    "tcp": "A23000",
+    "title": "Anno secundo & tertio Philippi & Mariæ actes made at a Parliament, begon and holde[n] at Westminster, the xxi. daye of October, in the seconde and thyrde yeare of the reigne of our soueraygne lorde and lady Philip and Mary, by the grace of God, Kinge & Quene of England, Fraunce, Naples, Jerusalem, and Ireland, defendours of the fayth, princes of Spayne, and Cycilie, archedukes of Austria, dukes of Myllayn, Burgondie and Braband, counties of Haspurge, Flau[n]ders and Tyroll, and there continued and kept to the dissolution of the same, beynge the ix. day of December then next ensuynge, were enacted as foloweth.",
+    "author": "England and Wales.",
+    "year": 1555,
+    "date_kind": "firm",
+    "date_raw": "anno M.D.L.V [1555]",
+    "collection": "eebo"
+   },
+   "ntexts": 1627,
+   "context": {
+    "slot": 0,
+    "left": "countrye the personne, vycar, or curate, and the",
+    "kw": "Churchewardens",
+    "right": ", hauynge in a regester or boke as well",
+    "tcp": "A23000",
+    "title": "Anno secundo & tertio Philippi & Mariæ actes made at a Parliament, begon and holde[n] at Westminster, the xxi. daye of October, in the seconde and thyrde yeare of the reigne of our soueraygne lorde and lady Philip and Mary, by the grace of God, Kinge & Quene of England, Fraunce, Naples, Jerusalem, and Ireland, defendours of the fayth, princes of Spayne, and Cycilie, archedukes of Austria, dukes of Myllayn, Burgondie and Braband, counties of Haspurge, Flau[n]ders and Tyroll, and there continued and kept to the dissolution of the same, beynge the ix. day of December then next ensuynge, were enacted as foloweth.",
+    "author": "England and Wales.",
+    "year": 1555,
+    "date_kind": "firm",
+    "date_raw": "anno M.D.L.V [1555]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Clients",
+   "key": "clients",
+   "count": 1,
+   "paragraphs": [
+    22
+   ],
+   "first_firm": {
+    "tcp": "B11729",
+    "title": "Here begynneth the holy lyfe and history of saynt werburge very frutefull for all christen people to rede.",
+    "author": "Bradshaw, Henry, d. 1513.",
+    "year": 1521,
+    "date_kind": "firm",
+    "date_raw": "A⁰. M.D.xxi[1521]]",
+    "collection": "eebo"
+   },
+   "ntexts": 2167,
+   "context": {
+    "slot": 0,
+    "left": "the whiche to thyn honour / One of thy",
+    "kw": "clientes",
+    "right": "with morall retorique / Hath chaunged newly / o mayde",
+    "tcp": "B11729",
+    "title": "Here begynneth the holy lyfe and history of saynt werburge very frutefull for all christen people to rede.",
+    "author": "Bradshaw, Henry, d. 1513.",
+    "year": 1521,
+    "date_kind": "firm",
+    "date_raw": "A⁰. M.D.xxi[1521]]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Corban",
+   "key": "corban",
+   "count": 1,
+   "paragraphs": [
+    50
+   ],
+   "first_firm": {
+    "tcp": "A23588",
+    "title": "[The cronycles of Englond]",
+    "author": "Caxton, William, ca. 1422-1491.",
+    "year": 1482,
+    "date_kind": "firm",
+    "date_raw": "fynysshed, and accomplysshed the, viij, day of October, the yere of the incatnacyon of our lord God, M,CCCC,lxxxij and in the xxii yere of the regne of Kyng Edward the fourth [1482]]",
+    "collection": "eebo"
+   },
+   "ntexts": 520,
+   "context": {
+    "slot": 0,
+    "left": "thurgh help of gudian kyng of scotland &",
+    "kw": "corban",
+    "right": "kyng of north walys & of bretaill kyng",
+    "tcp": "A23588",
+    "title": "[The cronycles of Englond]",
+    "author": "Caxton, William, ca. 1422-1491.",
+    "year": 1482,
+    "date_kind": "firm",
+    "date_raw": "fynysshed, and accomplysshed the, viij, day of October, the yere of the incatnacyon of our lord God, M,CCCC,lxxxij and in the xxii yere of the regne of Kyng Edward the fourth [1482]]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Devils",
+   "key": "devils",
+   "count": 1,
+   "paragraphs": [
+    14
+   ],
+   "first_firm": {
+    "tcp": "A16284",
+    "title": "Boecius de consolacione philosophie",
+    "author": "Boethius, d. 524.",
+    "year": 1478,
+    "date_kind": "firm",
+    "date_raw": "1478]",
+    "collection": "eebo"
+   },
+   "ntexts": 14749,
+   "context": {
+    "slot": 0,
+    "left": "had fought wyth all / were no men but",
+    "kw": "deuyllis",
+    "right": "and that they were vnhappy that cam vnto",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Easter",
+   "key": "easter",
+   "count": 1,
+   "paragraphs": [
+    47
+   ],
+   "first_firm": {
+    "tcp": "A03319",
+    "title": "Prolicionycion [sic]",
+    "author": "Higden, Ranulf, d. 1364.",
+    "year": 1482,
+    "date_kind": "firm",
+    "date_raw": "after 2 July 1482]",
+    "collection": "eebo"
+   },
+   "ntexts": 5313,
+   "context": {
+    "slot": 0,
+    "left": "3 / 31 / Ludgate / / 3 / 40 / Lente ordeyned to fore",
+    "kw": "Eester",
+    "right": "4 / 14 / Laudamus te / benedicimus te / / 4 / 29",
+    "tcp": "A03319",
+    "title": "Prolicionycion [sic]",
+    "author": "Higden, Ranulf, d. 1364.",
+    "year": 1482,
+    "date_kind": "firm",
+    "date_raw": "after 2 July 1482]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Epitaph",
+   "key": "epitaph",
+   "count": 1,
+   "paragraphs": [
+    61
+   ],
+   "first_firm": {
+    "tcp": "A01997",
+    "title": "tHis book is intituled confessio amantis, that is to saye in englysshe the confessyon of the louer maad and compyled by Iohan Gower squyer ...",
+    "author": "Gower, John, 1325?-1408.",
+    "year": 1483,
+    "date_kind": "firm",
+    "date_raw": "and fynysshed the ij day of Septembre the fyrst yere of the regne of Kyng Richard the thyrd, [i.e. 1483] the yere of our lord a thousand, CCCC, lxxxxiij [sic]]",
+    "collection": "eebo"
+   },
+   "ntexts": 2925,
+   "context": {
+    "slot": 0,
+    "left": "delyte / Men shold vpon his dore wryte / His",
+    "kw": "Epytaphe",
+    "right": "as vpon his graue / For he to spylle",
+    "tcp": "A01997",
+    "title": "tHis book is intituled confessio amantis, that is to saye in englysshe the confessyon of the louer maad and compyled by Iohan Gower squyer ...",
+    "author": "Gower, John, 1325?-1408.",
+    "year": 1483,
+    "date_kind": "firm",
+    "date_raw": "and fynysshed the ij day of Septembre the fyrst yere of the regne of Kyng Richard the thyrd, [i.e. 1483] the yere of our lord a thousand, CCCC, lxxxxiij [sic]]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Father",
+   "key": "father",
+   "count": 1,
+   "paragraphs": [
+    98
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 33343,
+   "context": {
+    "slot": 0,
+    "left": "of age and his broder .xl. Vranus their",
+    "kw": "fader",
+    "right": "by a sekenes that he had dyed and",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Fathers",
+   "key": "fathers",
+   "count": 1,
+   "paragraphs": [
+    67
+   ],
+   "first_firm": {
+    "tcp": "A19333",
+    "title": "Thus endeth the prologue of this book named. Cordʻyal. Whiche treteth of the four last and final thinges that ben to come ...",
+    "author": "Denis, the Carthusian, 1402-1471, attributed name.",
+    "year": 1479,
+    "date_kind": "firm",
+    "date_raw": "And finisshed on the euen of thanunciacion of our said bilissid Lady fallyng on the wednesday the xxiiij daye of Marche. in the xix yeer of Kyng Edwarde the fourthe [1479]]",
+    "collection": "eebo"
+   },
+   "ntexts": 20852,
+   "context": {
+    "slot": 0,
+    "left": "not a man sufficyent for to deffende thy",
+    "kw": "fadres",
+    "right": "herytages with grete labour & payne ffor yf",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Friend",
+   "key": "friend",
+   "count": 2,
+   "paragraphs": [
+    88,
+    90
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 26981,
+   "context": {
+    "slot": 0,
+    "left": "presentyd to the eryepins the body of their",
+    "kw": "frend",
+    "right": "so ded they beyng at table. they condempned",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Friends",
+   "key": "friends",
+   "count": 1,
+   "paragraphs": [
+    76
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 31324,
+   "context": {
+    "slot": 0,
+    "left": "brother. he toke his wif his children &",
+    "kw": "frendes",
+    "right": ". and departid at alauenture in dyuerce places / wher",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "God",
+   "key": "god",
+   "count": 10,
+   "paragraphs": [
+    5,
+    14,
+    22,
+    25,
+    50,
+    61,
+    63,
+    98,
+    111
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 48067,
+   "context": {
+    "slot": 0,
+    "left": "the yere of the Incarnacion of our lord",
+    "kw": "god",
+    "right": "a thousand foure honderd sixty and foure / And",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Gods",
+   "key": "gods",
+   "count": 1,
+   "paragraphs": [
+    98
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 23730,
+   "context": {
+    "slot": 0,
+    "left": "to forge and make the cursid sect of",
+    "kw": "goddis",
+    "right": "Among the possessours of the yle of crete",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Gomorra",
+   "key": "gomorra",
+   "count": 1,
+   "paragraphs": [
+    105
+   ],
+   "first_firm": {
+    "tcp": "A23591",
+    "title": "Here begynnys a schort [and] breue tabull on thes cronicles ...",
+    "author": "n/a",
+    "year": 1485,
+    "date_kind": "firm",
+    "date_raw": "1485]]",
+    "collection": "eebo"
+   },
+   "ntexts": 288,
+   "context": {
+    "slot": 0,
+    "left": "and of his wyues and his sonnys of",
+    "kw": "Gomorra",
+    "right": "and Loth wife / Iacob of the line of",
+    "tcp": "A23591",
+    "title": "Here begynnys a schort [and] breue tabull on thes cronicles ...",
+    "author": "n/a",
+    "year": 1485,
+    "date_kind": "firm",
+    "date_raw": "1485]]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Guts",
+   "key": "guts",
+   "count": 1,
+   "paragraphs": [
+    9
+   ],
+   "first_firm": {
+    "tcp": "A23587",
+    "title": "In the yere of thyncarnacion of our lord Ih[es]u crist M.CCCC.lxxx. and in the xx. yere of the regne of kyng Edward the fourthe, atte requeste of dyuerce gentilmen I haue endeauourd me to enprinte the cronicles of Englond as in this booke shall by the suffraunce of god folowe ...",
+    "author": "Caxton, William, ca. 1422-1491.",
+    "year": 1480,
+    "date_kind": "firm",
+    "date_raw": "1480]",
+    "collection": "eebo"
+   },
+   "ntexts": 3155,
+   "context": {
+    "slot": 0,
+    "left": "his thyes. his bodye vnto his entraylles and",
+    "kw": "guttis",
+    "right": "his armes his sholdres vnto the boones / His",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Hobby-horses",
+   "key": "hobby-horses",
+   "count": 1,
+   "paragraphs": [
+    11
+   ],
+   "first_firm": {
+    "tcp": "A68419",
+    "title": "Siuqila too good, to be true : omen : though so at a vewe yet all I tolde you is true, I vpholde you, now cease to aske why? for I can not lye : herein is shewed by way of dialogue, the wonderful maners of the people of Mauqsun, with other talke not friuolous.",
+    "author": "Lupton, Thomas.",
+    "year": 1580,
+    "date_kind": "firm",
+    "date_raw": "1580.",
+    "collection": "eebo"
+   },
+   "ntexts": 146,
+   "context": {
+    "slot": 0,
+    "left": "Leather for Labans, Leade for Lemmons, Honny for",
+    "kw": "Hobbyhorses",
+    "right": ", Corne for Calues, butter for Babies: Beyre for",
+    "tcp": "A68419",
+    "title": "Siuqila too good, to be true : omen : though so at a vewe yet all I tolde you is true, I vpholde you, now cease to aske why? for I can not lye : herein is shewed by way of dialogue, the wonderful maners of the people of Mauqsun, with other talke not friuolous.",
+    "author": "Lupton, Thomas.",
+    "year": 1580,
+    "date_kind": "firm",
+    "date_raw": "1580.",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Idols",
+   "key": "idols",
+   "count": 2,
+   "paragraphs": [
+    35,
+    36
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 9054,
+   "context": {
+    "slot": 0,
+    "left": "as our lord entryd in egypte / Alle the",
+    "kw": "ydoles",
+    "right": "of egypte fyll doun to the erthe alle",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Imagery",
+   "key": "imagery",
+   "count": 1,
+   "paragraphs": [
+    18
+   ],
+   "first_firm": {
+    "tcp": "A06550",
+    "title": "[Explicit liber primus de curia sapiencie]",
+    "author": "Lydgate, John, 1370?-1451?, attributed name.",
+    "year": 1480,
+    "date_kind": "firm",
+    "date_raw": "1480]",
+    "collection": "eebo"
+   },
+   "ntexts": 915,
+   "context": {
+    "slot": 0,
+    "left": "grounded and set / And euery buttras ful of",
+    "kw": "ymagery",
+    "right": "Eche pynacle Corner. towre and Towret / With gold",
+    "tcp": "A06550",
+    "title": "[Explicit liber primus de curia sapiencie]",
+    "author": "Lydgate, John, 1370?-1451?, attributed name.",
+    "year": 1480,
+    "date_kind": "firm",
+    "date_raw": "1480]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Jesus",
+   "key": "jesus",
+   "count": 2,
+   "paragraphs": [
+    23,
+    59
+   ],
+   "first_firm": {
+    "tcp": "A19333",
+    "title": "Thus endeth the prologue of this book named. Cordʻyal. Whiche treteth of the four last and final thinges that ben to come ...",
+    "author": "Denis, the Carthusian, 1402-1471, attributed name.",
+    "year": 1479,
+    "date_kind": "firm",
+    "date_raw": "And finisshed on the euen of thanunciacion of our said bilissid Lady fallyng on the wednesday the xxiiij daye of Marche. in the xix yeer of Kyng Edwarde the fourthe [1479]]",
+    "collection": "eebo"
+   },
+   "ntexts": 22714,
+   "context": {
+    "slot": 0,
+    "left": "shal come thenne before the tribunal sete of",
+    "kw": "Iesu",
+    "right": "Crist where shal be herde ful greuous accusacions",
+    "tcp": "A19333",
+    "title": "Thus endeth the prologue of this book named. Cordʻyal. Whiche treteth of the four last and final thinges that ben to come ...",
+    "author": "Denis, the Carthusian, 1402-1471, attributed name.",
+    "year": 1479,
+    "date_kind": "firm",
+    "date_raw": "And finisshed on the euen of thanunciacion of our said bilissid Lady fallyng on the wednesday the xxiiij daye of Marche. in the xix yeer of Kyng Edwarde the fourthe [1479]]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Jews",
+   "key": "jews",
+   "count": 1,
+   "paragraphs": [
+    40
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 18941,
+   "context": {
+    "slot": 0,
+    "left": "ydolatrye sholde haue an ende. And Amonge the",
+    "kw": "Iewes",
+    "right": ". ysmaell was the first that made ydole / And",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "John",
+   "key": "john",
+   "count": 1,
+   "paragraphs": [
+    56
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 34996,
+   "context": {
+    "slot": 0,
+    "left": "moche as that worshifull & religyous man dan",
+    "kw": "Iohn",
+    "right": "lidgate monke of Burye dide translate hit but",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "L",
+   "key": "l",
+   "count": 1,
+   "paragraphs": [
+    24
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 20932,
+   "context": {
+    "slot": 0,
+    "left": "pound / And to the heremytes of saynt Augustyn",
+    "kw": ".l.",
+    "right": "pound to thende that whan I am",
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Land",
+   "key": "land",
+   "count": 1,
+   "paragraphs": [
+    105
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 32730,
+   "context": {
+    "slot": 0,
+    "left": "Tytan content that hys broder shold enioye the",
+    "kw": "lond",
+    "right": "of Crete and the pees was maad betwene",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Lord",
+   "key": "lord",
+   "count": 14,
+   "paragraphs": [
+    7,
+    10,
+    18,
+    19,
+    21,
+    23,
+    27,
+    31,
+    32,
+    40,
+    58,
+    59,
+    69
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 44682,
+   "context": {
+    "slot": 0,
+    "left": "In the yere of the Incarnacion of our",
+    "kw": "lord",
+    "right": "god a thousand foure honderd sixty and foure",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Lords",
+   "key": "lords",
+   "count": 2,
+   "paragraphs": [
+    2,
+    8
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 29806,
+   "context": {
+    "slot": 0,
+    "left": "vnto the {etc}:.. / IVpiter answerd and sayd Worshipfull",
+    "kw": "lordes",
+    "right": "and sirs I am not wise ynowh for",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Majesty",
+   "key": "majesty",
+   "count": 1,
+   "paragraphs": [
+    9
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 31347,
+   "context": {
+    "slot": 0,
+    "left": "zele that the lawe be kept / For the",
+    "kw": "mageste",
+    "right": "ryall ought not only to be garnysshid wyth",
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Manner",
+   "key": "manner",
+   "count": 1,
+   "paragraphs": [
+    43
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 37130,
+   "context": {
+    "slot": 0,
+    "left": "moder And tytan was put out and in",
+    "kw": "maner",
+    "right": "bannysshid And whan saturne was grete what for",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "May-games",
+   "key": "may-games",
+   "count": 2,
+   "paragraphs": [
+    30,
+    39
+   ],
+   "first_firm": {
+    "tcp": "A00384",
+    "title": "The praise of folie. = Moriæ encomium a booke made in latine by that great clerke Erasmus Roterodame. Englisshed by sir Thomas Chaloner knight.",
+    "author": "Erasmus, Desiderius, d. 1536.",
+    "year": 1549,
+    "date_kind": "firm",
+    "date_raw": "Anno. M.D.XLIX. [1549]",
+    "collection": "eebo"
+   },
+   "ntexts": 260,
+   "context": {
+    "slot": 0,
+    "left": "he requireth at mens handis is naught but",
+    "kw": "maygames",
+    "right": ", shrouyngꝭ, and suche lyke fantsies. Neither is he",
+    "tcp": "A00384",
+    "title": "The praise of folie. = Moriæ encomium a booke made in latine by that great clerke Erasmus Roterodame. Englisshed by sir Thomas Chaloner knight.",
+    "author": "Erasmus, Desiderius, d. 1536.",
+    "year": 1549,
+    "date_kind": "firm",
+    "date_raw": "Anno. M.D.XLIX. [1549]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Maypole",
+   "key": "maypole",
+   "count": 2,
+   "paragraphs": [
+    31,
+    33
+   ],
+   "first_firm": {
+    "tcp": "A68649",
+    "title": "Allarme to England foreshewing what perilles are procured, where the people liue without regarde of martiall lawe. With a short discourse conteyning the decay of warlike discipline, conuenient to be perused by gentlemen, such as are desirous by seruice, to seeke their owne deserued prayse, and the preseruation of their countrey. Newly deuised and written by Barnabe Riche Gentleman.",
+    "author": "Rich, Barnabe, 1540?-1617.",
+    "year": 1578,
+    "date_kind": "firm",
+    "date_raw": "1578.",
+    "collection": "eebo"
+   },
+   "ntexts": 417,
+   "context": {
+    "slot": 0,
+    "left": "sight, or at the fetching home of a",
+    "kw": "Maypole",
+    "right": ". For proofe hereof, I could shewe many examples",
+    "tcp": "A68649",
+    "title": "Allarme to England foreshewing what perilles are procured, where the people liue without regarde of martiall lawe. With a short discourse conteyning the decay of warlike discipline, conuenient to be perused by gentlemen, such as are desirous by seruice, to seeke their owne deserued prayse, and the preseruation of their countrey. Newly deuised and written by Barnabe Riche Gentleman.",
+    "author": "Rich, Barnabe, 1540?-1617.",
+    "year": 1578,
+    "date_kind": "firm",
+    "date_raw": "1578.",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Men",
+   "key": "men",
+   "count": 1,
+   "paragraphs": [
+    10
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 47794,
+   "context": {
+    "slot": 0,
+    "left": "y behold & knowe the oppynyone of the",
+    "kw": "men",
+    "right": "nourisshyd in ony synguler hystoryes of Troye and",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Minister",
+   "key": "minister",
+   "count": 1,
+   "paragraphs": [
+    15
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 20357,
+   "context": {
+    "slot": 0,
+    "left": "is in the myddes of the body to",
+    "kw": "mynystre",
+    "right": "to the membres so he wold ensigne &",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Misrule",
+   "key": "misrule",
+   "count": 5,
+   "paragraphs": [
+    2,
+    3,
+    6,
+    7,
+    8
+   ],
+   "first_firm": {
+    "tcp": "A20416",
+    "title": "hEre endeth the book named the dictes or sayengis of the philosophres enprynted. by me william Caxton at westmestre the yere of our lord .M.CCCC.Lxx vij. Whiche book is late translated out of Frenshe into englyssh. by the noble and puissant lord Lord Antone Erle of Ryuyers lord of Scales ...",
+    "author": "Mubashshir ibn Fātik, Abū al-Wafāʼ, 11th cent. Mukhtār al-ḥikam wa-maḥāsin al-kalim.",
+    "year": 1480,
+    "date_kind": "firm",
+    "date_raw": "1477 [i.e. ca. June 1480]]",
+    "collection": "eebo"
+   },
+   "ntexts": 574,
+   "context": {
+    "slot": 0,
+    "left": "dispended it amysse in grete dyners and other",
+    "kw": "mysrewle",
+    "right": "To whom he said the erthe eteth other",
+    "tcp": "A20416",
+    "title": "hEre endeth the book named the dictes or sayengis of the philosophres enprynted. by me william Caxton at westmestre the yere of our lord .M.CCCC.Lxx vij. Whiche book is late translated out of Frenshe into englyssh. by the noble and puissant lord Lord Antone Erle of Ryuyers lord of Scales ...",
+    "author": "Mubashshir ibn Fātik, Abū al-Wafāʼ, 11th cent. Mukhtār al-ḥikam wa-maḥāsin al-kalim.",
+    "year": 1480,
+    "date_kind": "firm",
+    "date_raw": "1477 [i.e. ca. June 1480]]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Misrules'",
+   "key": "misrules'",
+   "count": 1,
+   "paragraphs": [
+    10
+   ],
+   "first_firm": {
+    "tcp": "A08935",
+    "title": "The exposition and declaration of the Psalme, Deus ultionum Dominus, made by syr Henry Parker knight, lord Morley, dedicated to the kynges highnes",
+    "author": "Morley, Henry Parker, Lord, 1476-1556.",
+    "year": 1539,
+    "date_kind": "firm",
+    "date_raw": "1534 [i.e. 1539]",
+    "collection": "eebo"
+   },
+   "ntexts": 19,
+   "context": {
+    "slot": 0,
+    "left": "theyr decrees and decretals, as rules, or rather",
+    "kw": "misrules",
+    "right": ", to disordre almooste, all that god had welle",
+    "tcp": "A08935",
+    "title": "The exposition and declaration of the Psalme, Deus ultionum Dominus, made by syr Henry Parker knight, lord Morley, dedicated to the kynges highnes",
+    "author": "Morley, Henry Parker, Lord, 1476-1556.",
+    "year": 1539,
+    "date_kind": "firm",
+    "date_raw": "1534 [i.e. 1539]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Moses",
+   "key": "moses",
+   "count": 2,
+   "paragraphs": [
+    69
+   ],
+   "first_firm": {
+    "tcp": "A19333",
+    "title": "Thus endeth the prologue of this book named. Cordʻyal. Whiche treteth of the four last and final thinges that ben to come ...",
+    "author": "Denis, the Carthusian, 1402-1471, attributed name.",
+    "year": 1479,
+    "date_kind": "firm",
+    "date_raw": "And finisshed on the euen of thanunciacion of our said bilissid Lady fallyng on the wednesday the xxiiij daye of Marche. in the xix yeer of Kyng Edwarde the fourthe [1479]]",
+    "collection": "eebo"
+   },
+   "ntexts": 17252,
+   "context": {
+    "slot": 0,
+    "left": "Abraham. The pite of Ioseph The charite of",
+    "kw": "Moyses",
+    "right": ". The strength of Samson. The swetnesse of Dauid",
+    "tcp": "A19333",
+    "title": "Thus endeth the prologue of this book named. Cordʻyal. Whiche treteth of the four last and final thinges that ben to come ...",
+    "author": "Denis, the Carthusian, 1402-1471, attributed name.",
+    "year": 1479,
+    "date_kind": "firm",
+    "date_raw": "And finisshed on the euen of thanunciacion of our said bilissid Lady fallyng on the wednesday the xxiiij daye of Marche. in the xix yeer of Kyng Edwarde the fourthe [1479]]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Nectar",
+   "key": "nectar",
+   "count": 1,
+   "paragraphs": [
+    48
+   ],
+   "first_firm": {
+    "tcp": "A01349",
+    "title": "Ioannis Palsgraui Londoniensis, ecphrasis Anglica in comoediam Acolasti The comedye of Acolastus translated into oure englysshe tongue, after suche maner as chylderne are taught in the grammer schole, fyrst worde for worde, as the latyne lyeth, and afterwarde accordynge to the sence and meanyng of the latin sentences ... with admonitions set forth in the margyn ... and afore the second sceane of the fyrst acte, is a brefe introductory to haue some general knowledge of the duyers sortes of meters vsed of our auctour in this comedy. And afore Acolastus balade is shewed of what kyndes of meters his balade is made of. And afore the syxte sceane of the fourthe acte, is a monition of the rhetorycall composytion vsed in that sceane ... Interpreted by Iohn Palsgraue.",
+    "author": "Gnaphaeus, Gulielmus, 1493-1568.",
+    "year": 1540,
+    "date_kind": "firm",
+    "date_raw": "Anno. M.D.XL. [1540]",
+    "collection": "eebo"
+   },
+   "ntexts": 1671,
+   "context": {
+    "slot": 0,
+    "left": "loue, for your good will is better than",
+    "kw": "Nectar",
+    "right": ", & Britannia hyr name is vnto me, as",
+    "tcp": "A11561",
+    "title": "A straunge and wonderfull example of the iudgement of almighty God shewed vpon two adulterous persons in London, in the parish of S. Brydes, in Fleetestreete, this thurde of Februarie. 1583. Set forth for a memorable example before our eyes, both to make vs remember the frailty of this life, and to call vs vnto repentance. By Samuel Saxey, student in diuinitie.",
+    "author": "Saxey, Samuel.",
+    "year": 1538,
+    "date_kind": "conjectural",
+    "date_raw": "[1538?]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Oratories",
+   "key": "oratories",
+   "count": 1,
+   "paragraphs": [
+    59
+   ],
+   "first_firm": {
+    "tcp": "A04386",
+    "title": "Vitas patrum",
+    "author": "Jerome, Saint, d. 419 or 20, attributed name.",
+    "year": 1495,
+    "date_kind": "firm",
+    "date_raw": "1495]",
+    "collection": "eebo"
+   },
+   "ntexts": 740,
+   "context": {
+    "slot": 0,
+    "left": "Paynym. / All the towne was soo full of",
+    "kw": "Oratories",
+    "right": ": that there was noo dyfference in prayenge. aswell",
+    "tcp": "A04386",
+    "title": "Vitas patrum",
+    "author": "Jerome, Saint, d. 419 or 20, attributed name.",
+    "year": 1495,
+    "date_kind": "firm",
+    "date_raw": "1495]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Ox",
+   "key": "ox",
+   "count": 1,
+   "paragraphs": [
+    33
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 7021,
+   "context": {
+    "slot": 0,
+    "left": "hors teth / His eyen grete lyke vnto an",
+    "kw": "oxe",
+    "right": "His eeres hangyng lyke as an hound / His",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Oxen",
+   "key": "oxen",
+   "count": 2,
+   "paragraphs": [
+    33
+   ],
+   "first_firm": {
+    "tcp": "A16284",
+    "title": "Boecius de consolacione philosophie",
+    "author": "Boethius, d. 524.",
+    "year": 1478,
+    "date_kind": "firm",
+    "date_raw": "1478]",
+    "collection": "eebo"
+   },
+   "ntexts": 6075,
+   "context": {
+    "slot": 0,
+    "left": "megida where were presentyd to hym an honderd",
+    "kw": "oxen",
+    "right": "the fayrest of the world. / ¶ How hercules",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Pagans",
+   "key": "pagans",
+   "count": 3,
+   "paragraphs": [
+    40,
+    98,
+    105
+   ],
+   "first_firm": {
+    "tcp": "A23591",
+    "title": "Here begynnys a schort [and] breue tabull on thes cronicles ...",
+    "author": "n/a",
+    "year": 1485,
+    "date_kind": "firm",
+    "date_raw": "1485]]",
+    "collection": "eebo"
+   },
+   "ntexts": 4956,
+   "context": {
+    "slot": 0,
+    "left": "danys / Thys tyme come the Saxons that wer",
+    "kw": "pagons",
+    "right": "fyrst in to bretōnow called englond. vnder vortiger",
+    "tcp": "A23591",
+    "title": "Here begynnys a schort [and] breue tabull on thes cronicles ...",
+    "author": "n/a",
+    "year": 1485,
+    "date_kind": "firm",
+    "date_raw": "1485]]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Parish",
+   "key": "parish",
+   "count": 2,
+   "paragraphs": [
+    7,
+    47
+   ],
+   "first_firm": {
+    "tcp": "A03319",
+    "title": "Prolicionycion [sic]",
+    "author": "Higden, Ranulf, d. 1364.",
+    "year": 1482,
+    "date_kind": "firm",
+    "date_raw": "after 2 July 1482]",
+    "collection": "eebo"
+   },
+   "ntexts": 10194,
+   "context": {
+    "slot": 0,
+    "left": "paryshes and chirche yerdes / And assygned to eueryche",
+    "kw": "parysshe",
+    "right": "a preeste / After denys felix was pope foure",
+    "tcp": "A03319",
+    "title": "Prolicionycion [sic]",
+    "author": "Higden, Ranulf, d. 1364.",
+    "year": 1482,
+    "date_kind": "firm",
+    "date_raw": "after 2 July 1482]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Parishioners",
+   "key": "parishioners",
+   "count": 1,
+   "paragraphs": [
+    47
+   ],
+   "first_firm": {
+    "tcp": "A00092",
+    "title": "Iniunctions for the clerge Exhibite [blank] die mensis [blank] Anno d[omi]ni M.CCCCC.xxxviii.",
+    "author": "Church of England.",
+    "year": 1538,
+    "date_kind": "firm",
+    "date_raw": "1538]",
+    "collection": "eebo"
+   },
+   "ntexts": 2392,
+   "context": {
+    "slot": 0,
+    "left": "that ye haue cure of, where as your",
+    "kw": "parishoners",
+    "right": "may moste commodiously resorte to the same and",
+    "tcp": "A00092",
+    "title": "Iniunctions for the clerge Exhibite [blank] die mensis [blank] Anno d[omi]ni M.CCCCC.xxxviii.",
+    "author": "Church of England.",
+    "year": 1538,
+    "date_kind": "firm",
+    "date_raw": "1538]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "People",
+   "key": "people",
+   "count": 3,
+   "paragraphs": [
+    69,
+    98
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 42253,
+   "context": {
+    "slot": 0,
+    "left": "he gate the hooll loue of all the",
+    "kw": "peple",
+    "right": ".. / In thys tyme hyt was so that whatsomeuer",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Pipers",
+   "key": "pipers",
+   "count": 1,
+   "paragraphs": [
+    13
+   ],
+   "first_firm": {
+    "tcp": "A03319",
+    "title": "Prolicionycion [sic]",
+    "author": "Higden, Ranulf, d. 1364.",
+    "year": 1482,
+    "date_kind": "firm",
+    "date_raw": "after 2 July 1482]",
+    "collection": "eebo"
+   },
+   "ntexts": 303,
+   "context": {
+    "slot": 0,
+    "left": "breke the yates of chast women Pyctagoras bade",
+    "kw": "pipers",
+    "right": "pipe a songe made by thendytyng of",
+    "tcp": "A03319",
+    "title": "Prolicionycion [sic]",
+    "author": "Higden, Ranulf, d. 1364.",
+    "year": 1482,
+    "date_kind": "firm",
+    "date_raw": "after 2 July 1482]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Sabaoth",
+   "key": "sabaoth",
+   "count": 1,
+   "paragraphs": [
+    17
+   ],
+   "first_firm": {
+    "tcp": "A14559",
+    "title": "[Legenda aurea sanctorum, sive, Lombardica historia] [Wyllyam Caxton]",
+    "author": "Jacobus, de Voragine, ca. 1229-1298.",
+    "year": 1483,
+    "date_kind": "firm",
+    "date_raw": "1483]",
+    "collection": "eebo"
+   },
+   "ntexts": 670,
+   "context": {
+    "slot": 0,
+    "left": "ordres of Angellis / ¶ The hebrew is Alleluya",
+    "kw": "Sabaoth",
+    "right": "and Osanna / Thirdly it is halowed for to",
+    "tcp": "A14559",
+    "title": "[Legenda aurea sanctorum, sive, Lombardica historia] [Wyllyam Caxton]",
+    "author": "Jacobus, de Voragine, ca. 1229-1298.",
+    "year": 1483,
+    "date_kind": "firm",
+    "date_raw": "1483]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Sacrament",
+   "key": "sacrament",
+   "count": 1,
+   "paragraphs": [
+    56
+   ],
+   "first_firm": {
+    "tcp": "A16284",
+    "title": "Boecius de consolacione philosophie",
+    "author": "Boethius, d. 524.",
+    "year": 1478,
+    "date_kind": "firm",
+    "date_raw": "1478]",
+    "collection": "eebo"
+   },
+   "ntexts": 11261,
+   "context": {
+    "slot": 0,
+    "left": "lawes they helde and establisshid amonge hem the",
+    "kw": "sacrement",
+    "right": "of maryage / ffor at that tyme the women",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Sacrifices",
+   "key": "sacrifices",
+   "count": 1,
+   "paragraphs": [
+    98
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 9878,
+   "context": {
+    "slot": 0,
+    "left": "the goddes / And ther made many prayers and",
+    "kw": "sacrefices",
+    "right": "ynowhe fastynges almesses & other suffrages / Alle these",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Saracens",
+   "key": "saracens",
+   "count": 1,
+   "paragraphs": [
+    40
+   ],
+   "first_firm": {
+    "tcp": "A23587",
+    "title": "In the yere of thyncarnacion of our lord Ih[es]u crist M.CCCC.lxxx. and in the xx. yere of the regne of kyng Edward the fourthe, atte requeste of dyuerce gentilmen I haue endeauourd me to enprinte the cronicles of Englond as in this booke shall by the suffraunce of god folowe ...",
+    "author": "Caxton, William, ca. 1422-1491.",
+    "year": 1480,
+    "date_kind": "firm",
+    "date_raw": "1480]",
+    "collection": "eebo"
+   },
+   "ntexts": 1979,
+   "context": {
+    "slot": 0,
+    "left": "name ayens the Romayns that with hem lede",
+    "kw": "sarasins",
+    "right": "and paynyms that no maner trust they haue",
+    "tcp": "A23587",
+    "title": "In the yere of thyncarnacion of our lord Ih[es]u crist M.CCCC.lxxx. and in the xx. yere of the regne of kyng Edward the fourthe, atte requeste of dyuerce gentilmen I haue endeauourd me to enprinte the cronicles of Englond as in this booke shall by the suffraunce of god folowe ...",
+    "author": "Caxton, William, ca. 1422-1491.",
+    "year": 1480,
+    "date_kind": "firm",
+    "date_raw": "1480]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Sardanapalus",
+   "key": "sardanapalus",
+   "count": 1,
+   "paragraphs": [
+    103
+   ],
+   "first_firm": {
+    "tcp": "A68181",
+    "title": "Here endeth the discripcion of Britayne ...",
+    "author": "Higden, Ranulf, d. 1364.",
+    "year": 1480,
+    "date_kind": "firm",
+    "date_raw": "1480 (18 Aug.)]",
+    "collection": "eebo"
+   },
+   "ntexts": 681,
+   "context": {
+    "slot": 0,
+    "left": "fourthe word is Sradanapali / Ye shall vnderstande that",
+    "kw": "Sardanapalus",
+    "right": "was kyng of Assiryens and was full vnchast",
+    "tcp": "A68181",
+    "title": "Here endeth the discripcion of Britayne ...",
+    "author": "Higden, Ranulf, d. 1364.",
+    "year": 1480,
+    "date_kind": "firm",
+    "date_raw": "1480 (18 Aug.)]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Satan",
+   "key": "satan",
+   "count": 1,
+   "paragraphs": [
+    31
+   ],
+   "first_firm": {
+    "tcp": "A19333",
+    "title": "Thus endeth the prologue of this book named. Cordʻyal. Whiche treteth of the four last and final thinges that ben to come ...",
+    "author": "Denis, the Carthusian, 1402-1471, attributed name.",
+    "year": 1479,
+    "date_kind": "firm",
+    "date_raw": "And finisshed on the euen of thanunciacion of our said bilissid Lady fallyng on the wednesday the xxiiij daye of Marche. in the xix yeer of Kyng Edwarde the fourthe [1479]]",
+    "collection": "eebo"
+   },
+   "ntexts": 13955,
+   "context": {
+    "slot": 0,
+    "left": "deth. and with hit perauenture that fals thes",
+    "kw": "Sathan",
+    "right": "Therfor seyth to vs a poete. Who is",
+    "tcp": "A19333",
+    "title": "Thus endeth the prologue of this book named. Cordʻyal. Whiche treteth of the four last and final thinges that ben to come ...",
+    "author": "Denis, the Carthusian, 1402-1471, attributed name.",
+    "year": 1479,
+    "date_kind": "firm",
+    "date_raw": "And finisshed on the euen of thanunciacion of our said bilissid Lady fallyng on the wednesday the xxiiij daye of Marche. in the xix yeer of Kyng Edwarde the fourthe [1479]]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Saviour",
+   "key": "saviour",
+   "count": 1,
+   "paragraphs": [
+    59
+   ],
+   "first_firm": {
+    "tcp": "A19333",
+    "title": "Thus endeth the prologue of this book named. Cordʻyal. Whiche treteth of the four last and final thinges that ben to come ...",
+    "author": "Denis, the Carthusian, 1402-1471, attributed name.",
+    "year": 1479,
+    "date_kind": "firm",
+    "date_raw": "And finisshed on the euen of thanunciacion of our said bilissid Lady fallyng on the wednesday the xxiiij daye of Marche. in the xix yeer of Kyng Edwarde the fourthe [1479]]",
+    "collection": "eebo"
+   },
+   "ntexts": 20527,
+   "context": {
+    "slot": 0,
+    "left": "the greet & plentiuouse mercy of our blissid",
+    "kw": "saueour",
+    "right": "whiche mercy is aboue all his werkis. And",
+    "tcp": "A19333",
+    "title": "Thus endeth the prologue of this book named. Cordʻyal. Whiche treteth of the four last and final thinges that ben to come ...",
+    "author": "Denis, the Carthusian, 1402-1471, attributed name.",
+    "year": 1479,
+    "date_kind": "firm",
+    "date_raw": "And finisshed on the euen of thanunciacion of our said bilissid Lady fallyng on the wednesday the xxiiij daye of Marche. in the xix yeer of Kyng Edwarde the fourthe [1479]]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Servants",
+   "key": "servants",
+   "count": 1,
+   "paragraphs": [
+    22
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 26487,
+   "context": {
+    "slot": 0,
+    "left": "they that tho were psent as wel his",
+    "kw": "seruauntis",
+    "right": "as strangers Aswell epiriens as pellagiens had anon",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Sir",
+   "key": "sir",
+   "count": 1,
+   "paragraphs": [
+    56
+   ],
+   "first_firm": {
+    "tcp": "A68341",
+    "title": "For as moche as late by the comau[n]dement of the right hye [and] noble princesse my right redoubted lady my lady Margarete by the grace of god Duchesse of Bourgoyne Brabant [et]c. [...] as to the historie of Iason [...]",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1477,
+    "date_kind": "firm",
+    "date_raw": "1477]",
+    "collection": "eebo"
+   },
+   "ntexts": 27643,
+   "context": {
+    "slot": 0,
+    "left": "was constrayned to saye the trouthe she sayd.",
+    "kw": "Syr",
+    "right": "thou knowest that y am a woman. the",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Sodoma",
+   "key": "sodoma",
+   "count": 1,
+   "paragraphs": [
+    105
+   ],
+   "first_firm": {
+    "tcp": "A03319",
+    "title": "Prolicionycion [sic]",
+    "author": "Higden, Ranulf, d. 1364.",
+    "year": 1482,
+    "date_kind": "firm",
+    "date_raw": "after 2 July 1482]",
+    "collection": "eebo"
+   },
+   "ntexts": 148,
+   "context": {
+    "slot": 0,
+    "left": "furlonges·▪ and stretcheth nygh to the contre of",
+    "kw": "Sodoma",
+    "right": "that lake is called lacus salinarum / for salte",
+    "tcp": "A03319",
+    "title": "Prolicionycion [sic]",
+    "author": "Higden, Ranulf, d. 1364.",
+    "year": 1482,
+    "date_kind": "firm",
+    "date_raw": "after 2 July 1482]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Sodomitical",
+   "key": "sodomitical",
+   "count": 1,
+   "paragraphs": [
+    86
+   ],
+   "first_firm": {
+    "tcp": "A06330",
+    "title": "A sermonde made before the kynge his maiestye at grenewiche, vpon good frydaye. The yere of our Lorde God. M.D.xxxviij. By Ioh[a]n Longlonde, busshop of Lincolne. Ad gloriam Christi, & ad memoriam gloriosæ passionis eius. Cum priuilegio ad imprimendum solum",
+    "author": "Longland, John, 1473-1547.",
+    "year": 1538,
+    "date_kind": "firm",
+    "date_raw": "1538]",
+    "collection": "eebo"
+   },
+   "ntexts": 298,
+   "context": {
+    "slot": 0,
+    "left": "what aduoutryes, what stupour, what deflourynge of virgyns,",
+    "kw": "Sodomitical",
+    "right": "and vnnaturall synnes? What scortuous houses, lecherous beddes",
+    "tcp": "A06330",
+    "title": "A sermonde made before the kynge his maiestye at grenewiche, vpon good frydaye. The yere of our Lorde God. M.D.xxxviij. By Ioh[a]n Longlonde, busshop of Lincolne. Ad gloriam Christi, & ad memoriam gloriosæ passionis eius. Cum priuilegio ad imprimendum solum",
+    "author": "Longland, John, 1473-1547.",
+    "year": 1538,
+    "date_kind": "firm",
+    "date_raw": "1538]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Tabernacle",
+   "key": "tabernacle",
+   "count": 1,
+   "paragraphs": [
+    69
+   ],
+   "first_firm": {
+    "tcp": "A16284",
+    "title": "Boecius de consolacione philosophie",
+    "author": "Boethius, d. 524.",
+    "year": 1478,
+    "date_kind": "firm",
+    "date_raw": "1478]",
+    "collection": "eebo"
+   },
+   "ntexts": 7448,
+   "context": {
+    "slot": 0,
+    "left": "to his bien venue hercules approchid vnto the",
+    "kw": "tabernacle",
+    "right": "that stode vpon foure grete barres of yron",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Testament",
+   "key": "testament",
+   "count": 1,
+   "paragraphs": [
+    67
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 13963,
+   "context": {
+    "slot": 0,
+    "left": "hys contre for to dispose and ordonne his",
+    "kw": "testament",
+    "right": "And his felawe pleggid hym and was sewrte",
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Towns",
+   "key": "towns",
+   "count": 1,
+   "paragraphs": [
+    47
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 12716,
+   "context": {
+    "slot": 0,
+    "left": "the Enemye of man Induced maliciously to practique",
+    "kw": "townes",
+    "right": "Cytees and Castels to make ceptres and diademes",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Turcks",
+   "key": "turcks",
+   "count": 1,
+   "paragraphs": [
+    40
+   ],
+   "first_firm": {
+    "tcp": "A14354",
+    "title": "A treatise of the cohabitacyon of the faithfull with the vnfaithfull Whereunto is added. A sermon made of the confessing of Christe and his gospell, and of the denyinge of the same.",
+    "author": "Vermigli, Pietro Martire, 1499-1562.",
+    "year": 1555,
+    "date_kind": "firm",
+    "date_raw": "Anno M.D.LV. [1555]",
+    "collection": "eebo"
+   },
+   "ntexts": 53,
+   "context": {
+    "slot": 0,
+    "left": "and the Bushopps are in greate fault. Vnto",
+    "kw": "Turcks",
+    "right": "this ought not to be graunted / that they",
+    "tcp": "A14354",
+    "title": "A treatise of the cohabitacyon of the faithfull with the vnfaithfull Whereunto is added. A sermon made of the confessing of Christe and his gospell, and of the denyinge of the same.",
+    "author": "Vermigli, Pietro Martire, 1499-1562.",
+    "year": 1555,
+    "date_kind": "firm",
+    "date_raw": "Anno M.D.LV. [1555]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Vice",
+   "key": "vice",
+   "count": 1,
+   "paragraphs": [
+    101
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 12873,
+   "context": {
+    "slot": 0,
+    "left": "shall abyde of yow. Of this tache or",
+    "kw": "vyce",
+    "right": "is my payne redowblid. hit percid my sowle",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Village",
+   "key": "village",
+   "count": 1,
+   "paragraphs": [
+    76
+   ],
+   "first_firm": {
+    "tcp": "A23587",
+    "title": "In the yere of thyncarnacion of our lord Ih[es]u crist M.CCCC.lxxx. and in the xx. yere of the regne of kyng Edward the fourthe, atte requeste of dyuerce gentilmen I haue endeauourd me to enprinte the cronicles of Englond as in this booke shall by the suffraunce of god folowe ...",
+    "author": "Caxton, William, ca. 1422-1491.",
+    "year": 1480,
+    "date_kind": "firm",
+    "date_raw": "1480]",
+    "collection": "eebo"
+   },
+   "ntexts": 5171,
+   "context": {
+    "slot": 0,
+    "left": "hys wyues / he wente hym in to the",
+    "kw": "village",
+    "right": "that stood there fast by. And behelde the",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Whitsonday",
+   "key": "whitsonday",
+   "count": 2,
+   "paragraphs": [
+    29,
+    47
+   ],
+   "first_firm": {
+    "tcp": "A23587",
+    "title": "In the yere of thyncarnacion of our lord Ih[es]u crist M.CCCC.lxxx. and in the xx. yere of the regne of kyng Edward the fourthe, atte requeste of dyuerce gentilmen I haue endeauourd me to enprinte the cronicles of Englond as in this booke shall by the suffraunce of god folowe ...",
+    "author": "Caxton, William, ca. 1422-1491.",
+    "year": 1480,
+    "date_kind": "firm",
+    "date_raw": "1480]",
+    "collection": "eebo"
+   },
+   "ntexts": 144,
+   "context": {
+    "slot": 0,
+    "left": "his masse Ca. C. xxv.ij / IT befell vpon",
+    "kw": "whitsonday",
+    "right": "as kyng edward herde his masse in the",
+    "tcp": "A23587",
+    "title": "In the yere of thyncarnacion of our lord Ih[es]u crist M.CCCC.lxxx. and in the xx. yere of the regne of kyng Edward the fourthe, atte requeste of dyuerce gentilmen I haue endeauourd me to enprinte the cronicles of Englond as in this booke shall by the suffraunce of god folowe ...",
+    "author": "Caxton, William, ca. 1422-1491.",
+    "year": 1480,
+    "date_kind": "firm",
+    "date_raw": "1480]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Worse",
+   "key": "worse",
+   "count": 1,
+   "paragraphs": [
+    78
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 25602,
+   "context": {
+    "slot": 0,
+    "left": "will reyse hym agayn And that shold be",
+    "kw": "worse",
+    "right": "for than y shold not only be callyd",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Ydol",
+   "key": "ydol",
+   "count": 2,
+   "paragraphs": [
+    24,
+    33
+   ],
+   "first_firm": {
+    "tcp": "A14559",
+    "title": "[Legenda aurea sanctorum, sive, Lombardica historia] [Wyllyam Caxton]",
+    "author": "Jacobus, de Voragine, ca. 1229-1298.",
+    "year": 1483,
+    "date_kind": "firm",
+    "date_raw": "1483]",
+    "collection": "eebo"
+   },
+   "ntexts": 17,
+   "context": {
+    "slot": 0,
+    "left": "philyp said beleue ye me / & breke thys",
+    "kw": "ydol",
+    "right": "& sette in his place the crosse of",
+    "tcp": "A14559",
+    "title": "[Legenda aurea sanctorum, sive, Lombardica historia] [Wyllyam Caxton]",
+    "author": "Jacobus, de Voragine, ca. 1229-1298.",
+    "year": 1483,
+    "date_kind": "firm",
+    "date_raw": "1483]",
+    "collection": "eebo"
+   }
+  },
+  {
+   "token": "Year",
+   "key": "year",
+   "count": 1,
+   "paragraphs": [
+    76
+   ],
+   "first_firm": {
+    "tcp": "A18343",
+    "title": "[T]o the right noble, right excellent [and] vertuous prince George duc of Clarence Erle of warwyk and of salisburye, grete chamberlayn of Englond [and] leutenant of Irelond oldest broder of kynge Edward by the grace of god kynge of England and of frau[n]ce, your most humble seruant william Caxton amonge other of your seruantes sendes vnto you peas. helthe. ioye and victorye vpon your enemyes ...",
+    "author": "Jacobus, de Cessolis, fl. 1288-1322",
+    "year": 1474,
+    "date_kind": "firm",
+    "date_raw": "1474 (31 March)]",
+    "collection": "eebo"
+   },
+   "ntexts": 34803,
+   "context": {
+    "slot": 0,
+    "left": "duc of Bourgoyne of Braband {etc} In the",
+    "kw": "yere",
+    "right": "of the Incarnacion of our lord god a",
+    "tcp": "A05232",
+    "title": "hEre begynneth the volume intituled and named the recuyell of the historyes of\n              Troye, composed and drawen out of dyuerce bookes of latyn in to frensshe by the ryght\n              venerable persone and worshipfull man. Raoul le ffeure. preest and chapelayn vnto the\n              ryght noble gloryous and myghty prynce in his tyme Phelip duc of Bourgoyne of Braband\n              [et]c in the yere of the incarnacion of our lord god a thousand foure honderd sixty\n              and foure, and translated and drawen out of frenshe in to englisshe by Willyam Caxton\n              mercer of ye cyte of London, at the comau[n]deme[n]t of the right hye myghty and\n              vertuouse pryncesse hys redoubtyd lady. Margarete by the grace of god. Duchesse of\n              Bourgoyne of Lotryk of Braband [et]c., whiche sayd translacion and werke was ...\n              fynysshid in the holy cyte of Colen the. xix. day of septembre the yere of our sayd\n              lord god a thousand foure honderd sixty and enleuen [sic] [et]c ...",
+    "author": "Lefèvre, Raoul, fl. 1460.",
+    "year": 1473,
+    "date_kind": "ranged",
+    "date_raw": "1473 or 1474]",
+    "collection": "eebo"
+   }
   }
  ],
  "accepted": {},

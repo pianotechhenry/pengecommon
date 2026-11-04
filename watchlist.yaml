@@ -18,9 +18,10 @@
 #              phrase | regex
 #   also       other spellings to match (optional)
 #   case       true = capitalised only (a name, not the common noun)
-#   corpus     the corpus's own earliest printed date for the form, where it
-#              has one (filled in by `desk watchlist --annotate`; a printed
-#              form may be a different word or sense - see the report's KWIC)
+#   corpus     the corpus's earliest printing of the SPELLING, where it has one
+#              (filled in by `desk watchlist --annotate`).  It dates the form,
+#              not your sense: 'pal' printed in 1482 is another word, 'Rowan'
+#              in 1493 is Rouen.  It never overrides your own dated line.
 #
 # Words take effect at once.  A new multi-word phrase is looked up in the
 # n-gram index straight away, but to find it even where it was printed only
@@ -35,7 +36,7 @@
   tag: DOCUMENTED
   source: one source
   from_year: 1900
-  corpus: "earliest firm-dated print 1493 (A23590); 29 texts"
+  corpus: "spelling first printed 1493 (A23590); 29 texts, in any sense - see the report's contexts"
 
 - term: Janos
   kind: name
@@ -43,14 +44,14 @@
   also: [János]
   reason: Hungarian, not British Romani
   tag: REASONABLE INFERENCE
-  corpus: "earliest firm-dated print 1600 (A02495); 16 texts"
+  corpus: "spelling first printed 1600 (A02495); 16 texts, in any sense - see the report's contexts"
 
 - term: Danior
   kind: romani
   case: true
   reason: Romani plural "teeth"; reached the project via baby-name sites
   tag: DOCUMENTED
-  corpus: "no printed example in the corpus"
+  corpus: "spelling not printed in the corpus"
 
 - term: sar
   kind: romani
@@ -58,35 +59,35 @@
   reason: Early Romani "how"; "what" is so
   tag: DOCUMENTED
   source: Welsh forms unchecked
-  corpus: "earliest firm-dated print 1525 (A71319); 398 texts"
+  corpus: "spelling first printed 1525 (A71319); 398 texts, in any sense - see the report's contexts"
 
 - term: dej
   kind: romani
   match: exact
   reason: Vlax, not British
   tag: REASONABLE INFERENCE
-  corpus: "earliest firm-dated print 1589 (A00617); 18 texts"
+  corpus: "spelling first printed 1589 (A00617); 18 texts, in any sense - see the report's contexts"
 
 - term: jertis
   kind: romani
   match: exact
   reason: Vlax, not British
   tag: REASONABLE INFERENCE
-  corpus: "no printed example in the corpus"
+  corpus: "spelling not printed in the corpus"
 
 - term: marime
   kind: romani
   match: exact
   reason: Vlax, not British
   tag: REASONABLE INFERENCE
-  corpus: "earliest firm-dated print 1550 (A13758); 7 texts"
+  corpus: "spelling first printed 1550 (A13758); 7 texts, in any sense - see the report's contexts"
 
 - term: gadjo
   kind: romani
   also: [gadje, gadji]
   reason: Vlax, not British
   tag: REASONABLE INFERENCE
-  corpus: "no printed example in the corpus"
+  corpus: "spelling not printed in the corpus"
 
 - term: panam
   kind: cant
@@ -95,14 +96,14 @@
   tag: DOCUMENTED
   source: Thomas Harman, A Caveat or Warening for Commen Cursetors (1567)
   from_year: 1567
-  corpus: "earliest firm-dated print 1681 (B01850); 2 texts"
+  corpus: "spelling first printed 1681 (B01850); 2 texts, in any sense - see the report's contexts"
 
 - term: pal
   kind: romani
   reason: English from the 1680s
   tag: DOCUMENTED
   from_year: 1680
-  corpus: "earliest firm-dated print 1482 (A03319); 331 texts"
+  corpus: "spelling first printed 1482 (A03319); 331 texts, in any sense - see the report's contexts"
 
 - term: kushti
   kind: romani
@@ -110,72 +111,72 @@
   reason: no record before the 19th century
   tag: DOCUMENTED
   from_year: 1800
-  corpus: "no printed example in the corpus"
+  corpus: "spelling not printed in the corpus"
 
 - term: dukkeripen
   kind: romani
   reason: no record before the 19th century
   tag: DOCUMENTED
   from_year: 1800
-  corpus: "no printed example in the corpus"
+  corpus: "spelling not printed in the corpus"
 
 - term: veshengro
   kind: romani
   reason: no record before the 19th century
   tag: DOCUMENTED
   from_year: 1800
-  corpus: "no printed example in the corpus"
+  corpus: "spelling not printed in the corpus"
 
 - term: cosh
   kind: romani
   reason: 19th century
   tag: DOCUMENTED
   from_year: 1800
-  corpus: "earliest firm-dated print 1634 (A03065); 14 texts"
+  corpus: "spelling first printed 1634 (A03065); 14 texts, in any sense - see the report's contexts"
 
 - term: Kensal Rise
   kind: place
   reason: station name of 1890
   tag: DOCUMENTED
   from_year: 1890
-  corpus: "no printed example in the corpus"
+  corpus: "spelling not printed in the corpus"
 
 - term: Welsh Kale
   kind: place
   reason: not before c.1730
   tag: DOCUMENTED
   from_year: 1730
-  corpus: "no printed example in the corpus"
+  corpus: "spelling not printed in the corpus"
 
 - term: forest
   kind: sense
   reason: period sense "royal hunting district"; wood is the native word
   tag: REASONABLE INFERENCE
-  corpus: "earliest firm-dated print 1477 (A68341); earlier text dated 1473 or 1474] (A05232); 5344 texts"
+  corpus: "spelling first printed 1477 (A68341); earlier text dated 1473 or 1474] (A05232); 5344 texts, in any sense - see the report's contexts"
 
 - term: connect
   kind: sense
   reason: listed for checking - the modern emotional sense
   tag: UNVERIFIED
-  corpus: "earliest firm-dated print 1555 (A20032); earlier text dated 1547?] (A02906); 402 texts"
+  corpus: "spelling first printed 1555 (A20032); earlier text dated 1547?] (A02906); 402 texts, in any sense - see the report's contexts"
 
 - term: get lost
   kind: idiom
   reason: listed for checking - as a dismissal
   tag: UNVERIFIED
-  corpus: "earlier text dated [1796?] (C97870); 1 texts"
+  corpus: "earlier text dated [1796?] (C97870); 1 texts, in any sense - see the report's contexts"
 
 - term: see you later
   kind: idiom
   reason: listed for checking - as a farewell
   tag: UNVERIFIED
-  corpus: "no printed example in the corpus"
+  corpus: "spelling not printed in the corpus"
 
 - term: golden boy
   kind: idiom
   reason: listed for checking - as a name for a favoured young man
   tag: UNVERIFIED
-  corpus: "earliest firm-dated print 1605 (A17848); 5 texts"
+  corpus: "spelling first printed 1605 (A17848); 5 texts, in any sense - see the report's contexts"
 
 - term: ma'am
   kind: word
@@ -183,4 +184,4 @@
   also: [maam]
   reason: listed for checking - the contraction of madam
   tag: UNVERIFIED
-  corpus: "earliest firm-dated print 1700 (A40958); 162 texts"
+  corpus: "spelling first printed 1700 (A40958); 162 texts, in any sense - see the report's contexts"

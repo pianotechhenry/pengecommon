@@ -84,7 +84,7 @@ border-radius:3px}
 </header>
 <nav><div><a href="#summary">Summary</a><a href="#s-narration">Narration</a><a href="#s-dialogue">Dialogue</a>
 <a href="#s-interior">Interior</a><a href="#other">Interjections, punctuation, phrases</a>
-<a href="#romani">Romani and cant</a><a href="#latinate">Latin/French share</a><a href="#text">Text</a></div></nav>
+<a href="#romani">Romani and cant</a><a href="#names">Names</a><a href="#latinate">Latin/French share</a><a href="#text">Text</a></div></nav>
 <main>
 <section id="summary"><h2>Summary</h2><div id="sumtable"></div>
 <p class="legend small"><span><span class="badge b-FLAG">FLAG</span> first printed after the window</span>
@@ -94,8 +94,9 @@ border-radius:3px}
 <span><span class="badge b-WATCH">WATCH</span> watch-list entry</span></p>
 <p class="small">Evidence tags: <b>DOCUMENTED</b> rests on a cited dated text or source;
 <b>REASONABLE INFERENCE</b> is drawn from evidence that does not state it directly (a spelling variant,
-a lemma, a statistical test); <b>CONTESTED</b> means the evidence conflicts (an earlier conjecturally
-dated text, or corpus against watch list); <b>UNVERIFIED</b> means no evidence either way.</p>
+a lemma, a statistical test); <b>CONTESTED</b> means the dating evidence in print conflicts (an earlier text with a conjectural
+or ranged date); <b>UNVERIFIED</b> means no evidence either way. A watch-list hit keeps your tag: the
+corpus beside it dates only the <i>spelling</i>, which may be another word or sense.</p>
 </section>
 <section id="streams"></section>
 <section id="other"><h2>Interjections, punctuation and phrases</h2><div id="othertable"></div></section>
@@ -103,6 +104,11 @@ dated text, or corpus against watch list); <b>UNVERIFIED</b> means no evidence e
 <p class="small">Every token not resolved as English (not in the period corpus as English, and not a
 Wiktionary English headword), and every watch-list Romani or cant entry. The desk does not adjudicate
 Romani words.</p><div id="romanitable"></div></section>
+<section id="names"><h2>Names (silent)</h2>
+<p class="small">Capitalised words that passed with no watch-list entry. A pass means only that the
+<i>spelling</i> was printed before the year; read the first printed context to see whether it was
+your name or place (in early print "Rowan" is Rouen). Vetted names can go in the watch list as
+<code>kind: accepted</code>.</p><div id="namestable"></div></section>
 <section id="latinate"><h2>Latin/French share by paragraph</h2><p class="small" id="latlabel"></p>
 <div id="lattable"></div></section>
 <section id="text"><h2>Text</h2>
@@ -200,6 +206,19 @@ function firstDate(ev, it){
          `<td>${r.streams.join(', ')}</td><td>${wl}</td><td class="small">${esc(r.corpus||'')}</td></tr>`;
   }
   document.getElementById('romanitable').innerHTML = h + '</tbody></table>';
+})();
+// ---------- names
+(function(){
+  const rows = R.names || [];
+  if(!rows.length){ document.getElementById('namestable').innerHTML = '<p class="small">None.</p>'; return; }
+  let h = '<table><thead><tr><th>Word</th><th class="n">n</th><th>Earliest firm-dated print</th><th>First printed context</th></tr></thead><tbody>';
+  for(const r of rows){
+    const f = r.first_firm, c = r.context;
+    h += `<tr><td>${esc(r.token)}</td><td class="n">${r.count}</td><td>${f ? f.year+' ('+esc(f.tcp)+')' : '—'}` +
+         `<span class="small"> · ${fmt(r.ntexts)} texts</span></td>` +
+         `<td class="small">${c ? '…'+esc(c.left)+' <b>'+esc(c.kw)+'</b> '+esc(c.right)+'…' : ''}</td></tr>`;
+  }
+  document.getElementById('namestable').innerHTML = h + '</tbody></table>';
 })();
 // ---------- latinate
 (function(){

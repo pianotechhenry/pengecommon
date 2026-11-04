@@ -113,3 +113,10 @@ def test_contractions_are_not_bridged_to_their_lemma(idx):
     # the bridge must never hide a late contraction behind its base verb
     ch = checker(idx)
     assert ch._lemma_bridge({"status": "FLAG", "entry_id": 0}, "don't")["status"] == "FLAG"
+
+
+def test_silent_names_are_listed_with_context(idx):
+    res = checker(idx).check_paragraphs([Paragraph("He spoke of Common things.", italic=[])])
+    names = {n["key"]: n for n in res["names"]}
+    assert "common" in names and names["common"]["context"]["kw"] == "common"
+    assert names["common"]["first_firm"]["year"] == 1550

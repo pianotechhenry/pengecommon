@@ -1,7 +1,7 @@
 {
  "tool": "commons-desk check",
  "source": "tests/fixtures/acceptance2_items.md",
- "generated": "2026-11-04 11:19",
+ "generated": "2026-11-04 18:36",
  "settings": {
   "year": 1689,
   "window": 15,
@@ -516,7 +516,7 @@
      "tag": "DOCUMENTED",
      "source": "one source",
      "from_year": 1900,
-     "corpus": "earliest firm-dated print 1493 (A23590); 29 texts"
+     "corpus": "spelling first printed 1493 (A23590); 29 texts, in any sense - see the report's contexts"
     }
    ],
    "occurrences": [
@@ -958,7 +958,7 @@
      "tag": "REASONABLE INFERENCE",
      "source": "",
      "from_year": null,
-     "corpus": "earliest firm-dated print 1600 (A02495); 16 texts"
+     "corpus": "spelling first printed 1600 (A02495); 16 texts, in any sense - see the report's contexts"
     }
    ],
    "occurrences": [
@@ -1087,7 +1087,7 @@
      "tag": "UNVERIFIED",
      "source": "",
      "from_year": null,
-     "corpus": "earliest firm-dated print 1555 (A20032); earlier text dated 1547?] (A02906); 402 texts"
+     "corpus": "spelling first printed 1555 (A20032); earlier text dated 1547?] (A02906); 402 texts, in any sense - see the report's contexts"
     }
    ],
    "occurrences": [
@@ -1192,7 +1192,7 @@
      "tag": "REASONABLE INFERENCE",
      "source": "",
      "from_year": null,
-     "corpus": "earliest firm-dated print 1589 (A00617); 18 texts"
+     "corpus": "spelling first printed 1589 (A00617); 18 texts, in any sense - see the report's contexts"
     }
    ],
    "occurrences": [
@@ -1330,7 +1330,7 @@
      "tag": "REASONABLE INFERENCE",
      "source": "",
      "from_year": null,
-     "corpus": "earliest firm-dated print 1477 (A68341); earlier text dated 1473 or 1474] (A05232); 5344 texts"
+     "corpus": "spelling first printed 1477 (A68341); earlier text dated 1473 or 1474] (A05232); 5344 texts, in any sense - see the report's contexts"
     }
    ],
    "occurrences": [
@@ -1397,7 +1397,7 @@
      "tag": "UNVERIFIED",
      "source": "",
      "from_year": null,
-     "corpus": "earlier text dated [1796?] (C97870); 1 texts"
+     "corpus": "earlier text dated [1796?] (C97870); 1 texts, in any sense - see the report's contexts"
     }
    ],
    "occurrences": [
@@ -1492,7 +1492,7 @@
      "tag": "UNVERIFIED",
      "source": "",
      "from_year": null,
-     "corpus": "earliest firm-dated print 1605 (A17848); 5 texts"
+     "corpus": "spelling first printed 1605 (A17848); 5 texts, in any sense - see the report's contexts"
     }
    ],
    "occurrences": [
@@ -1535,7 +1535,7 @@
      "tag": "REASONABLE INFERENCE",
      "source": "",
      "from_year": null,
-     "corpus": "no printed example in the corpus"
+     "corpus": "spelling not printed in the corpus"
     }
    ],
    "occurrences": [
@@ -1639,7 +1639,7 @@
      "tag": "UNVERIFIED",
      "source": "",
      "from_year": null,
-     "corpus": "earliest firm-dated print 1700 (A40958); 162 texts"
+     "corpus": "spelling first printed 1700 (A40958); 162 texts, in any sense - see the report's contexts"
     }
    ],
    "occurrences": [
@@ -1758,7 +1758,7 @@
      "tag": "DOCUMENTED",
      "source": "Welsh forms unchecked",
      "from_year": null,
-     "corpus": "earliest firm-dated print 1525 (A71319); 398 texts"
+     "corpus": "spelling first printed 1525 (A71319); 398 texts, in any sense - see the report's contexts"
     }
    ],
    "occurrences": [
@@ -1790,7 +1790,7 @@
      "tag": "UNVERIFIED",
      "source": "",
      "from_year": null,
-     "corpus": "no printed example in the corpus"
+     "corpus": "spelling not printed in the corpus"
     }
    ],
    "occurrences": [
@@ -1872,6 +1872,39 @@
     "kind": "romani"
    },
    "corpus": "OK: exact"
+  }
+ ],
+ "names": [
+  {
+   "token": "Boy",
+   "key": "boy",
+   "count": 1,
+   "paragraphs": [
+    7
+   ],
+   "first_firm": {
+    "tcp": "A14548",
+    "title": "Here endeth this doctrine at Westmestre by london in fourmes enprinted. In the whiche one euerich may shortly lerne. Frenssh and englissh ...",
+    "author": "Caxton, William, ca. 1422-1491, attributed name.",
+    "year": 1480,
+    "date_kind": "firm",
+    "date_raw": "1480]]",
+    "collection": "eebo"
+   },
+   "ntexts": 8508,
+   "context": {
+    "slot": 0,
+    "left": "no nede to mete it agayn Holde thou",
+    "kw": "boye",
+    "right": "and bere it Thou shalt haue an halfpeny",
+    "tcp": "A14548",
+    "title": "Here endeth this doctrine at Westmestre by london in fourmes enprinted. In the whiche one euerich may shortly lerne. Frenssh and englissh ...",
+    "author": "Caxton, William, ca. 1422-1491, attributed name.",
+    "year": 1480,
+    "date_kind": "firm",
+    "date_raw": "1480]]",
+    "collection": "eebo"
+   }
   }
  ],
  "accepted": {},

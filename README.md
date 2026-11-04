@@ -44,11 +44,14 @@ The evidence tags:
 - **DOCUMENTED**: a cited text or source says so.
 - **REASONABLE INFERENCE**: drawn from evidence that does not state it directly, such as a
   spelling variant, a lemma, or a compound printed as two words.
-- **CONTESTED**: the evidence conflicts.
+- **CONTESTED**: the dating evidence in print conflicts (an earlier conjectural or ranged date).
 - **UNVERIFIED**: there is no evidence either way.
 
 `watchlist.yaml` is yours, for what a corpus cannot see: senses, names, places, Romani, cant and
-idioms. Give vetted words `kind: accepted`. The Romani/cant section lists every token not resolved
+idioms. Give vetted words `kind: accepted`. A watch-list hit keeps your reason and tag; the corpus
+beside it dates only the spelling, which may be another word or sense, so a corpus date never
+overrides a dated entry. Silence is not approval either: a silent word only had its spelling
+printed by then. The Romani/cant section lists every token not resolved
 as English, each with its watch-list entry or "unplaced — for the consultant". The Latin/French
 share is a heuristic, compared only with your `samples/baseline.md`.
 

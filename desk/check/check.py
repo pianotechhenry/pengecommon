@@ -436,6 +436,8 @@ class Checker:
         items: dict[str, Item] = {}
         out_paras = []
         romani: dict[str, dict] = {}
+        names: dict[str, dict] = {}
+        watched = {k for e in self.watch if e.match in ("word", "exact") for k in e.keys}
         accepted: dict[str, int] = {}
         stream_words = {s: 0 for s in STREAMS}
 
@@ -490,6 +492,15 @@ class Checker:
                             self._romani(romani, t.text, key, pi, stream, e)
                 if not res["resolved_english"]:
                     self._romani(romani, t.text, key, pi, stream, None)
+                # silence is not approval: a capitalised word that passed had its
+                # *spelling* printed - 'Rowan' in 1493 is Rouen - so show its context
+                if (res["status"] == "OK" and t.capitalised and not t.sentence_start
+                        and key not in watched and key not in FUNCTION_WORDS):
+                    nm = names.setdefault(key, {"token": t.text, "key": key, "count": 0,
+                                                "paragraphs": [], "res": res})
+                    nm["count"] += 1
+                    if pi + 1 not in nm["paragraphs"]:
+                        nm["paragraphs"].append(pi + 1)
                 if key not in FUNCTION_WORDS and len(key) > 2 and not (t.capitalised and not t.sentence_start):
                     lemma = None
                     if res.get("lemma_note"):
@@ -577,6 +588,7 @@ class Checker:
             "items": {k: v.__dict__ for k, v in sorted(
                 items.items(), key=lambda kv: (STATUS_RANK.get(kv[1].status, 9), kv[0]))},
             "romani": sorted(romani.values(), key=lambda r: r["token"].lower()),
+            "names": self._names(names),
             "accepted": accepted,
             "streams_words": stream_words,
         }
@@ -611,6 +623,15 @@ class Checker:
             corpus["kwic"] = self.evidence_lines(corpus)
         items[id_] = it
         return it
+
+    def _names(self, names: dict) -> list[dict]:
+        out = []
+        for key, nm in sorted(names.items()):
+            res = nm.pop("res")
+            lines = self.evidence_lines(res)
+            out.append({**nm, "first_firm": res.get("first_firm"), "ntexts": res.get("ntexts"),
+                        "context": lines[0] if lines else None})
+        return out
 
     def _romani(self, romani: dict, text: str, key: str, pi: int, stream: str, e: Entry | None):
         r = romani.setdefault(key, {"token": text, "key": key, "count": 0, "paragraphs": [],

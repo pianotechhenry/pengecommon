@@ -1,7 +1,7 @@
 {
  "tool": "commons-desk check",
  "source": "tests/fixtures/acceptance2_items.md",
- "generated": "2026-11-04 11:19",
+ "generated": "2026-11-04 18:36",
  "settings": {
   "year": 1689,
   "window": 15,
@@ -721,6 +721,39 @@
    ],
    "watch": null,
    "corpus": "UNVERIFIED: not in the corpus"
+  }
+ ],
+ "names": [
+  {
+   "token": "Boy",
+   "key": "boy",
+   "count": 1,
+   "paragraphs": [
+    7
+   ],
+   "first_firm": {
+    "tcp": "A14548",
+    "title": "Here endeth this doctrine at Westmestre by london in fourmes enprinted. In the whiche one euerich may shortly lerne. Frenssh and englissh ...",
+    "author": "Caxton, William, ca. 1422-1491, attributed name.",
+    "year": 1480,
+    "date_kind": "firm",
+    "date_raw": "1480]]",
+    "collection": "eebo"
+   },
+   "ntexts": 8508,
+   "context": {
+    "slot": 0,
+    "left": "no nede to mete it agayn Holde thou",
+    "kw": "boye",
+    "right": "and bere it Thou shalt haue an halfpeny",
+    "tcp": "A14548",
+    "title": "Here endeth this doctrine at Westmestre by london in fourmes enprinted. In the whiche one euerich may shortly lerne. Frenssh and englissh ...",
+    "author": "Caxton, William, ca. 1422-1491, attributed name.",
+    "year": 1480,
+    "date_kind": "firm",
+    "date_raw": "1480]]",
+    "collection": "eebo"
+   }
   }
  ],
  "accepted": {},
