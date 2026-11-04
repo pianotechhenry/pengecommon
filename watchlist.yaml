@@ -5,7 +5,9 @@
 # whatever the corpus itself says about the word.
 #
 #   term       word or phrase as written in the prose
-#   kind       sense | name | place | romani | cant | idiom | word
+#   kind       sense | name | place | romani | cant | idiom | word | accepted
+#              (accepted: a word you have vetted, such as a character's name -
+#              it is no longer flagged and the report lists it as accepted)
 #   reason     why it is listed
 #   tag        DOCUMENTED | REASONABLE INFERENCE | CONTESTED | UNVERIFIED
 #   source     where the reason comes from (optional)

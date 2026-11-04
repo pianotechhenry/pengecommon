@@ -128,7 +128,7 @@ def day_info(day: C.Day) -> dict:
 
 
 def format_day(info: dict) -> str:
-    lines = [f"Penge Common ({LAT} N, {abs(LON)} W)"]
+    lines = [f"Penge Common ({LAT:.3f} N, {abs(LON):.3f} W)"]
     lines.append(f"{info['weekday']} {info['os']} Old Style = {info['ns']} New Style")
     lines.append(f"Calendar in force in England: {info['calendar_in_force']}")
     lines.append(f"As dated then: {info['legal']}  (legal year {info['legal_year']}"

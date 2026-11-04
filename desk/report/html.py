@@ -130,8 +130,9 @@ document.getElementById('corpus').textContent =
   `(${fmt(C.words_before)} words) printed before ${Y}; ${fmt(C.texts_total)} texts (${fmt(C.words_total)} words) in all. ` +
   `Index built ${C.built}; ${C.holdout} texts held out for testing.`;
 
-function firstDate(ev){
+function firstDate(ev, it){
   if(!ev) return '';
+  if(it && it.type==='watch' && (ev.first_firm||ev.first_any)) return '<span class="small">form: </span>' + firstDate(ev);
   const f = ev.first_firm, a = ev.first_any;
   let s = f ? `${f.year} (${esc(f.tcp)})` : '';
   if(a && (!f || a.year < f.year)) s += `${s?'; ':''}<span class="small">${a.year}? ${esc(a.tcp)} — ${esc(a.date_kind)}</span>`;
@@ -150,7 +151,8 @@ function firstDate(ev){
   const w = R.streams_words;
   h += `<tr><td class="small">words in stream</td>` + STREAMS.map(s=>`<td class="n small">${fmt(w[s])}</td>`).join('') +
        `<td class="n small">${fmt(STREAMS.reduce((a,s)=>a+w[s],0))}</td></tr></tbody></table>` +
-       `<p class="small">Occurrences, with distinct items in brackets.</p>`;
+       `<p class="small">Occurrences, with distinct items in brackets.</p>` +
+       (Object.keys(R.accepted||{}).length ? `<p class="small">Accepted by you in the watch list, not flagged: ${Object.entries(R.accepted).map(([k,n])=>esc(k)+(n>1?' ×'+n:'')).join(', ')}.</p>` : '');
   document.getElementById('sumtable').innerHTML = h;
 })();
 // ---------- per-stream lists
@@ -166,7 +168,7 @@ function firstDate(ev){
     for(const it of rows){
       const n = it.occurrences.filter(o=>o.stream===st).length;
       h += `<tr class="item" onclick="openItem('${esc(it.id)}')"><td>${badge(it.status)}</td><td>${esc(it.text)}</td>` +
-           `<td>${tag(it.tag)}</td><td>${firstDate(it.evidence)}</td><td class="n">${n}</td>` +
+           `<td>${tag(it.tag)}</td><td>${firstDate(it.evidence, it)}</td><td class="n">${n}</td>` +
            `<td class="small">${esc(it.reason)}${it.evidence && it.evidence.note ? ' — '+esc(it.evidence.note):''}</td></tr>`;
     }
     h += '</tbody></table>';
@@ -264,13 +266,14 @@ function itemHtml(it){
   let h = `<h3>${esc(it.text)} ${badge(it.status)} ${tag(it.tag)}</h3>`;
   h += `<p class="small">${esc(it.type)} · key <code>${esc(it.key)}</code></p>`;
   if(it.reason) h += `<p>${esc(it.reason)}</p>`;
-  if(ev.basis) h += `<p class="small">Basis: ${esc(ev.basis)}${ev.matched && ev.matched!==it.key ? ' → '+esc(ev.matched):''}</p>`;
+  if(ev.basis && ev.basis!==it.reason) h += `<p class="small">Basis: ${esc(ev.basis)}${ev.matched && ev.matched!==it.key ? ' → '+esc(ev.matched):''}</p>`;
   if(ev.note) h += `<p>${esc(ev.note)}</p>`;
   for(const w of (it.watch||[])){
     h += `<div class="wl"><b>Watch list</b>: ${esc(w.reason)} ${tag(w.tag)}${w.source?'<br><span class="small">source: '+esc(w.source)+'</span>':''}` +
          `${w.from_year?'<br><span class="small">recorded from '+w.from_year+'</span>':''}${w.corpus?'<br><span class="small">corpus: '+esc(w.corpus)+'</span>':''}</div>`;
   }
   if(ev.first_firm || ev.first_any){
+    if(it.type==='watch') h += `<p class="small"><b>Corpus evidence for the form</b> (it may be another word or sense - see the contexts)</p>`;
     h += `<p><b>Earliest firm-dated print</b><br>${citeLine(ev.first_firm)}</p>`;
     if(ev.first_any) h += `<p><b>Earlier, date not firm</b><br>${citeLine(ev.first_any)}</p>`;
     h += `<p class="small">Texts before ${Y}: ${ev.n_before}${ev.n_before_approx?' (decade resolution)':''} · texts in all: ${fmt(ev.ntexts)}${ev.expected_before!=null?' · expected before '+Y+' at the later rate: '+ev.expected_before:''}</p>`;

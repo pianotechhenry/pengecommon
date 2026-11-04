@@ -23,7 +23,7 @@ from pathlib import Path
 
 from desk import paths
 from desk.check import reader
-from desk.check.streams import DIALOGUE, INTERIOR, NARRATION, STREAMS, detect_style, label
+from desk.check.streams import NARRATION, STREAMS, detect_style, label
 from desk.check.tokens import punctuation, words
 from desk.etymology import Etymology
 from desk.index import KIND_FOREIGN, KIND_FORM, KIND_LEMMA, Index
@@ -182,7 +182,13 @@ class Checker:
         self.idx = index or Index(paths.index_path())
         self.etym = etym or Etymology(paths.etymology_path())
         wl = cfg.watchlist_path or paths.watchlist_path()
-        self.watch: list[Entry] = load_watchlist(wl) if cfg.use_watchlist else []
+        entries: list[Entry] = load_watchlist(wl) if cfg.use_watchlist else []
+        # kind "accepted": words Henry has vetted (a character's name, say) - not flagged
+        self.accepted: set[str] = set()
+        for e in entries:
+            if e.kind == "accepted":
+                self.accepted |= e.keys
+        self.watch: list[Entry] = [e for e in entries if e.kind != "accepted"]
         self._res: dict[str, dict] = {}
 
     # ------------------------------------------------------------------ dates
@@ -284,7 +290,9 @@ class Checker:
             if basis.startswith("form not printed") and a["status"] == "OK":
                 a["status"] = "NOTE"
                 a["note"] = (a["note"] + "; " if a["note"] else "") + "this inflected form is not printed"
-            rank = (STATUS_RANK[a["status"]], (self.idx.year(rec.get("first_firm")) or 9999),
+            # the best evidence wins: least severe status, then earliest firm date,
+            # then the exact form over a variant
+            rank = (-STATUS_RANK[a["status"]], (self.idx.year(rec.get("first_firm")) or 9999),
                     0 if basis == "exact" else 1)
             if best is None or rank < best[0]:
                 best = (rank, a)
@@ -304,8 +312,7 @@ class Checker:
                 res["note"] = ("printed only as a foreign-language word (Latin, French, "
                                "Welsh or other), never tagged as English")
         res["key"] = key
-        lex = self.etym.lookup(key) or any(self.etym.lookup(c) for c in lemma_candidates(key))
-        res["resolved_english"] = res["status"] != "UNVERIFIED" or bool(lex)
+        res["resolved_english"] = res["status"] != "UNVERIFIED" or self.etym.is_english(key)
         self._res[key] = res
         return res
 
@@ -335,7 +342,7 @@ class Checker:
         rec = self.idx.ngram(list(keys))
         if rec is None:
             return None
-        Y, W = self.cfg.year, self.cfg.window
+        Y = self.cfg.year
         yf = self.idx.year(rec.get("first_firm"))
         if yf is None or yf <= Y:
             return None
@@ -367,6 +374,7 @@ class Checker:
         items: dict[str, Item] = {}
         out_paras = []
         romani: dict[str, dict] = {}
+        accepted: dict[str, int] = {}
         stream_words = {s: 0 for s in STREAMS}
 
         def item(id_, **kw) -> Item:
@@ -389,6 +397,9 @@ class Checker:
                 if not key:
                     continue
                 res = self.resolve(t.text)
+                if key in self.accepted:
+                    accepted[key] = accepted.get(key, 0) + 1
+                    continue
                 if key in INTERJECTIONS:
                     it = item(f"i:{key}", type="interjection", text=t.text, key=key,
                               status=res["status"] if res["status"] != "OK" else "NOTE",
@@ -503,6 +514,7 @@ class Checker:
             "items": {k: v.__dict__ for k, v in sorted(
                 items.items(), key=lambda kv: (STATUS_RANK.get(kv[1].status, 9), kv[0]))},
             "romani": sorted(romani.values(), key=lambda r: r["token"].lower()),
+            "accepted": accepted,
             "streams_words": stream_words,
         }
         result["summary"] = _summary(result)

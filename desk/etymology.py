@@ -61,7 +61,7 @@ _LANG_CLASS = dict(LANGS)
 
 # Wiktionary language codes used in etymology templates (kaikki JSONL)
 CODES = {
-    "enm": None, "en": None, "ang": "native", "gmw-pro": "native", "gem-pro": "native",
+    "enm": None, "en": None, "sco": "native", "ang": "native", "gmw-pro": "native", "gem-pro": "native",
     "non": "norse", "da": "norse", "sv": "norse", "no": "norse", "nb": "norse", "is": "norse",
     "dum": "germanic", "nl": "germanic", "gml": "germanic", "nds": "germanic",
     "goh": "germanic", "gmh": "germanic", "de": "germanic", "ofs": "germanic", "frk": "germanic",
@@ -133,15 +133,72 @@ def classify_text(ety: str, lookup=None, depth: int = 0) -> tuple[str, str]:
     return "unknown", " < ".join(chain)
 
 
-def classify_templates(templates: list[dict]) -> tuple[str, str] | None:
+_SRC_TEMPLATES = {"inh", "inh+", "inh-lite", "bor", "bor+", "lbor", "lbor+", "slbor", "ubor",
+                  "obor", "der", "der+", "der-lite", "uder", "calque", "cal", "psm", "sl"}
+_DERIV_TEMPLATES = {"af", "affix", "suffix", "prefix", "confix", "compound", "com", "blend"}
+
+
+def code_class(code: str) -> str | None:
+    """Class for a Wiktionary language code; None for a stage of English."""
+    if code in CODES:
+        return CODES[code]
+    if code.startswith("la-") or code in ("itc-pro",):
+        return "latin"
+    if code.startswith("fr") or code.startswith("roa-"):
+        return "french" if code.startswith("fr") else "romance"
+    if code.startswith("gem") or code.startswith("gmw") or code == "ine-pro":
+        return "native"
+    if code.startswith("gmq"):
+        return "norse"
+    if code.startswith(("cel", "sga", "mga", "wlm", "owl")):
+        return "celtic"
+    return "other" if code else "unknown"
+
+
+def compact_templates(templates: list[dict]) -> list[tuple]:
+    out = []
     for t in templates or []:
-        if t.get("name") in ("inh", "inh+", "bor", "bor+", "der", "der+", "lbor", "slbor",
-                             "ubor", "obor", "lbor+"):
-            code = (t.get("args") or {}).get("2", "")
-            if code in CODES:
-                cls = CODES[code]
-                if cls:
-                    return cls, f"{t['name']}:{code}"
+        name = t.get("name") or ""
+        if name not in _SRC_TEMPLATES and name not in _DERIV_TEMPLATES and name != "etyl":
+            continue
+        args = t.get("args") or {}
+        parts = [str(args[k]) for k in sorted((k for k in args if k.isdigit()), key=int)]
+        out.append((name, tuple(parts)))
+    return out
+
+
+def classify_templates(templates: list[tuple], lookup=None, depth: int = 0):
+    """Class from Wiktextract etymology templates, in order of appearance.
+
+    The first template naming a source language other than a stage of
+    English decides; an affix/compound template defers to its base word.
+    """
+    for name, parts in templates:
+        if name in _DERIV_TEMPLATES:
+            if not parts or parts[0] != "en":
+                continue
+            rest = list(parts[1:])
+            if name == "prefix":
+                base = rest[1] if len(rest) > 1 else None
+            elif name == "suffix":
+                base = rest[0] if rest else None
+            else:
+                base = next((x for x in rest if x and not x.startswith("-") and not x.endswith("-")), None)
+            if base and lookup is not None and depth < 3:
+                sub = lookup(base.lower(), depth + 1)
+                if sub and sub[0] != "unknown":
+                    return sub[0], f"{base} + … ({sub[1]})"
+            continue
+        if name == "etyl":
+            code = parts[0] if parts else ""
+        else:
+            if len(parts) < 2 or parts[0] != "en":
+                continue
+            code = parts[1]
+        cls = code_class(code)
+        if cls is None:
+            continue
+        return cls, f"{name}:{code}"
     return None
 
 
@@ -174,59 +231,99 @@ def build_from_extract(src: Path, out: Path) -> int:
     for w in raw:
         cls, chain = lookup(w)
         rows.append((w, cls, chain, "kaikki-derived extract (thymesis-dictionary kaikki-en-v1)"))
-    return _write(out, rows)
+    return _write(out, rows, set(raw))
 
 
-def build_from_kaikki(jsonl: Path, out: Path) -> int:
-    """Official kaikki.org English JSONL (one JSON object per line)."""
-    raw_text, tmpl = {}, {}
-    with open(jsonl, encoding="utf-8") as f:
+def build_from_kaikki(src, out: Path) -> int:
+    """Official kaikki.org English JSONL, one JSON object per line.
+
+    `src` is a path, or "-" to read a stream (e.g. curl ... | desk build
+    --stage etymology --kaikki -), so the 3.4 GB file need not be stored.
+    Also records every English headword and inflected form in a lexicon
+    table, which the checker uses to tell an English word from an
+    unresolved one.
+    """
+    import io
+    import sys
+    if hasattr(src, "read"):
+        f = src
+    elif str(src) == "-":
+        f = io.TextIOWrapper(sys.stdin.buffer, encoding="utf-8")
+    else:
+        f = open(src, encoding="utf-8")
+    tmpl: dict[str, list] = {}
+    text: dict[str, str] = {}
+    lex: dict[str, set] = {}          # form -> headwords it belongs to (proper names excluded)
+    n = 0
+    with f:
         for line in f:
+            n += 1
             try:
                 e = json.loads(line)
             except ValueError:
                 continue
-            if e.get("lang_code") not in (None, "en"):
+            if e.get("lang_code", "en") != "en":
                 continue
-            w = (e.get("word") or "").lower()
+            w = (e.get("word") or "").strip()
             if not w:
                 continue
-            c = classify_templates(e.get("etymology_templates"))
-            if c and w not in tmpl:
-                tmpl[w] = c
-            if e.get("etymology_text") and w not in raw_text:
-                raw_text[w] = e["etymology_text"]
+            lw = w.lower()
+            if e.get("pos") != "name":
+                if " " not in lw:
+                    lex.setdefault(lw, set()).add(lw)
+                for fm in e.get("forms") or []:
+                    ff = (fm.get("form") or "").strip().lower()
+                    if ff and " " not in ff and len(ff) < 40:
+                        lex.setdefault(ff, set()).add(lw)
+            et = e.get("etymology_templates")
+            if et and lw not in tmpl:
+                ct = compact_templates(et)
+                if ct:
+                    tmpl[lw] = ct
+            if e.get("etymology_text") and lw not in text:
+                text[lw] = e["etymology_text"]
     memo: dict[str, tuple[str, str]] = {}
 
-    def lookup(w: str, depth: int = 0):
-        if w in memo:
-            return memo[w]
-        if w in tmpl:
-            memo[w] = tmpl[w]
-            return memo[w]
-        if w not in raw_text:
+    def lookup(word: str, depth: int = 0):
+        if word in memo:
+            return memo[word]
+        if word not in tmpl and word not in text:
             return None
-        memo[w] = ("unknown", "")
-        memo[w] = classify_text(raw_text[w], lookup, depth)
-        return memo[w]
+        memo[word] = ("unknown", "")
+        r = classify_templates(tmpl.get(word, []), lookup, depth)
+        if r is None:
+            r = classify_text(text.get(word, ""), lookup, depth)
+        memo[word] = r
+        return r
 
     rows = []
-    for w in set(raw_text) | set(tmpl):
-        cls, chain = lookup(w)
-        rows.append((w, cls, chain, "kaikki.org Wiktextract English JSONL"))
-    return _write(out, rows)
+    for word in set(tmpl) | set(text):
+        cls, chain = lookup(word)
+        rows.append((word, cls, chain, "kaikki.org Wiktextract English JSONL"))
+    count = _write(out, rows, lex)
+    print(f"read {n} entries; {count} words classified; lexicon {len(lex)} forms (proper names excluded)")
+    return count
 
 
-def _write(out: Path, rows) -> int:
+def _write(out: Path, rows, lex: set | None = None) -> int:
     out.parent.mkdir(parents=True, exist_ok=True)
-    if out.exists():
-        out.unlink()
-    con = sqlite3.connect(out)
+    tmp = Path(str(out) + ".tmp")
+    if tmp.exists():
+        tmp.unlink()
+    con = sqlite3.connect(tmp)
     con.execute(SCHEMA)
+    con.execute("CREATE TABLE lexicon(word TEXT, base TEXT, PRIMARY KEY (word, base)) WITHOUT ROWID")
     con.executemany("INSERT OR IGNORE INTO origin VALUES (?,?,?,?)", rows)
+    if isinstance(lex, dict):
+        con.executemany("INSERT OR IGNORE INTO lexicon VALUES (?,?)",
+                        ((w, b) for w, bases in lex.items() for b in bases))
+    else:
+        con.executemany("INSERT OR IGNORE INTO lexicon VALUES (?,?)",
+                        ((w, w) for w in (set(lex or ()) | {r[0] for r in rows})))
     con.commit()
     n = con.execute("SELECT count(*) FROM origin").fetchone()[0]
     con.close()
+    tmp.replace(out)
     return n
 
 
@@ -235,6 +332,46 @@ class Etymology:
         self.ok = Path(path).exists()
         self.con = sqlite3.connect(f"file:{path}?mode=ro", uri=True) if self.ok else None
         self._cache: dict[str, tuple | None] = {}
+        self._lex: dict[str, bool] = {}
+        self.source = ""
+        if self.ok:
+            r = self.con.execute("SELECT source FROM origin LIMIT 1").fetchone()
+            self.source = r[0] if r else ""
+            self.has_lexicon = bool(self.con.execute(
+                "SELECT 1 FROM sqlite_master WHERE name='lexicon'").fetchone())
+            cols = {r[1] for r in self.con.execute("PRAGMA table_info(lexicon)")} if self.has_lexicon else set()
+            self._lex_bases = "base" in cols
+        else:
+            self.has_lexicon = False
+            self._lex_bases = False
+
+    def is_english(self, word: str) -> bool:
+        """Is this an English word in Wiktionary's sense: a headword or inflected
+        form of an entry that is not a proper name and whose etymology names a
+        source other than "other" (so Angloromani 'cosh', entries with no
+        etymology such as 'kushti', and stray homographs such as Khmer 'sar'
+        are not counted as English)?"""
+        if not self.ok:
+            return False
+        w = word.lower().replace("’", "'")
+        if w in self._lex:
+            return self._lex[w]
+        if self.has_lexicon and self._lex_bases:
+            bases = [b for (b,) in self.con.execute("SELECT base FROM lexicon WHERE word=?", (w,))]
+        elif self.has_lexicon:
+            bases = [w] if self.con.execute("SELECT 1 FROM lexicon WHERE word=?", (w,)).fetchone() else []
+        else:
+            bases = [w] if self.con.execute("SELECT 1 FROM origin WHERE word=?", (w,)).fetchone() else []
+        ok = False
+        for b in bases:
+            r = self.con.execute("SELECT class FROM origin WHERE word=?", (b,)).fetchone()
+            # an entry with no etymology at all is not taken as English either:
+            # for the Romani/cant stream, listing too much is the safer error
+            if r is not None and r[0] != "other":
+                ok = True
+                break
+        self._lex[w] = ok
+        return ok
 
     def lookup(self, word: str, lemma: str | None = None):
         if not self.ok:
@@ -251,3 +388,11 @@ class Etymology:
             if r:
                 return r
         return None
+
+
+if __name__ == "__main__":
+    import sys
+    from desk.paths import etymology_path
+    if len(sys.argv) > 1 and sys.argv[1] == "kaikki":
+        build_from_kaikki(sys.argv[2] if len(sys.argv) > 2 else "-",
+                          Path(sys.argv[3]) if len(sys.argv) > 3 else etymology_path())

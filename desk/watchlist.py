@@ -3,7 +3,9 @@
 Each entry in watchlist.yaml:
 
   term:      the word or phrase as it appears in the prose (required)
-  kind:      sense | name | place | romani | cant | idiom | word | punctuation
+  kind:      sense | name | place | romani | cant | idiom | word | accepted
+             (accepted = vetted by Henry: the word is no longer flagged and is
+             listed as accepted in the report)
   reason:    why it is listed (required)
   tag:       DOCUMENTED | REASONABLE INFERENCE | CONTESTED | UNVERIFIED (required)
   source:    where the reason comes from (optional)

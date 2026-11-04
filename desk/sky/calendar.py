@@ -207,9 +207,9 @@ def easter(y: int) -> tuple[Day, str]:
     """Easter Day of the (January-reckoned) year y, and which computus."""
     if y <= 1752:
         m, d = easter_julian(y)
-        return day_os(y, m, d), "Julian computus (Old Style)"
+        return day_os(y, m, d), "Julian computus, Old Style"
     m, d = easter_gregorian(y)
-    return day_ns(y, m, d), "Gregorian computus (Calendar Act 1750 tables)"
+    return day_ns(y, m, d), "Gregorian computus, as in the Calendar Act 1750 tables"
 
 
 # Offsets from Easter Day.  Names as the Prayer Book gives them where it does.
