@@ -168,7 +168,18 @@ def cmd_build(args) -> int:
             tcp_csv.write_bytes(urllib.request.urlopen(TCP_METADATA["url"]).read())
     if "fetch" in stages:
         from desk.build import fetch
-        fetch.run(data, args.collections.split(","), workers=args.workers, source=args.source)
+        failed = fetch.run(data, args.collections.split(","), workers=args.workers,
+                           source=args.source)
+        if failed:
+            print(f"desk: {len(failed)} shards could not be fetched this time (network?). "
+                  "Run the same command again; finished shards are kept.", file=sys.stderr)
+            return 3
+    if "aggregate" in stages and stages != ["aggregate"] and db.exists() and \
+            not (stage / "keys").exists():
+        print(f"desk: an index already exists at {db} and its intermediate files have been "
+              "cleaned, so the remaining stages are skipped. To rebuild from scratch, delete "
+              f"{stage / 'done'} and run `desk build` again.", file=sys.stderr)
+        return 0
     if "aggregate" in stages:
         import re as _re
         from desk.build.aggregate import aggregate
@@ -324,7 +335,7 @@ def main(argv: list[str] | None = None) -> int:
     args = p.parse_args(argv)
     try:
         return args.fn(args)
-    except (FileNotFoundError, ValueError) as e:
+    except (FileNotFoundError, ValueError, RuntimeError) as e:
         print(f"desk: {e}", file=sys.stderr)
         return 2
     except BrokenPipeError:          # e.g. `desk check ... | head`

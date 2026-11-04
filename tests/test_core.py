@@ -122,3 +122,20 @@ def test_open_ended_dates():
     assert parse_catalogue("1uuu-1672?") == (1672, "ranged")
     assert parse_catalogue("1000") == (None, "ranged")
     assert combine("[not after 1672]", "", "1uuu-1672?")[:2] == (1672, "ranged")
+
+
+def test_aggregate_refuses_without_key_files(tmp_path):
+    import json
+    from desk.build.aggregate import aggregate
+    stage = tmp_path / "stageA"
+    (stage / "meta").mkdir(parents=True)
+    (stage / "done").mkdir()
+    (stage / "done" / "eebo-A00").write_text("1 texts, 0 errors\n")
+    (stage / "meta" / "eebo-A00.jsonl").write_text(json.dumps(
+        {"tcp": "A00002", "file": "A00002", "shard": "A00", "imprint_date": "1625.",
+         "ep_year": "1625", "languages": ["eng"], "n_words": 10}) + "\n")
+    db = tmp_path / "index.sqlite"
+    db.write_bytes(b"precious")
+    with pytest.raises(RuntimeError):
+        aggregate(tmp_path, tmp_path / "TCP.csv", db)
+    assert db.read_bytes() == b"precious"          # the existing index is untouched
