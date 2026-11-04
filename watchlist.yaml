@@ -1,0 +1,158 @@
+# Watch list for the period-language desk - maintained by Henry.
+#
+# For what a corpus cannot see: senses, names, places, Romani and cant,
+# idioms.  Every hit in a report shows the entry's reason and tag, alongside
+# whatever the corpus itself says about the word.
+#
+#   term       word or phrase as written in the prose
+#   kind       sense | name | place | romani | cant | idiom | word
+#   reason     why it is listed
+#   tag        DOCUMENTED | REASONABLE INFERENCE | CONTESTED | UNVERIFIED
+#   source     where the reason comes from (optional)
+#   from_year  earliest recorded year for this use (optional): before it a hit
+#              is a FLAG, within the borderline window after it BORDERLINE,
+#              later a NOTE.  Without it a hit is shown as WATCH.
+#   match      word (default: also matches regular inflections) | exact |
+#              phrase | regex
+#   also       other spellings to match (optional)
+#   case       true = capitalised only (a name, not the common noun)
+#   corpus     the corpus's own earliest printed date for the form, where it
+#              has one (filled in by `desk watchlist --annotate`; a printed
+#              form may be a different word or sense - see the report's KWIC)
+#
+# Seed entries, November 2026.
+
+- term: Rowan
+  kind: name
+  case: true
+  reason: not recorded as a given name before the 20th century
+  tag: DOCUMENTED
+  source: one source
+  from_year: 1900
+
+- term: Janos
+  kind: name
+  case: true
+  also: [János]
+  reason: Hungarian, not British Romani
+  tag: REASONABLE INFERENCE
+
+- term: Danior
+  kind: romani
+  case: true
+  reason: Romani plural "teeth"; reached the project via baby-name sites
+  tag: DOCUMENTED
+
+- term: sar
+  kind: romani
+  match: exact
+  reason: Early Romani "how"; "what" is so
+  tag: DOCUMENTED
+  source: Welsh forms unchecked
+
+- term: dej
+  kind: romani
+  match: exact
+  reason: Vlax, not British
+  tag: REASONABLE INFERENCE
+
+- term: jertis
+  kind: romani
+  match: exact
+  reason: Vlax, not British
+  tag: REASONABLE INFERENCE
+
+- term: marime
+  kind: romani
+  match: exact
+  reason: Vlax, not British
+  tag: REASONABLE INFERENCE
+
+- term: gadjo
+  kind: romani
+  also: [gadje, gadji]
+  reason: Vlax, not British
+  tag: REASONABLE INFERENCE
+
+- term: panam
+  kind: cant
+  also: [pannam, pannum]
+  reason: thieves' cant (Harman 1567)
+  tag: DOCUMENTED
+  source: Thomas Harman, A Caveat or Warening for Commen Cursetors (1567)
+  from_year: 1567
+
+- term: pal
+  kind: romani
+  reason: English from the 1680s
+  tag: DOCUMENTED
+  from_year: 1680
+
+- term: kushti
+  kind: romani
+  also: [cushty, kushty]
+  reason: no record before the 19th century
+  tag: DOCUMENTED
+  from_year: 1800
+
+- term: dukkeripen
+  kind: romani
+  reason: no record before the 19th century
+  tag: DOCUMENTED
+  from_year: 1800
+
+- term: veshengro
+  kind: romani
+  reason: no record before the 19th century
+  tag: DOCUMENTED
+  from_year: 1800
+
+- term: cosh
+  kind: romani
+  reason: 19th century
+  tag: DOCUMENTED
+  from_year: 1800
+
+- term: Kensal Rise
+  kind: place
+  reason: station name of 1890
+  tag: DOCUMENTED
+  from_year: 1890
+
+- term: Welsh Kale
+  kind: place
+  reason: not before c.1730
+  tag: DOCUMENTED
+  from_year: 1730
+
+- term: forest
+  kind: sense
+  reason: period sense "royal hunting district"; wood is the native word
+  tag: REASONABLE INFERENCE
+
+- term: connect
+  kind: sense
+  reason: listed for checking - the modern emotional sense
+  tag: UNVERIFIED
+
+- term: get lost
+  kind: idiom
+  reason: listed for checking - as a dismissal
+  tag: UNVERIFIED
+
+- term: see you later
+  kind: idiom
+  reason: listed for checking - as a farewell
+  tag: UNVERIFIED
+
+- term: golden boy
+  kind: idiom
+  reason: listed for checking - as a name for a favoured young man
+  tag: UNVERIFIED
+
+- term: ma'am
+  kind: word
+  match: exact
+  also: [maam]
+  reason: listed for checking - the contraction of madam
+  tag: UNVERIFIED

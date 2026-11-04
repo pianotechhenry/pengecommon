@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "commons-desk"
+version = "0.1.0"
+description = "Period-language desk for The Commons Series: printed-attestation checks and a Penge sky/calendar lookup."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "ephem>=4.1",
+  "lxml>=4.9",
+  "numpy>=1.24",
+  "python-docx>=1.0",
+  "PyYAML>=6.0",
+  "xxhash>=3.0",
+  "zstandard>=0.21",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+desk = "desk.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["desk*"]
+
+[tool.setuptools.package-data]
+desk = ["data/*"]

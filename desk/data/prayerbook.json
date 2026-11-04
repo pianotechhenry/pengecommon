@@ -1,0 +1,1455 @@
+{
+ "1559": {
+  "source": "A05983",
+  "title": "The booke of common prayer (London, 1603): the 1559 book with the 1561 calendar",
+  "holy_days": [
+   {
+    "name": "Circumcision of Christ",
+    "month": 1,
+    "day": 1,
+    "listed_as": "Circummcisiō.",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'Circum.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "Epiphany",
+    "month": 1,
+    "day": 6,
+    "listed_as": "Epiphanie.",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'Epiphany' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "Conversion of St Paul",
+    "month": 1,
+    "day": 25,
+    "listed_as": "Conuersion of S.Paul",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A05983 Kalendar, image 12: 'Couerl. Paul.' on the day",
+     "A28758 Kalendar, image 7: 'S. Paul Conv.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "Purification of the Virgin Mary",
+    "month": 2,
+    "day": 2,
+    "listed_as": "Purification of the Mirgin Marie.",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'P. Mary' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Matthias",
+    "month": 2,
+    "day": 24,
+    "listed_as": "S. Matthias",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'S. Matt.' in the row for day 22 (transcription row offset -2)"
+    ],
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "name": "Annunciation of the Virgin Mary",
+    "month": 3,
+    "day": 25,
+    "listed_as": "Annuciation of our Lady.",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'An. Mary' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Mark",
+    "month": 4,
+    "day": 25,
+    "listed_as": "S. Marke.",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'S. Mark Ev. and M.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Philip and St James (Jacob)",
+    "month": 5,
+    "day": 1,
+    "listed_as": "Philip and Iacob.",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'S. Phil.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Barnabas",
+    "month": 6,
+    "day": 11,
+    "listed_as": "S. Barnabe.",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'S. Barn. A. and M.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "Nativity of St John Baptist",
+    "month": 6,
+    "day": 24,
+    "listed_as": "S. Ion. Bap.",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'S. Io. B.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Peter",
+    "month": 6,
+    "day": 29,
+    "listed_as": "S. Peter.",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'S. Peter' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St James",
+    "month": 7,
+    "day": 25,
+    "listed_as": "S. Iames.",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'S. Iames' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Bartholomew",
+    "month": 8,
+    "day": 24,
+    "listed_as": "S. Bartholomew.",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'S. Bart.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Matthew",
+    "month": 9,
+    "day": 21,
+    "listed_as": "S. Matthew.",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 8: 'S. Matt.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Michael and All Angels",
+    "month": 9,
+    "day": 29,
+    "listed_as": "S. Michael.",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 8: 'S. Mich.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Luke",
+    "month": 10,
+    "day": 18,
+    "listed_as": "S. Luke.",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 8: 'S. Luke.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Simon and St Jude",
+    "month": 10,
+    "day": 28,
+    "listed_as": "Simon and Iude.",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 8: 'Iude.' in the row for day 29 (transcription row offset +1)"
+    ],
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "name": "All Saints",
+    "month": 11,
+    "day": 1,
+    "listed_as": "All Saints.",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 8: 'All' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Andrew",
+    "month": 11,
+    "day": 30,
+    "listed_as": "S. Andrew",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 8: 'S. Andr.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Thomas the Apostle",
+    "month": 12,
+    "day": 21,
+    "listed_as": "S. Thomas the Apostle.",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 8: 'S. Tho.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "Nativity of Christ",
+    "month": 12,
+    "day": 25,
+    "listed_as": "Natiuitie of Christ.",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 8: 'Christm.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Stephen",
+    "month": 12,
+    "day": 26,
+    "listed_as": "S. Steuen.",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 8: 'S. Steph.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St John the Evangelist",
+    "month": 12,
+    "day": 27,
+    "listed_as": "S. Iohn.",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 8: 'S. Iohn.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "Holy Innocents",
+    "month": 12,
+    "day": 28,
+    "listed_as": "Innocents day.",
+    "listed_in": "A05983 image 9",
+    "date_evidence": [
+     "A28758 Kalendar, image 8: 'Innocen.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   }
+  ],
+  "calendar_days": [
+   {
+    "month": 1,
+    "day": 8,
+    "printed": "Lucian.",
+    "red": false,
+    "cite": "A05983 Kalendar image 12",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 1,
+    "day": 18,
+    "printed": "Prtfca.",
+    "red": false,
+    "cite": "A05983 Kalendar image 12",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 1,
+    "day": 20,
+    "printed": "Fabian.",
+    "red": false,
+    "cite": "A05983 Kalendar image 12",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 1,
+    "day": 21,
+    "printed": "Agnes.",
+    "red": false,
+    "cite": "A05983 Kalendar image 12",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 2,
+    "day": 3,
+    "printed": "Biast.",
+    "red": false,
+    "cite": "A05983 Kalendar image 13",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 2,
+    "day": 5,
+    "printed": "Agathe.",
+    "red": false,
+    "cite": "A05983 Kalendar image 13",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 3,
+    "day": 2,
+    "printed": "Cedde.",
+    "red": false,
+    "cite": "A05983 Kalendar image 13",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 3,
+    "day": 12,
+    "printed": "Eregory.",
+    "red": false,
+    "cite": "A05983 Kalendar image 13",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 3,
+    "day": 18,
+    "printed": "Edward.",
+    "red": false,
+    "cite": "A05983 Kalendar image 13",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 4,
+    "day": 3,
+    "printed": "Richard.",
+    "red": false,
+    "cite": "A05983 Kalendar image 14",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 4,
+    "day": 4,
+    "printed": "Ambrose.",
+    "red": false,
+    "cite": "A05983 Kalendar image 14",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 4,
+    "day": 19,
+    "printed": "Alphege.",
+    "red": false,
+    "cite": "A05983 Kalendar image 14",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 4,
+    "day": 23,
+    "printed": "S. George.",
+    "red": false,
+    "cite": "A05983 Kalendar image 14",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 5,
+    "day": 3,
+    "printed": "Inu. of ye crosse.",
+    "red": false,
+    "cite": "A05983 Kalendar image 14",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 5,
+    "day": 6,
+    "printed": "Iohn Euang.",
+    "red": false,
+    "cite": "A05983 Kalendar image 14",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 5,
+    "day": 19,
+    "printed": "Dunstane.",
+    "red": false,
+    "cite": "A05983 Kalendar image 14",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 6,
+    "day": 3,
+    "printed": "Nichomede.",
+    "red": false,
+    "cite": "A05983 Kalendar image 15",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 7,
+    "day": 26,
+    "printed": "Anne.",
+    "red": false,
+    "cite": "A05983 Kalendar image 15",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 8,
+    "day": 6,
+    "printed": "Transfigurat",
+    "red": false,
+    "cite": "A05983 Kalendar image 16",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 8,
+    "day": 7,
+    "printed": "Name of Iesus",
+    "red": false,
+    "cite": "A05983 Kalendar image 16",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 8,
+    "day": 10,
+    "printed": "Laurence.",
+    "red": false,
+    "cite": "A05983 Kalendar image 16",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 8,
+    "day": 29,
+    "printed": "Benead. of Iob",
+    "red": false,
+    "cite": "A05983 Kalendar image 16",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 9,
+    "day": 7,
+    "printed": "Enurcus bish.",
+    "red": false,
+    "cite": "A05983 Kalendar image 16",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 9,
+    "day": 8,
+    "printed": "Nati. of Mary.",
+    "red": false,
+    "cite": "A05983 Kalendar image 16",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 9,
+    "day": 14,
+    "printed": "Holy Crosse.",
+    "red": false,
+    "cite": "A05983 Kalendar image 16",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 9,
+    "day": 17,
+    "printed": "Lambert.",
+    "red": false,
+    "cite": "A05983 Kalendar image 16",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 9,
+    "day": 26,
+    "printed": "Cyyrian.",
+    "red": false,
+    "cite": "A05983 Kalendar image 16",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 9,
+    "day": 30,
+    "printed": "Hierome.",
+    "red": false,
+    "cite": "A05983 Kalendar image 16",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 10,
+    "day": 6,
+    "printed": "Faith.",
+    "red": false,
+    "cite": "A05983 Kalendar image 17",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 10,
+    "day": 9,
+    "printed": "Dennis.",
+    "red": false,
+    "cite": "A05983 Kalendar image 17",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 10,
+    "day": 13,
+    "printed": "Edward.",
+    "red": false,
+    "cite": "A05983 Kalendar image 17",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 10,
+    "day": 17,
+    "printed": "Ethelorede.",
+    "red": false,
+    "cite": "A05983 Kalendar image 17",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 10,
+    "day": 25,
+    "printed": "Cnrispine.",
+    "red": false,
+    "cite": "A05983 Kalendar image 17",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 11,
+    "day": 6,
+    "printed": "Leonard.",
+    "red": false,
+    "cite": "A05983 Kalendar image 17",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 11,
+    "day": 11,
+    "printed": "S.Marttne.",
+    "red": false,
+    "cite": "A05983 Kalendar image 17",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 11,
+    "day": 15,
+    "printed": "Machute.",
+    "red": false,
+    "cite": "A05983 Kalendar image 17",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 11,
+    "day": 20,
+    "printed": "Edmund King.",
+    "red": false,
+    "cite": "A05983 Kalendar image 17",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 11,
+    "day": 22,
+    "printed": "Cicilte.",
+    "red": false,
+    "cite": "A05983 Kalendar image 17",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 11,
+    "day": 23,
+    "printed": "Clement.",
+    "red": false,
+    "cite": "A05983 Kalendar image 17",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 11,
+    "day": 25,
+    "printed": "Eatherine.",
+    "red": false,
+    "cite": "A05983 Kalendar image 17",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 12,
+    "day": 8,
+    "printed": "Conc. of Mary",
+    "red": false,
+    "cite": "A05983 Kalendar image 18",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 12,
+    "day": 16,
+    "printed": "Dsapientia.",
+    "red": false,
+    "cite": "A05983 Kalendar image 18",
+    "tag": "DOCUMENTED"
+   }
+  ],
+  "vigils": []
+ },
+ "1662": {
+  "source": "A28758",
+  "title": "The book of common prayer (London, 1693): the 1662 book",
+  "holy_days": [
+   {
+    "name": "Circumcision of Christ",
+    "month": 1,
+    "day": 1,
+    "listed_as": "The Circumcision of our Lord JESUS CHRIST.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'Circum.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "Epiphany",
+    "month": 1,
+    "day": 6,
+    "listed_as": "The Epiphany.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'Epiphany' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "Conversion of St Paul",
+    "month": 1,
+    "day": 25,
+    "listed_as": "The Conversion of St. Paul.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'S. Paul Conv.' on the day",
+     "A05983 Kalendar, image 12: 'Couerl. Paul.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "Purification of the Virgin Mary",
+    "month": 2,
+    "day": 2,
+    "listed_as": "The Purification of the Blessed Virgin.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'P. Mary' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Matthias",
+    "month": 2,
+    "day": 24,
+    "listed_as": "S. Matthias the Apostle.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'S. Matt.' in the row for day 22 (transcription row offset -2)"
+    ],
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "name": "Annunciation of the Virgin Mary",
+    "month": 3,
+    "day": 25,
+    "listed_as": "The Annunciation of the Blessed Virgin.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'An. Mary' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Mark",
+    "month": 4,
+    "day": 25,
+    "listed_as": "St. Mark the Evangelist.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'S. Mark Ev. and M.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Philip and St James (Jacob)",
+    "month": 5,
+    "day": 1,
+    "listed_as": "St. Philip and St. Jacob the Apostles.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'S. Phil.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Barnabas",
+    "month": 6,
+    "day": 11,
+    "listed_as": "St. Barnabas.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'S. Barn. A. and M.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "Nativity of St John Baptist",
+    "month": 6,
+    "day": 24,
+    "listed_as": "The Nativity of St. John Baptist.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'S. Io. B.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Peter",
+    "month": 6,
+    "day": 29,
+    "listed_as": "St. Peter the Apostle.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'S. Peter' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St James",
+    "month": 7,
+    "day": 25,
+    "listed_as": "St. James the Apostle.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'S. Iames' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Bartholomew",
+    "month": 8,
+    "day": 24,
+    "listed_as": "St. Bartholomew the Apostle.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 7: 'S. Bart.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Matthew",
+    "month": 9,
+    "day": 21,
+    "listed_as": "St. Matthew the Apostle.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 8: 'S. Matt.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Michael and All Angels",
+    "month": 9,
+    "day": 29,
+    "listed_as": "St. Michael and all Angels.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 8: 'S. Mich.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Luke",
+    "month": 10,
+    "day": 18,
+    "listed_as": "St. Luke the Evangelist.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 8: 'S. Luke.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Simon and St Jude",
+    "month": 10,
+    "day": 28,
+    "listed_as": "St. Simon and St. Jude the Apostles.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 8: 'Iude.' in the row for day 29 (transcription row offset +1)"
+    ],
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "name": "All Saints",
+    "month": 11,
+    "day": 1,
+    "listed_as": "All Saints.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 8: 'All' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Andrew",
+    "month": 11,
+    "day": 30,
+    "listed_as": "St. Andrew the Apostle.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 8: 'S. Andr.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Thomas the Apostle",
+    "month": 12,
+    "day": 21,
+    "listed_as": "St. Thomas the Apostle.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 8: 'S. Tho.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "Nativity of Christ",
+    "month": 12,
+    "day": 25,
+    "listed_as": "The Nativity of our Lord.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 8: 'Christm.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St Stephen",
+    "month": 12,
+    "day": 26,
+    "listed_as": "St. Stephen the Martyr.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 8: 'S. Steph.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "St John the Evangelist",
+    "month": 12,
+    "day": 27,
+    "listed_as": "St. Mark the Evangelist.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 8: 'S. Iohn.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   },
+   {
+    "name": "Holy Innocents",
+    "month": 12,
+    "day": 28,
+    "listed_as": "The Holy Innocents.",
+    "listed_in": "A28758 image 8",
+    "date_evidence": [
+     "A28758 Kalendar, image 8: 'Innocen.' on the day"
+    ],
+    "tag": "DOCUMENTED"
+   }
+  ],
+  "calendar_days": [
+   {
+    "month": 1,
+    "day": 8,
+    "printed": "Lucian, P.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 1,
+    "day": 13,
+    "printed": "Hillary B.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 1,
+    "day": 18,
+    "printed": "Prisca, R.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 1,
+    "day": 20,
+    "printed": "Fabian B.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 1,
+    "day": 21,
+    "printed": "Agnes Virg.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 1,
+    "day": 22,
+    "printed": "Vincent Sp.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 1,
+    "day": 30,
+    "printed": "K. C. M.",
+    "red": true,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 2,
+    "day": 5,
+    "printed": "Agatha Sic.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 2,
+    "day": 14,
+    "printed": "Valentine.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 3,
+    "day": 1,
+    "printed": "David Arc.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 3,
+    "day": 2,
+    "printed": "Cedde.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 3,
+    "day": 7,
+    "printed": "Perpetua.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 3,
+    "day": 12,
+    "printed": "Greg. M. B.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 3,
+    "day": 18,
+    "printed": "Ed. K. West.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 3,
+    "day": 21,
+    "printed": "Benedict, A.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 4,
+    "day": 3,
+    "printed": "Richard, B.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 4,
+    "day": 4,
+    "printed": "S. Ambrose.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 4,
+    "day": 19,
+    "printed": "Alphege, A.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 4,
+    "day": 23,
+    "printed": "S. George.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 5,
+    "day": 3,
+    "printed": "Invention of the Cross.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 5,
+    "day": 6,
+    "printed": "S. John Ev.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 5,
+    "day": 19,
+    "printed": "Dunst. A. B.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 5,
+    "day": 26,
+    "printed": "Augustin.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 5,
+    "day": 27,
+    "printed": "Ven. Bede.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 5,
+    "day": 29,
+    "printed": "K. Ch. II. N. and R.",
+    "red": true,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 6,
+    "day": 1,
+    "printed": "Nicom.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 6,
+    "day": 5,
+    "printed": "Boniface.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 6,
+    "day": 17,
+    "printed": "S. Alban.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 6,
+    "day": 20,
+    "printed": "Edward.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 7,
+    "day": 2,
+    "printed": "Mary Visit.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 7,
+    "day": 4,
+    "printed": "Tr. Mart. B.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 7,
+    "day": 15,
+    "printed": "Swithun B.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 7,
+    "day": 20,
+    "printed": "Margar.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 7,
+    "day": 21,
+    "printed": "M. Magd.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 7,
+    "day": 26,
+    "printed": "S. Anne",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 8,
+    "day": 1,
+    "printed": "Lammas",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 8,
+    "day": 5,
+    "printed": "Tr. Of our L.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 8,
+    "day": 6,
+    "printed": "N. of Jesus.",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 8,
+    "day": 10,
+    "printed": "S. Laurance",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 8,
+    "day": 28,
+    "printed": "S. Aug. B",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 8,
+    "day": 29,
+    "printed": "Beh. Of John",
+    "red": false,
+    "cite": "A28758 Kalendar image 7",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 9,
+    "day": 1,
+    "printed": "Giles Ab. and Conf.",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 9,
+    "day": 7,
+    "printed": "Enurchus B",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 9,
+    "day": 8,
+    "printed": "Nat. Mary",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 9,
+    "day": 14,
+    "printed": "Holy Cross",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 9,
+    "day": 17,
+    "printed": "Lamb.",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 9,
+    "day": 26,
+    "printed": "S. Cyprian",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 9,
+    "day": 30,
+    "printed": "S. Jerom.",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 10,
+    "day": 1,
+    "printed": "Remig. B.",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 10,
+    "day": 6,
+    "printed": "Faith. Virg.",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 10,
+    "day": 9,
+    "printed": "Dennis.",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 10,
+    "day": 13,
+    "printed": "Ed. Conf.",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 10,
+    "day": 17,
+    "printed": "Etheldred",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 10,
+    "day": 25,
+    "printed": "Chrisp. M.",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 11,
+    "day": 5,
+    "printed": "Pap. C.",
+    "red": true,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 11,
+    "day": 6,
+    "printed": "Leonard",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 11,
+    "day": 11,
+    "printed": "S. Martin",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 11,
+    "day": 13,
+    "printed": "Britius. B.",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 11,
+    "day": 15,
+    "printed": "Machutus",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 11,
+    "day": 17,
+    "printed": "Hugh. B.",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 11,
+    "day": 20,
+    "printed": "Edm. K M.",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 11,
+    "day": 22,
+    "printed": "Ceci ia V.",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 11,
+    "day": 23,
+    "printed": "S. Clem.",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 11,
+    "day": 25,
+    "printed": "Cather. V.",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 12,
+    "day": 6,
+    "printed": "Nicho. B.",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 12,
+    "day": 8,
+    "printed": "Concept",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "DOCUMENTED"
+   },
+   {
+    "month": 12,
+    "day": 13,
+    "printed": "Lucy, Vir.",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 12,
+    "day": 16,
+    "printed": "O Sapientia",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "REASONABLE INFERENCE"
+   },
+   {
+    "month": 12,
+    "day": 31,
+    "printed": "Silvest. Bish",
+    "red": false,
+    "cite": "A28758 Kalendar image 8",
+    "tag": "REASONABLE INFERENCE"
+   }
+  ],
+  "vigils": [
+   "THe Eves or Vigils before The Nativity of our Lord.",
+   "THe Eves or Vigils before The Purification of the Blessed Virgin Mary.",
+   "THe Eves or Vigils before The Annunciation of the Blessed Virgin.",
+   "THe Eves or Vigils before Easter-day.",
+   "THe Eves or Vigils before Ascension-day.",
+   "THe Eves or Vigils before Pentecost.",
+   "THe Eves or Vigils before St. Matthias.",
+   "THe Eves or Vigils before St. John Baptist.",
+   "THe Eves or Vigils before St. Peter.",
+   "THe Eves or Vigils before St. James.",
+   "THe Eves or Vigils before St. Bartholomew.",
+   "THe Eves or Vigils before St. Matthew.",
+   "THe Eves or Vigils before St. Simon and St. Jude.",
+   "THe Eves or Vigils before St. Andrew.",
+   "THe Eves or Vigils before St. Thomas.",
+   "THe Eves or Vigils before All Saints."
+  ]
+ }
+}
