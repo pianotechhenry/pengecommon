@@ -168,7 +168,7 @@ def cmd_build(args) -> int:
             tcp_csv.write_bytes(urllib.request.urlopen(TCP_METADATA["url"]).read())
     if "fetch" in stages:
         from desk.build import fetch
-        fetch.run(data, args.collections.split(","), workers=args.workers)
+        fetch.run(data, args.collections.split(","), workers=args.workers, source=args.source)
     if "aggregate" in stages:
         import re as _re
         from desk.build.aggregate import aggregate
@@ -298,6 +298,8 @@ def main(argv: list[str] | None = None) -> int:
     sp.add_argument("--stage", default="all",
                     help="fetch,aggregate,kwic,ngrams,scan,holdout,etymology,clean,prayerbook or all")
     sp.add_argument("--collections", default="eebo,ecco", help="eebo,ecco[,evans]")
+    sp.add_argument("--source", default="raw", choices=("raw", "git"),
+                    help="raw: fetch each text over HTTPS (default); git: shallow clones")
     sp.add_argument("--workers", type=int, default=4)
     sp.add_argument("--kaikki", help="kaikki.org English JSONL: a path, '-' for stdin, or a URL")
     sp.set_defaults(fn=cmd_build)
