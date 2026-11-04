@@ -266,7 +266,7 @@ function itemHtml(it){
   let h = `<h3>${esc(it.text)} ${badge(it.status)} ${tag(it.tag)}</h3>`;
   h += `<p class="small">${esc(it.type)} · key <code>${esc(it.key)}</code></p>`;
   if(it.reason) h += `<p>${esc(it.reason)}</p>`;
-  if(ev.basis && ev.basis!==it.reason) h += `<p class="small">Basis: ${esc(ev.basis)}${ev.matched && ev.matched!==it.key ? ' → '+esc(ev.matched):''}</p>`;
+  if(ev.basis && ev.basis!==it.reason && ev.basis!=='exact') h += `<p class="small">Basis: ${esc(ev.basis)}${ev.matched && ev.matched!==it.key ? ' → '+esc(ev.matched):''}</p>`;
   if(ev.note) h += `<p>${esc(ev.note)}</p>`;
   for(const w of (it.watch||[])){
     h += `<div class="wl"><b>Watch list</b>: ${esc(w.reason)} ${tag(w.tag)}${w.source?'<br><span class="small">source: '+esc(w.source)+'</span>':''}` +

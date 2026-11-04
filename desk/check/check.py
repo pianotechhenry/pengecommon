@@ -435,8 +435,10 @@ class Checker:
                     occ(it, pi, t.start, t.end, stream)
                     spans.append({"start": t.start, "end": t.end, "item": it.id, "stream": stream})
                 elif res["status"] != "OK":
+                    basis = res.get("basis", "")
+                    reason = "this form, as regularised in print" if basis == "exact" else basis
                     it = item(f"w:{key}", type="word", text=t.text, key=key, status=res["status"],
-                              tag=res["tag"], reason=res.get("basis", ""), evidence=res,
+                              tag=res["tag"], reason=reason, evidence=res,
                               resolved_english=res["resolved_english"])
                     occ(it, pi, t.start, t.end, stream)
                     spans.append({"start": t.start, "end": t.end, "item": it.id, "stream": stream})

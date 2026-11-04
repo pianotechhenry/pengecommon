@@ -1,63 +1,76 @@
-# Commons desk: a period-language and sky desk for *The Commons Series*
+# Commons desk: period language and sky for *The Commons Series*
 
-The desk reads a scene and lists, with evidence, every word or phrase that has no printed
-attestation before the book's year. It never edits a file, suggests wording or writes period
-text. It flags, cites and stops. It also gives the sky and calendar for any day at Penge
-Common, 1580–1800.
+`desk check` lists every word or phrase in a scene with no printed attestation before the
+book's year, with the evidence. It never edits a file, suggests wording or writes period text.
+`desk sky` and `desk almanac` give the calendar and sky at Penge Common, 1580–1800.
 
-**Install** (Python 3.10+): `python -m venv .venv && . .venv/bin/activate && pip install -e .`
-Then build the index once with `scripts/build_index.sh`. This takes several hours, downloads
-about 17 GB and needs about 25 GB of free disk; every stage can be resumed.
+**Install** (Python 3.10+, git, curl): `python -m venv .venv && . .venv/bin/activate && pip
+install -e .`, then build the index once with `scripts/build_index.sh`. This takes a few hours,
+downloads about 17 GB and needs about 25 GB free while building. Each stage can be resumed.
 
-## The three commands
+## Commands
 
-- `desk check scene.md --year 1589` reads `.md`, `.txt` or `.docx`. Italic is interior
-  thought, quoted text is dialogue and the rest is narration; each is reported separately.
-  The command writes `scene.1589.report.html` (the text with flags marked; click a word for
-  its evidence) and `.json`. Options: `--window 15` (the BORDERLINE window), `--note-min 3`,
-  and `--no-watchlist` (corpus evidence only). `desk lookup WORD… --year 1689` gives the same
-  evidence for one word or phrase in the terminal.
-- `desk sky 1689-05-01` shows a date as written in England at the time (Old Style before
-  14 September 1752); `--ns` or `--os` forces the calendar. It gives Old and New Style dates,
-  the weekday, the legal year (which began 25 March before 1752), Easter by the Julian
-  computus (Gregorian from 1753), the Sunday, Prayer Book holy days, quarter days, sunrise and
-  sunset by the sundial, the end of civil twilight in local mean time, and the moon.
-- `desk almanac 1589` writes a printable Lady Day-to-Lady Day year as CSV and HTML.
+- `desk check scene.md --year 1589`. Accepts `.md`, `.txt` or `.docx`; italic is interior
+  thought, quoted text is dialogue and the rest is narration, each reported separately. Writes
+  `scene.1589.report.html` (click a marked word for its evidence) and `.json`. Options:
+  `--window 15`, `--note-min 3`, `--no-watchlist`. `desk lookup forest --year 1689` gives the
+  same evidence in the terminal.
+- `desk sky 1689-05-01`. Takes the date as written in England then (Old Style until
+  2 September 1752); `--ns` or `--os` forces the calendar. Shows both styles, the weekday and
+  the legal year (it began on 25 March until 1752), Easter by the Julian computus (Gregorian
+  from 1753), the Sunday, Prayer Book holy days and quarter days, sunrise and sunset by the
+  sundial, the end of civil twilight in local mean time, and the moon's phase, illumination,
+  rise and set.
+- `desk almanac 1589`. Writes a printable Lady Day-to-Lady Day year as CSV and HTML.
 
-## Statuses and tags
+## Reading a report
 
-A word is silent when it was printed before the year in at least 3 texts. It is marked NOTE
-when printed before the year in fewer texts, BORDERLINE when first printed in the year or
-within 15 years after, FLAG when first printed later, and UNVERIFIED when it is not in the
-corpus. Dates use the earliest *firm*-dated text; earlier conjectural or ranged dates
-(`[1585?]`, `1580-1590`) are shown and tagged CONTESTED. `watchlist.yaml` (yours to maintain)
-covers what a corpus cannot see: senses, names, places, Romani, cant and idioms. Each hit shows
-its reason and tag. Tags: **DOCUMENTED** rests on a cited dated text or source. **REASONABLE
-INFERENCE** is drawn from evidence that does not state it directly: a spelling variant, a lemma,
-or the phrase heuristic. **CONTESTED** means the evidence conflicts. **UNVERIFIED** means there
-is no evidence either way. The Latin/French share per paragraph is a heuristic, compared only
-with your own `samples/baseline.md`.
+| status | meaning |
+|---|---|
+| (silent) | printed before the year in 3 or more texts |
+| NOTE | printed before the year, but thinly |
+| BORDERLINE | first printed in the year or within the window after it |
+| FLAG | first printed later |
+| UNVERIFIED | not in the corpus |
+| WATCH | watch-list hit |
 
-## What the corpus can and cannot tell you
+Dates come from the earliest **firm**-dated text. An earlier conjectural or ranged imprint
+(`[1585?]`) is shown and makes the entry CONTESTED.
 
-Absence from the corpus is never proof. Print lags speech, and early print is skewed to
-religious and learned registers; everyday, female, regional, criminal and Romani speech is
-thin or absent. Spelling is matched through EarlyPrint's regularised forms (MorphAdorner), which
-miss some spellings. `reports/acceptance/holdout.md` measures how often this produces false
-flags. Dates are of the edition transcribed, not of composition. For 1789, ECCO-TCP is small
-(about 2,000 texts).
+The evidence tags are:
 
-## Sources: licence, size, route (checked November 2026)
+- **DOCUMENTED**: a cited text or source says so.
+- **REASONABLE INFERENCE**: drawn from evidence that does not state it directly (a spelling
+  variant, a lemma, a compound printed as two words, the phrase heuristic).
+- **CONTESTED**: the evidence conflicts.
+- **UNVERIFIED**: there is no evidence either way.
 
-| source | licence | size | route |
-|---|---|---|---|
-| EEBO-TCP Phases I and II, EarlyPrint edition (regularised, lemmatised) | CC0 1.0 | 141 shards, ~17 GB shallow git clones, ~160 GB XML streamed, not stored | `bitbucket.org/eads004/eebotcp` |
-| ECCO-TCP, EarlyPrint edition | CC0 1.0 / public domain | 92 shards, under 2 GB | `bitbucket.org/eads004/eccotcp` |
-| TCP catalogue `TCP.csv` | CC0 1.0 | 29 MB, 61,315 records | `raw.githubusercontent.com/textcreationpartnership/Texts` |
-| Wiktionary English via kaikki.org (Wiktextract JSONL, 30 Oct 2026) | CC BY-SA 4.0 / GFDL | 3.4 GB, streamed | `kaikki.org/dictionary/English/` |
-| Prayer Books: TCP A05983 (1603 printing of the 1559 book), A28758 (1693 printing of the 1662 book) | CC0 1.0 | 2 texts | TCP GitHub raw |
-| PyEphem 4.2 (VSOP87, ELP 2000-82; ΔT per Morrison & Stephenson 2004 before 1700) | MIT | — | PyPI |
+`watchlist.yaml` is yours, for what a corpus cannot see: senses, names, places, Romani, cant
+and idioms. Mark vetted words `kind: accepted`. The Romani/cant section lists every token not
+resolved as English, with its watch-list entry or "unplaced — for the consultant". The
+Latin/French share is a heuristic, compared only with your `samples/baseline.md`.
 
-EEBO-TCP Phase II has been public since 2020 and is included. Evans-TCP (American) is optional
-(`desk build --collections eebo,ecco,evans`). Reports derived from Wiktionary data are CC BY-SA.
-The code is the author's.
+## Limits
+
+Absence from the corpus is never proof. Print lags speech, and early print leans to religious
+and learned registers. Spelling is matched through EarlyPrint's regularised forms, which miss
+some spellings; `reports/acceptance/holdout.md` measures the false flags this causes. A date is
+that of the edition transcribed, not of composition. ECCO-TCP is small, so 1789 checks are
+thinner.
+
+## Sources (licence · size · route, November 2026)
+
+- EEBO-TCP Phases I and II and ECCO-TCP, EarlyPrint's regularised and lemmatised edition.
+  CC0 1.0. 141 + 92 git shards: about 17 GB of shallow clones, with the XML streamed and not
+  stored. `bitbucket.org/eads004/eebotcp`, `…/eccotcp`. Evans-TCP is optional
+  (`--collections eebo,ecco,evans`).
+- TCP catalogue `TCP.csv`. CC0. 29 MB.
+  `raw.githubusercontent.com/textcreationpartnership/Texts`.
+- Wiktionary English via kaikki.org (Wiktextract JSONL of 30 October 2026). CC BY-SA 4.0 and
+  GFDL. 3.4 GB, streamed. `kaikki.org/dictionary/English/`.
+- Prayer Books: TCP A05983 (the 1559 book, printed 1603) and A28758 (the 1662 book, printed
+  1693). CC0.
+- PyEphem 4.2 (MIT): VSOP87 for the Sun and ELP 2000-82 for the Moon. ΔT follows Morrison &
+  Stephenson (2004) before 1700 and the Astronomical Almanac table after.
+
+Acceptance results are in `reports/acceptance/` and sample reports in `reports/sample/`.
