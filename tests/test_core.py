@@ -113,3 +113,11 @@ def test_watchlist_seed():
     assert "connected" in es["connect"].keys
     assert all(e.tag in ("DOCUMENTED", "REASONABLE INFERENCE", "CONTESTED", "UNVERIFIED")
                for e in es.values())
+
+
+def test_open_ended_dates():
+    from desk.build.dates import combine, parse_catalogue
+    assert parse_imprint("[not after 1672]") == (1672, "ranged")
+    assert parse_catalogue("1uuu-1672?") == (1672, "ranged")
+    assert parse_catalogue("1000") == (None, "ranged")
+    assert combine("[not after 1672]", "", "1uuu-1672?")[:2] == (1672, "ranged")
