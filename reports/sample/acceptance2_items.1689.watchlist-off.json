@@ -1,7 +1,7 @@
 {
  "tool": "commons-desk check",
  "source": "tests/fixtures/acceptance2_items.md",
- "generated": "2026-11-04 11:16",
+ "generated": "2026-11-04 11:19",
  "settings": {
   "year": 1689,
   "window": 15,

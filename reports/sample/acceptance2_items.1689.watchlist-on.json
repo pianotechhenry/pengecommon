@@ -1,7 +1,7 @@
 {
  "tool": "commons-desk check",
  "source": "tests/fixtures/acceptance2_items.md",
- "generated": "2026-11-04 11:16",
+ "generated": "2026-11-04 11:19",
  "settings": {
   "year": 1689,
   "window": 15,
@@ -1825,14 +1825,18 @@
   {
    "token": "Janos",
    "key": "janos",
-   "count": 1,
+   "count": 2,
    "paragraphs": [
     11
    ],
    "streams": [
     "narration"
    ],
-   "watch": null,
+   "watch": {
+    "reason": "Hungarian, not British Romani",
+    "tag": "REASONABLE INFERENCE",
+    "kind": "name"
+   },
    "corpus": "OK: exact"
   },
   {

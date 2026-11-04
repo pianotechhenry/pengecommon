@@ -486,7 +486,7 @@ class Checker:
                         it = self._watch_item(items, e, key, res)
                         occ(it, pi, t.start, t.end, stream)
                         spans.append({"start": t.start, "end": t.end, "item": it.id, "stream": stream})
-                        if e.kind in ("romani", "cant"):
+                        if e.kind in ("romani", "cant") or not res["resolved_english"]:
                             self._romani(romani, t.text, key, pi, stream, e)
                 if not res["resolved_english"]:
                     self._romani(romani, t.text, key, pi, stream, None)
