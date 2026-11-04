@@ -22,6 +22,10 @@
 #              has one (filled in by `desk watchlist --annotate`; a printed
 #              form may be a different word or sense - see the report's KWIC)
 #
+# Words take effect at once.  A new multi-word phrase is looked up in the
+# n-gram index straight away, but to find it even where it was printed only
+# once or twice, run:  desk build --stage scan   (a few minutes).
+#
 # Seed entries, November 2026.
 
 - term: Rowan

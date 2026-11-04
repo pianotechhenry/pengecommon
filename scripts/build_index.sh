@@ -13,4 +13,5 @@ desk build --stage scan --workers "$WORKERS"         # watch-list phrases, ?! an
 desk build --stage holdout                            # regularised held-out texts
 desk build --stage etymology                          # kaikki.org Wiktextract, streamed
 desk watchlist --annotate                             # corpus dates into watchlist.yaml
+desk build --stage clean                              # drop intermediates (keeps token streams)
 desk info

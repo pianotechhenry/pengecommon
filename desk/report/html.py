@@ -273,7 +273,7 @@ function itemHtml(it){
          `${w.from_year?'<br><span class="small">recorded from '+w.from_year+'</span>':''}${w.corpus?'<br><span class="small">corpus: '+esc(w.corpus)+'</span>':''}</div>`;
   }
   if(ev.first_firm || ev.first_any){
-    if(it.type==='watch') h += `<p class="small"><b>Corpus evidence for the form</b> (it may be another word or sense - see the contexts)</p>`;
+    if(it.type==='watch') h += `<p class="small"><b>Corpus evidence for the form</b> (it may be another word or sense - see the contexts)${ev.status?': on the corpus alone '+badge(ev.status)+' '+tag(ev.tag):''}</p>`;
     h += `<p><b>Earliest firm-dated print</b><br>${citeLine(ev.first_firm)}</p>`;
     if(ev.first_any) h += `<p><b>Earlier, date not firm</b><br>${citeLine(ev.first_any)}</p>`;
     h += `<p class="small">Texts before ${Y}: ${ev.n_before}${ev.n_before_approx?' (decade resolution)':''} · texts in all: ${fmt(ev.ntexts)}${ev.expected_before!=null?' · expected before '+Y+' at the later rate: '+ev.expected_before:''}</p>`;

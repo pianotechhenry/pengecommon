@@ -113,6 +113,25 @@ def variants(key: str) -> list[str]:
     return res
 
 
+# Heads of closed compounds that period print usually wrote as two words
+# ("every thing", "any one", "to morrow", "for ever", "a while").
+COMPOUND_HEADS = {"a", "any", "every", "some", "no", "to", "for", "where", "there", "here",
+                  "how", "what", "when", "who", "him", "her", "my", "your", "our", "them",
+                  "it", "can", "in", "up", "out", "over", "under", "with", "with", "be", "all",
+                  "none", "may", "by", "never", "near", "whom", "thy", "thy"}
+
+
+def compound_splits(key: str) -> list[tuple[str, str]]:
+    out = []
+    if "-" in key or "'" in key:
+        return out
+    for i in range(1, min(len(key) - 2, 6) + 1):
+        a, b = key[:i], key[i:]
+        if a in COMPOUND_HEADS and len(b) >= 3:
+            out.append((a, b))
+    return out
+
+
 def lemma_candidates(key: str) -> list[str]:
     w = key
     out = []
@@ -156,7 +175,8 @@ class Config:
     window: int = 15
     note_min: int = 3
     use_watchlist: bool = True
-    expect_min: float = 3.0       # phrase heuristic: expected texts before the year
+    expect_min: float = 10.0      # phrase heuristic: expected texts before the year
+    phrase_min_after: int = 20    # phrase heuristic: texts in the 50 years after first print
     watchlist_path: Path | None = None
     baseline_path: Path | None = None
 
@@ -260,6 +280,12 @@ class Checker:
             eb = idx.entry(KIND_FORM, base)
             if eb:
                 cands.append((f"possessive of '{base}'", base, eb))
+        if not any(self.assess(rec, "x")["status"] == "OK" for _, _, rec in cands):
+            for a_, b_ in compound_splits(key):
+                ng = idx.ngram([a_, b_])
+                if ng:
+                    cands.append((f"printed as two words '{a_} {b_}'", f"{a_} {b_}",
+                                  {**ng, "early": []}))
         parts_result = None
         if not cands and "-" in key:
             parts = [p for p in key.split("-") if p]
@@ -350,7 +376,7 @@ class Checker:
         after = sum(n for d, n in dec.items() if yf - 9 <= d < yf + 50)
         texts_after = self.idx.texts_between((yf // 10) * 10, (yf // 10) * 10 + 50)
         texts_before = self.idx.texts_between(Y - 50, Y)
-        if texts_after <= 0:
+        if texts_after <= 0 or after < self.cfg.phrase_min_after:
             return None
         expected = after / texts_after * texts_before
         if expected < self.cfg.expect_min:

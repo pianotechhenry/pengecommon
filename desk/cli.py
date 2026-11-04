@@ -59,6 +59,14 @@ def _check_one(ch, args, src: Path) -> None:
     for st in ("FLAG", "BORDERLINE", "NOTE", "UNVERIFIED", "WATCH"):
         r = s[st]
         print(f"{st:12s}{r['narration']:>11d}{r['dialogue']:>10d}{r['interior']:>10d}")
+    shown = [it for it in res["items"].values() if it["status"] in ("FLAG", "BORDERLINE", "UNVERIFIED", "WATCH")]
+    for it in shown[: args.top]:
+        ff = (it.get("evidence") or {}).get("first_firm") or {}
+        date = f"{ff['year']} {ff['tcp']}" if ff else "-"
+        streams = ",".join(sorted({o["stream"][:3] for o in it["occurrences"]}))
+        print(f"  {it['status']:<10s} {it['text'][:24]:<24s} {it['tag']:<21s} {date:<14s} {streams}")
+    if len(shown) > args.top:
+        print(f"  ... {len(shown) - args.top} more in the report")
     if res["romani"]:
         print(f"Romani/cant stream: {len(res['romani'])} tokens "
               f"({sum(1 for r in res['romani'] if not r.get('watch'))} unplaced)")
@@ -150,7 +158,7 @@ def cmd_build(args) -> int:
     stage = data / "stageA"
     db = paths.index_path()
     stages = args.stage.split(",") if args.stage != "all" else [
-        "fetch", "aggregate", "kwic", "ngrams", "scan", "holdout", "etymology"]
+        "fetch", "aggregate", "kwic", "ngrams", "scan", "holdout", "etymology", "clean"]
     tcp_csv = data / "TCP.csv"
     if "fetch" in stages or "aggregate" in stages:
         if not tcp_csv.exists():
@@ -162,7 +170,16 @@ def cmd_build(args) -> int:
         from desk.build import fetch
         fetch.run(data, args.collections.split(","), workers=args.workers)
     if "aggregate" in stages:
+        import re as _re
         from desk.build.aggregate import aggregate
+        for coll in args.collections.split(","):
+            gm = stage / f"super-{coll}" / ".gitmodules"
+            if gm.exists():
+                shards = set(_re.findall(r"path\s*=\s*texts/(\S+)", gm.read_text()))
+                missing = [x for x in shards if not (stage / "done" / f"{coll}-{x}").exists()]
+                if missing:
+                    print(f"warning: {len(missing)} {coll} shards not extracted yet "
+                          f"({', '.join(sorted(missing)[:8])}...); the index will lack them")
         aggregate(data, tcp_csv, db)
     if "kwic" in stages:
         from desk.build.kwic import render_all
@@ -192,6 +209,15 @@ def cmd_build(args) -> int:
             etymology.build_from_extract(Path(src), paths.etymology_path())
         else:
             etymology.build_from_kaikki(Path(src), paths.etymology_path())
+    if "clean" in stages:
+        # intermediates no longer needed once the index exists; the token
+        # streams are kept, as `--stage scan` (after editing watch-list
+        # phrases) and `--stage holdout` read them
+        import shutil
+        for d in (stage / "keys", data / "stageN"):
+            if d.exists():
+                shutil.rmtree(d)
+                print(f"removed {d}")
     if "prayerbook" in stages:
         import runpy
         runpy.run_path(str(paths.REPO_ROOT / "scripts" / "extract_prayerbook.py"), run_name="__main__")
@@ -237,13 +263,15 @@ def main(argv: list[str] | None = None) -> int:
         sp.add_argument("--baseline", help="Henry's own passages for the Latin/French comparison "
                                            "(default samples/baseline.md)")
         sp.add_argument("--index", help="the index file (default data/index.sqlite)")
-        sp.add_argument("--phrase-expect", type=float, default=3.0,
-                        help="phrase heuristic: expected texts before the year (3)")
+        sp.add_argument("--phrase-expect", type=float, default=10.0,
+                        help="phrase heuristic: texts expected before the year at the later "
+                             "rate, below which a later phrase is not flagged (10)")
 
     sp = sub.add_parser("check", help="report on a scene (or several)")
     sp.add_argument("file", nargs="+")
     common(sp)
     sp.add_argument("--out", help="directory for the reports (default: beside the file)")
+    sp.add_argument("--top", type=int, default=12, help="flagged items to list in the terminal (12)")
     sp.add_argument("--html")
     sp.add_argument("--json")
     sp.set_defaults(fn=cmd_check)
@@ -268,7 +296,7 @@ def main(argv: list[str] | None = None) -> int:
 
     sp = sub.add_parser("build", help="download the corpus and build the index")
     sp.add_argument("--stage", default="all",
-                    help="fetch,aggregate,kwic,ngrams,scan,holdout,etymology,prayerbook or all")
+                    help="fetch,aggregate,kwic,ngrams,scan,holdout,etymology,clean,prayerbook or all")
     sp.add_argument("--collections", default="eebo,ecco", help="eebo,ecco[,evans]")
     sp.add_argument("--workers", type=int, default=4)
     sp.add_argument("--kaikki", help="kaikki.org English JSONL: a path, '-' for stdin, or a URL")
@@ -294,6 +322,10 @@ def main(argv: list[str] | None = None) -> int:
     except (FileNotFoundError, ValueError) as e:
         print(f"desk: {e}", file=sys.stderr)
         return 2
+    except BrokenPipeError:          # e.g. `desk check ... | head`
+        import os
+        os.dup2(os.open(os.devnull, os.O_WRONLY), sys.stdout.fileno())
+        return 0
 
 
 if __name__ == "__main__":
