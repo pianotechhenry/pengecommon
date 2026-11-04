@@ -107,3 +107,9 @@ def test_phrases_compounds_and_punctuation(idx, tmp_path):
     res = checker(idx, watch=True, wl=wl).check_paragraphs([Paragraph("At Kensal  Rise.", italic=[])])
     hit = res["items"]["wl:Kensal\\s+Rise"]
     assert hit["status"] == "FLAG" and hit["occurrences"][0]["start"] == 3
+
+
+def test_contractions_are_not_bridged_to_their_lemma(idx):
+    # the bridge must never hide a late contraction behind its base verb
+    ch = checker(idx)
+    assert ch._lemma_bridge({"status": "FLAG", "entry_id": 0}, "don't")["status"] == "FLAG"

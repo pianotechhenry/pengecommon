@@ -324,6 +324,7 @@ class Checker:
                 best = (rank, a)
         if best:
             res = best[1]
+            res = self._lemma_bridge(res, key)
         elif parts_result is not None:
             res = parts_result
         else:
@@ -341,6 +342,33 @@ class Checker:
         res["resolved_english"] = res["status"] != "UNVERIFIED" or self.etym.is_english(key)
         self._res[key] = res
         return res
+
+    def _lemma_bridge(self, res: dict, key: str) -> dict:
+        """A spelling first printed late may belong to a word printed early:
+        'breathren' (first 1615) is MorphAdorner's lemma 'brother', and a
+        modern inflection of an old word is no anachronism.  Contractions
+        are left alone ("don't" is not "do")."""
+        if res["status"] not in ("FLAG", "BORDERLINE") or "'" in key or res.get("entry_id") is None:
+            return res
+        e = self.idx.entry_by_id(res["entry_id"])
+        if not e or e.get("lemma_id") is None:
+            return res
+        lem = self.idx.entry_by_id(e["lemma_id"])
+        if not lem or lem["key"] == e["key"] or "|" in lem["key"]:
+            return res
+        la = self.assess(lem, "lemma")
+        if la["status"] not in ("OK", "NOTE"):
+            return res
+        yf = (res.get("first_firm") or {}).get("year")
+        ly = (la.get("first_firm") or {}).get("year")
+        out = dict(res)
+        out["status"] = "NOTE"
+        out["tag"] = "REASONABLE INFERENCE"
+        out["note"] = (f"this spelling first printed {yf}; its lemma '{lem['key']}' (MorphAdorner) "
+                       f"printed from {ly}")
+        out["lemma_evidence"] = {"lemma": lem["key"], "first_firm": la.get("first_firm"),
+                                 "ntexts": lem.get("ntexts")}
+        return out
 
     def evidence_lines(self, res: dict) -> list[dict]:
         eid = res.get("entry_id")
