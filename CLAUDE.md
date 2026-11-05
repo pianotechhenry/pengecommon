@@ -18,8 +18,10 @@ keep messages to him short.
 | View "Debunked" (FALSE) | `view://40eaf025-42e8-81b9-9d3f-000cae01b71d` |
 | View "Field guide" | `view://40eaf025-42e8-8182-ac3e-000ca9d051af` |
 | View "By book" (board on Use in) | `view://40eaf025-42e8-81b2-a3df-000cbf86556e` |
+| View "Follow-up" (PARTLY VERIFIED, UNSUPPORTED, UNVERIFIABLE) | `view://40faf025-42e8-815c-ad80-000cb8fc638a` |
+| View "Consultant" (#Romani or "consultant" in Note) | `view://40faf025-42e8-81d7-beb1-000c0bc62571` |
 | Project docs (source of claims) | https://app.notion.com/p/3b1af02542e881dcadd7f5ee6a27ae7a |
-| Backup CSV | `exports/etymology.csv` (plus `field-guide.md`, `debunked.md`) |
+| Backup | `exports/etymology.csv`, plus phone-readable `by-book.md`, `field-guide.md`, `debunked.md`, `consultant.md`, `to-check.md` |
 | Helper | `tools/etym.py` |
 
 ## Schema
@@ -106,15 +108,39 @@ Work in batches of about 25 rows and export after each batch.
 1. Read every row in rows mode (100 per call; split with filters, e.g. one call
    per Status value, until each call returns fewer than 100).
 2. Save the combined list of row objects as JSON in the scratchpad.
-3. `python3 tools/etym.py export rows.json` rewrites `exports/etymology.csv`,
-   `exports/field-guide.md` and `exports/debunked.md`, and prints counts by status.
-4. Commit with a message naming the batch.
+3. `python3 tools/etym.py lint rows.json` checks the rules (status values,
+   Source and Checked on every checked row, no duplicate words, Romani rows
+   carry "for the consultant" and no period tag). Fix anything it reports.
+4. `python3 tools/etym.py export rows.json` rewrites everything in `exports/`
+   and prints counts by status.
+5. Commit with a message naming the batch.
+
+## State after the first pass (5 Nov 2026)
+
+155 rows: the 33 originals plus 122 harvested from Docs 01–40, the seed
+list and the 4 Nov chat. Workspace searches for "Did you know", "from Old
+English", "from Latin" and "etymology" found nothing new on Commons pages
+(other hits were the AQA Physics Tuition workspace, out of scope).
+
+| Status | Rows |
+| --- | --- |
+| VERIFIED | 67 |
+| PARTLY VERIFIED | 62 |
+| UNSUPPORTED | 11 |
+| FALSE | 10 |
+| UNVERIFIABLE | 5 |
+
+Merged on harvest (rule 5): teller into telling; villein into villain;
+Egyptian into gypsy; drover into drove; boot into bote; dukkering into
+dukkeripen; suffragist into suffragette.
 
 ## Open items
 
 - Dates that only Etymonline gives (first-recorded years) are marked
-  PARTLY VERIFIED with "check on Etymonline". Henry can check them in a
-  browser, or a later session can if Etymonline becomes fetchable.
+  PARTLY VERIFIED. `exports/to-check.md` lists every unsettled row with a
+  direct Etymonline link for a manual check in a browser.
+- drabarni is FALSE against Wiktionary (witch or sorceress, not healer).
+  It matters for Jem's mother: raise it with the sensitivity consultant.
 - Doc 13's Surrey dialect table and woodland vocabulary are glosses, not
   etymology claims; they were not harvested.
 - The *thread* row's Note has a typo, "þcrǣd" for "þrǣd". A fix was declined

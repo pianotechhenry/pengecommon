@@ -6,6 +6,7 @@
   python3 tools/etym.py check --lang German Meiler       one named section
   python3 tools/etym.py duden Meiler_Reaktor Forst       Duden Herkunft (use the URL slug)
   python3 tools/etym.py export rows.json                  rebuild exports/ from a Notion rows dump
+  python3 tools/etym.py lint rows.json                    check a rows dump against the rules in CLAUDE.md
 
 Needs: python3, beautifulsoup4, lxml, curl. Network: en.wiktionary.org, www.duden.de.
 Etymonline sits behind a Cloudflare bot check and cannot be fetched from a cloud
@@ -160,22 +161,108 @@ def export(rows_json):
         "Debunked: claims the dictionaries contradict",
         "Rows marked FALSE. Keep them: knowing what not to say is half the job.",
         lambda r: _val(r, "Status") == "FALSE"))
+    books = ["1589", "1689", "1789", "1889", "1989", "2089", "Tour", "Essays"]
+    lines = ["# Words by book", "",
+             "From the *Use in* tags. A tag means the word is useful there, not that it is",
+             "cleared for the period: read the status and note. Romani words carry no tag;",
+             "see consultant.md.", ""]
+    lines += ["Jump to: " + " · ".join(f"[{b}](#{b.lower()})" for b in books), ""]
+    for b in books:
+        picked = [r for r in rows if b in _val(r, "Use in").split("; ")]
+        lines += [f"## {b}", "", f"{len(picked)} words.", ""]
+        for r in picked:
+            fr = _val(r, "First recorded")
+            lines.append(f"- **{_val(r, 'Word')}** ({_val(r, 'Status')}{', ' + fr if fr else ''}): {_val(r, 'Note')}")
+        lines.append("")
+    (ex / "by-book.md").write_text("\n".join(lines))
+
+    (ex / "consultant.md").write_text(md(
+        "For the sensitivity consultant",
+        "Romani words and rows marked 'for the consultant'. Statuses record what a dictionary says; "
+        "none of these is cleared for any period.",
+        lambda r: "#Romani" in _val(r, "Languages") or "consultant" in _val(r, "Note").lower()))
+
+    order = {"UNCHECKED": 0, "": 0, "UNSUPPORTED": 1, "UNVERIFIABLE": 2, "PARTLY VERIFIED": 3}
+    follow = sorted((r for r in rows if _val(r, "Status") in order),
+                    key=lambda r: (order[_val(r, "Status")], _val(r, "Word").lower()))
+    lines = ["# Follow-up checklist", "",
+             "Rows a dictionary could not fully settle from a cloud session: unchecked, unsupported,",
+             "unverifiable, then partly verified (usually a date the source does not give).",
+             "Tap the Etymonline link, check the point the Note names, then update the row in Notion",
+             "(Status, Note, Source, Checked).", ""]
+    for r in follow:
+        w = _val(r, "Word")
+        slug = w.replace("'", "")
+        et = ("https://www.etymonline.com/word/" + slug) if " " not in slug else (
+            "https://www.etymonline.com/search?q=" + slug.replace(" ", "+"))
+        lines.append(f"- [ ] **{w}** ({_val(r, 'Status')}): {_val(r, 'Note')} "
+                     f"[Etymonline]({et}) · [current source]({_val(r, 'Source')})")
+    (ex / "to-check.md").write_text("\n".join(lines) + "\n")
+
     counts = {}
     for r in rows:
         counts[_val(r, "Status") or "(blank)"] = counts.get(_val(r, "Status") or "(blank)", 0) + 1
-    print(f"{len(rows)} rows -> exports/etymology.csv, field-guide.md, debunked.md")
+    print(f"{len(rows)} rows -> exports/: etymology.csv, field-guide.md, debunked.md, by-book.md, consultant.md, to-check.md")
     for k in sorted(counts):
         print(f"  {k}: {counts[k]}")
 
 
+STATUSES = {"UNCHECKED", "VERIFIED", "PARTLY VERIFIED", "UNSUPPORTED", "FALSE", "UNVERIFIABLE"}
+USE_IN = {"1589", "1689", "1789", "1889", "1989", "2089", "Tour", "Essays"}
+
+
+def lint(rows_json):
+    rows = json.loads(pathlib.Path(rows_json).read_text())
+    if isinstance(rows, dict):
+        rows = rows.get("results", rows.get("rows", []))
+    problems, seen = [], {}
+    for r in rows:
+        w, st = _val(r, "Word"), _val(r, "Status")
+        tag = f"{w!r}"
+        if not w:
+            problems.append("row with no Word")
+        key = w.strip().lower()
+        if key in seen:
+            problems.append(f"{tag}: duplicate word (rule 5: merge into one row)")
+        seen[key] = True
+        if st and st not in STATUSES:
+            problems.append(f"{tag}: unknown Status {st!r}")
+        if st and st != "UNCHECKED":
+            if not _val(r, "Source"):
+                problems.append(f"{tag}: {st} but no Source")
+            if not _val(r, "Checked"):
+                problems.append(f"{tag}: {st} but no Checked date")
+            if not _val(r, "Note"):
+                problems.append(f"{tag}: {st} but no Note")
+        if st == "VERIFIED" and "etymonline" in _val(r, "Note").lower():
+            problems.append(f"{tag}: VERIFIED but the Note still asks for Etymonline")
+        uses = [u for u in _val(r, "Use in").split("; ") if u]
+        for u in uses:
+            if u not in USE_IN:
+                problems.append(f"{tag}: unknown Use in {u!r}")
+        if "#Romani" in _val(r, "Languages"):
+            if "consultant" not in _val(r, "Note").lower():
+                problems.append(f"{tag}: Romani word without 'for the consultant' (rule 4)")
+            if any(u in USE_IN - {"Tour", "Essays"} for u in uses):
+                problems.append(f"{tag}: Romani word tagged for a period (rule 4)")
+        if len(_val(r, "Note")) > 600:
+            problems.append(f"{tag}: Note longer than ~3 sentences")
+    print(f"{len(rows)} rows checked, {len(problems)} problem(s)")
+    for p in problems:
+        print("  -", p)
+    return 1 if problems else 0
+
+
 def main(argv):
-    if len(argv) < 2 or argv[0] not in ("check", "duden", "export"):
+    if len(argv) < 2 or argv[0] not in ("check", "duden", "export", "lint"):
         print(__doc__)
         return 1
     cmd, args = argv[0], argv[1:]
     if cmd == "export":
         export(args[0])
         return 0
+    if cmd == "lint":
+        return lint(args[0])
     lang = "English"
     if args and args[0] == "--lang":
         lang, args = args[1], args[2:]

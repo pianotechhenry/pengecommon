@@ -11,6 +11,8 @@ Backup and tools for the Commons Series etymology database.
 - **Debunked**: claims a dictionary contradicts. Keep them.
 - **Field guide**: stories worth telling, debunkings included.
 - **By book**: a board grouped by book, Tour and Essays.
+- **Follow-up**: rows a dictionary couldn't fully settle (mostly dates to check on Etymonline).
+- **Consultant**: Romani words, for the sensitivity consultant.
 
 Each row keeps the original claim in **Etymology**, and the checked version in
 **Note**, with a **Source** link and a **Status**.
@@ -49,9 +51,14 @@ Note and Status, refreshes `exports/`, and commits.
 | --- | --- |
 | `CLAUDE.md` | Schema, rules and procedures for Claude sessions. |
 | `exports/etymology.csv` | Full snapshot of the database after the latest batch. |
-| `exports/field-guide.md` | The Field guide rows, readable on a phone. |
-| `exports/debunked.md` | The FALSE rows, readable on a phone. |
-| `tools/etym.py` | Checks a word on Wiktionary or Duden; rebuilds `exports/`. |
+| `exports/by-book.md` | Every word tagged for each book, with its note. Open it while drafting. |
+| `exports/field-guide.md` | The Field guide rows: stories worth telling. |
+| `exports/debunked.md` | The FALSE rows: what not to say, and what's true instead. |
+| `exports/consultant.md` | Romani words, ready to send to the sensitivity consultant. |
+| `exports/to-check.md` | A tick-list of unsettled rows, each with an Etymonline link. |
+| `tools/etym.py` | Checks a word on Wiktionary or Duden; lints and rebuilds `exports/`. |
+
+All the `.md` files read well in the GitHub app on a phone.
 
 Etymonline blocks automated access from cloud sessions, so checks use
 Wiktionary (and Duden for German). Dates that only Etymonline gives are flagged

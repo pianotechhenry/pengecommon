@@ -66,6 +66,10 @@ Wiktionary cites the 'ordinary or vulgar' sense in Shakespeare's Henry VI, writt
 Middle English complexion meant temperament, from Medieval Latin complexio, constitution: the balance of humours, not skin colour.  
 [source](https://en.wiktionary.org/wiki/complexion#English)
 
+**craft** (VERIFIED)  
+Old English cræft meant strength and skill, from a Germanic word for power, the same one behind German Kraft. Virtue later took over its sense of power.  
+[source](https://en.wiktionary.org/wiki/craft#English)
+
 **cunning** (PARTLY VERIFIED)  
 From Old English cunnende, knowing how, from cunnan, to know. Wiktionary confirms the knowledge root; the cunning man and the later sneer are not dated.  
 [source](https://en.wiktionary.org/wiki/cunning#English)
@@ -126,6 +130,18 @@ Essay arrives in the late 16th century from Middle French essai, a trial or atte
 Via Old French and Latin from Greek etumologia, from etumon, the true sense, and -logia, study. Wiktionary gives no dates for the late 14th century or the 1640s discipline.  
 [source](https://en.wiktionary.org/wiki/etymology#English)
 
+**evidence** (VERIFIED)  
+From Latin evidentia, clearness (in Late Latin, a proof), a word Cicero coined from evidens, plain to see.  
+[source](https://en.wiktionary.org/wiki/evidence#English)
+
+**excruciating** (VERIFIED)  
+From Latin excruciare, ex- plus cruciare, to torture, from crux, cross. Wiktionary quotes excruciate from c.1587–88, so it was current in 1589.  
+[source](https://en.wiktionary.org/wiki/excruciate#English)
+
+**extent** (VERIFIED)  
+From Anglo-Norman extente, a valuation of land, from extendre, to stretch out. The writ named in the doc is not on the page, but the valuation sense is.  
+[source](https://en.wiktionary.org/wiki/extent#English)
+
 **forest** (PARTLY VERIFIED)  
 Forest comes from medieval Latin forestis, perhaps from foris, outside: the wood outside. Wiktionary offers that beside a Germanic origin and says nothing about 'outside the common law'; the legal meaning is history, not the root.  
 [source](https://en.wiktionary.org/wiki/forest#English)
@@ -166,6 +182,10 @@ A clipping of Gyptian, from Egyptian, because the Roma were wrongly thought to c
 From Old French hanter, to inhabit or frequent, from Old Norse or Old English words meaning to bring home, from the Germanic word for home. A haunt is where you live. The date of the ghostly sense is not on the page.  
 [source](https://en.wiktionary.org/wiki/haunt#English)
 
+**holiday** (PARTLY VERIFIED, Old English (hāligdæġ))  
+Old English hāligdæġ, holy day or Sabbath. The date of the secular-leisure sense is not on the page.  
+[source](https://en.wiktionary.org/wiki/holiday#English)
+
 **hostile** (VERIFIED)  
 Hostile is Latin hostilis, from hostis, enemy. Wiktionary's Latin entry cites Varro saying hostis once meant a stranger, and its root also gave English guest.  
 [source](https://en.wiktionary.org/wiki/hostis#Latin)
@@ -174,9 +194,29 @@ Hostile is Latin hostilis, from hostis, enemy. Wiktionary's Latin entry cites Va
 From Latin ūmor, liquid; Wiktionary says the four bodily humours gave the sense mood, and mood narrowed to wit. The h is a folk-etymology from humus. The 1680s date is not on the page.  
 [source](https://en.wiktionary.org/wiki/humour#English)
 
+**improve** (PARTLY VERIFIED)  
+From Anglo-Norman emprouwer, from en- plus prou, profit: to turn to profit. The 1610s date for 'make better' is not on the page.  
+[source](https://en.wiktionary.org/wiki/improve#English)
+
 **influence** (PARTLY VERIFIED)  
 From Medieval Latin influentia, a flowing in. Wiktionary keeps an astrological sense, a force from the stars shaping a person's character. The ethereal fluid and the dating of the shift to social power are not on the page.  
 [source](https://en.wiktionary.org/wiki/influence#English)
+
+**invent** (PARTLY VERIFIED)  
+From Latin invenire, to come upon or find, in- plus venire, to come. The finding sense is confirmed; the date of the fabricating sense is not on the page.  
+[source](https://en.wiktionary.org/wiki/invent#English)
+
+**jingoism** (VERIFIED, c. 1878)  
+From the minced oath 'by jingo' in G. W. Hunt's music-hall song of about 1878, backing a belligerent line on Russia. Jingo itself is a euphemism for Jesus.  
+[source](https://en.wiktionary.org/wiki/jingo#English)
+
+**Köhlerglaube** (PARTLY VERIFIED)  
+Duden gives blind faith, and traces it to an old story of a collier who, asked about his faith, gave a strikingly simple answer. Proverbial contempt for colliers' minds is the doc's gloss, not Duden's.  
+[source](https://www.duden.de/rechtschreibung/Koehlerglaube)
+
+**Lammas** (VERIFIED, Old English (hlāfmæsse))  
+Old English hlāfmæsse, loaf-mass, the harvest festival on 1 August.  
+[source](https://en.wiktionary.org/wiki/Lammas#English)
 
 **ledger** (PARTLY VERIFIED)  
 Ledger is Middle English liggere, from liggen, a form of lie: to lie still, to stay in place. The stay-put idea holds, but the root is lie, not lay, and Dutch legger is a cousin, not the route in.  
@@ -205,6 +245,10 @@ Short for mobile, from Latin mobile vulgus, the fickle crowd. Wiktionary gives n
 **navvy** (VERIFIED)  
 Navvy is a clipping of navigator, from the navigation canals the first navvies dug. A word for someone who steers a ship became the word for the man with the spade.  
 [source](https://en.wiktionary.org/wiki/navvy#English)
+
+**neck verse** (VERIFIED)  
+The verse read to claim benefit of clergy, said to be the first verse of Psalm 51. Wiktionary quotes it from 1619.  
+[source](https://en.wiktionary.org/wiki/neck_verse#English)
 
 **neighbour** (VERIFIED)  
 Old English nēahġebūr, literally near-dweller: nigh plus ġebūr, a dweller or farmer. There is no warmth in it, only distance.  
@@ -285,6 +329,10 @@ From Latin spiritus, breath or spirit, from spirare, to breathe. It pushed out O
 **suburb** (PARTLY VERIFIED)  
 From Old French suburbe, Latin suburbium: sub- plus urbs, under or just outside the city. It pushed out Old English underburg. The swing from disreputable to aspirational is not in the source.  
 [source](https://en.wiktionary.org/wiki/suburb#English)
+
+**suffragette** (PARTLY VERIFIED, 1906)  
+Suffrage plus -ette, first used by the Daily Mail in 1906 as a sneer, then taken up by the WSPU itself. The page does not address whether men could be called suffragettes; suffragist is the broader word.  
+[source](https://en.wiktionary.org/wiki/suffragette#English)
 
 **tally** (PARTLY VERIFIED)  
 From Anglo-Norman tallie, a notched stick recording a debt, from Latin talea, a cut rod. Wiktionary does not call it unrelated to tell; it even invites comparison with the Germanic word for number, so treat 'unrelated' as likely, not settled.  
