@@ -18,6 +18,10 @@ Wiktionary cites the 'ordinary or vulgar' sense in Shakespeare's Henry VI, writt
 Wiktionary derives cushy from Hindustani khushi, happiness, from Persian, not from Romani. Romani kushti, good, is a different word; Wiktionary suggests cushy may in turn have influenced cushty.  
 [source](https://en.wiktionary.org/wiki/cushy#English)
 
+**drabarni** (FALSE)  
+Wiktionary glosses Romani drabarni as a witch or sorceress, from drabarel, to bewitch, and traces it to Sanskrit darbha, sacred grass, not to drab, medicine. The healer sense may still hold in English Romani; ask before using it for Jem's mother. For the consultant.  
+[source](https://en.wiktionary.org/wiki/drabarni#Romani)
+
 **grimy** (FALSE)  
 Wiktionary derives grimy from grime plus -y, and grime from Middle English grim, soot on the face, from Old English grīma, a mask, probably reinforced by Dutch. Nothing links it to the Grimes family of Croydon colliers: keep that as a story people tell, not an etymology.  
 [source](https://en.wiktionary.org/wiki/grime#English)

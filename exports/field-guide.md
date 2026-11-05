@@ -10,6 +10,10 @@ Adams is Adam plus a patronymic -s. Adam comes via Latin and Greek from Hebrew a
 From Greek agōnia, a contest or struggle, from agōn. The death-struggle sense dates from the 1540s and 'extreme pain' only from c.1600, so in 1589 agony still meant a struggle. The source says contest, not specifically wrestling.  
 [source](https://en.wiktionary.org/wiki/agony#English)
 
+**Anerley** (PARTLY VERIFIED)  
+Wiktionary has Scots anerly as an obsolete word for only. 'Solitary' and 'lonely' are not given, and the Sanderson naming story is not tested.  
+[source](https://en.wiktionary.org/wiki/anerly#Scots)
+
 **arrive** (VERIFIED)  
 Arrive comes from Old French ariver, from a medieval Latin verb meaning to come ashore, built on ripa, a riverbank. It was a boat's word before it was a traveller's.  
 [source](https://en.wiktionary.org/wiki/arrive#English)
@@ -29,6 +33,10 @@ Wiktionary gives bar from Old French barre, a beam, gate or barrier, from Vulgar
 **beng** (VERIFIED, 1593 (Vulcanius, as Beinck))  
 Romani beng, the Devil, is inherited from Sanskrit vyaṅga, spotted or frog. Wiktionary records it in Vulcanius's 1593 word list, a continental source, and English and Welsh Romani both use it for the Devil. For the consultant.  
 [source](https://en.wiktionary.org/wiki/beng#Romani)
+
+**Beulah** (VERIFIED)  
+From Hebrew bəʿûlâ, married (of a woman), the name Isaiah gives the land in 62:4; Puritans took it up as a given name.  
+[source](https://en.wiktionary.org/wiki/Beulah#English)
 
 **billet** (VERIFIED)  
 Two different words share one spelling. The log is Old French billette, from bille, a tree trunk, probably Gaulish; the soldier's lodging is Anglo-Norman billette, a list, from Latin bulla, a document.  
@@ -54,6 +62,14 @@ Middle English colier, earlier coler, one who makes or sells charcoal, from Old 
 Wiktionary cites the 'ordinary or vulgar' sense in Shakespeare's Henry VI, written in 1591, long before the parliamentary enclosures, so it cannot descend from them. Common itself is Latin communis via Anglo-Norman; the legal sense of common as a right is not tested here.  
 [source](https://en.wiktionary.org/wiki/common#English)
 
+**complexion** (VERIFIED)  
+Middle English complexion meant temperament, from Medieval Latin complexio, constitution: the balance of humours, not skin colour.  
+[source](https://en.wiktionary.org/wiki/complexion#English)
+
+**cunning** (PARTLY VERIFIED)  
+From Old English cunnende, knowing how, from cunnan, to know. Wiktionary confirms the knowledge root; the cunning man and the later sneer are not dated.  
+[source](https://en.wiktionary.org/wiki/cunning#English)
+
 **cushy** (FALSE)  
 Wiktionary derives cushy from Hindustani khushi, happiness, from Persian, not from Romani. Romani kushti, good, is a different word; Wiktionary suggests cushy may in turn have influenced cushty.  
 [source](https://en.wiktionary.org/wiki/cushy#English)
@@ -62,13 +78,29 @@ Wiktionary derives cushy from Hindustani khushi, happiness, from Persian, not fr
 Deal is Old English dǣlan, to divide or share out, beside the noun dǣl, a part. German Teil is a cognate and dole is related, so the oldest deal is a share-out, not a bargain.  
 [source](https://en.wiktionary.org/wiki/deal#English)
 
+**disaster** (PARTLY VERIFIED)  
+Via Middle French from Italian disastro, dis- plus astro, star: ill-starred. The 1590s arrival date is not on the page.  
+[source](https://en.wiktionary.org/wiki/disaster#English)
+
+**disenchantment** (VERIFIED)  
+Dis- plus enchantment; in the social-science sense Wiktionary calls it a calque of Weber's Entzauberung. Zauber means magic (Duden), while enchant goes back to Latin incantare, to chant: the German loses magic, the English loses song.  
+[source](https://en.wiktionary.org/wiki/disenchantment#English)
+
 **dismal** (VERIFIED)  
 From Anglo-Norman dismal, Old French dis mals, the bad days, from Medieval Latin dies mali. The unlucky calendar days came first; the gloom followed.  
 [source](https://en.wiktionary.org/wiki/dismal#English)
 
+**drabarni** (FALSE)  
+Wiktionary glosses Romani drabarni as a witch or sorceress, from drabarel, to bewitch, and traces it to Sanskrit darbha, sacred grass, not to drab, medicine. The healer sense may still hold in English Romani; ask before using it for Jem's mother. For the consultant.  
+[source](https://en.wiktionary.org/wiki/drabarni#Romani)
+
 **drom** (VERIFIED)  
 Romani drom, way or road, is a loan from Medieval Greek dromos, not an Indic word. Dates in English Romani are not tested. For the consultant.  
 [source](https://en.wiktionary.org/wiki/drom#Romani)
+
+**drove** (PARTLY VERIFIED)  
+Old English drāf, a driving, a herd, and even the road cattle were driven along; drive comes from the same root and a drover is drove plus -er. The early-13th-century place-name date is not tested.  
+[source](https://en.wiktionary.org/wiki/drove#English)
 
 **earn** (VERIFIED)  
 Earn is Old English earnian. Wiktionary says the Germanic verb was formed from a noun meaning harvest, so earning began as reaping.  
@@ -77,6 +109,10 @@ Earn is Old English earnian. Wiktionary says the Germanic verb was formed from a
 **emend** (PARTLY VERIFIED, Middle English (emenden))  
 Latin emendare, to free from fault, from ex- plus mendum, a blemish, via Middle English emenden. Emend and amend are the same Latin verb; emend came straight from Latin. Wiktionary gives no date, so c.1400 needs Etymonline.  
 [source](https://en.wiktionary.org/wiki/emend#English)
+
+**emotion** (PARTLY VERIFIED)  
+From Middle French emotion, from Latin emovere, to move out or stir up. That fits the public-disturbance sense, but the 1650s date is not on the page.  
+[source](https://en.wiktionary.org/wiki/emotion#English)
 
 **enchant** (PARTLY VERIFIED)  
 From Old French enchanter, from Latin incantare, and a twin of incant. Wiktionary does not spell out 'sing upon' or date the senses.  
@@ -122,6 +158,10 @@ French grimoire is a variant of grammaire, so a spell book is literally a gramma
 Wiktionary derives grimy from grime plus -y, and grime from Middle English grim, soot on the face, from Old English grīma, a mask, probably reinforced by Dutch. Nothing links it to the Grimes family of Croydon colliers: keep that as a story people tell, not an etymology.  
 [source](https://en.wiktionary.org/wiki/grime#English)
 
+**gypsy** (VERIFIED)  
+A clipping of Gyptian, from Egyptian, because the Roma were wrongly thought to come from Egypt when they reached England in the 16th century. Spanish gitano has the same origin. For the consultant.  
+[source](https://en.wiktionary.org/wiki/Gypsy#English)
+
 **haunt** (PARTLY VERIFIED)  
 From Old French hanter, to inhabit or frequent, from Old Norse or Old English words meaning to bring home, from the Germanic word for home. A haunt is where you live. The date of the ghostly sense is not on the page.  
 [source](https://en.wiktionary.org/wiki/haunt#English)
@@ -129,6 +169,10 @@ From Old French hanter, to inhabit or frequent, from Old Norse or Old English wo
 **hostile** (VERIFIED)  
 Hostile is Latin hostilis, from hostis, enemy. Wiktionary's Latin entry cites Varro saying hostis once meant a stranger, and its root also gave English guest.  
 [source](https://en.wiktionary.org/wiki/hostis#Latin)
+
+**humour** (PARTLY VERIFIED)  
+From Latin ūmor, liquid; Wiktionary says the four bodily humours gave the sense mood, and mood narrowed to wit. The h is a folk-etymology from humus. The 1680s date is not on the page.  
+[source](https://en.wiktionary.org/wiki/humour#English)
 
 **influence** (PARTLY VERIFIED)  
 From Medieval Latin influentia, a flowing in. Wiktionary keeps an astrological sense, a force from the stars shaping a person's character. The ethereal fluid and the dating of the shift to social power are not on the page.  
@@ -141,6 +185,10 @@ Ledger is Middle English liggere, from liggen, a form of lie: to lie still, to s
 **literate** (VERIFIED)  
 From Latin litteratus, lettered, from littera, a letter, so it is unrelated to legible. It pushed out Old English stæfwīs, letter-wise.  
 [source](https://en.wiktionary.org/wiki/literate#English)
+
+**lunch** (PARTLY VERIFIED, 1580 (hunk); meal sense 1829; luncheon (meal) 1652)  
+Lunch existed by 1580 but meant a hunk or lump; the meal sense dates from 1829. Luncheon as a light meal is attested from 1652, so it is available in 1689 where lunch is not.  
+[source](https://en.wiktionary.org/wiki/lunch#English)
 
 **marry** (VERIFIED)  
 The oath marry is the Virgin's name, from Middle English Marie. It has nothing to do with marrying, which comes from Latin maritare.  
@@ -162,6 +210,10 @@ Navvy is a clipping of navigator, from the navigation canals the first navvies d
 Old English nēahġebūr, literally near-dweller: nigh plus ġebūr, a dweller or farmer. There is no warmth in it, only distance.  
 [source](https://en.wiktionary.org/wiki/neighbour#English)
 
+**nice** (VERIFIED, pleasant sense from 18th c.)  
+From Old French nice, simple or foolish, from Latin nescius, ignorant. Wiktionary dates 'fastidious' and 'scrupulous' from the 14th century, 'foolish' 14th–17th, and 'pleasant' only from the 18th.  
+[source](https://en.wiktionary.org/wiki/nice#English)
+
 **nightingale** (VERIFIED, Old English (nihtegale))  
 Old English nihtegale, night-singer, from night plus gale, to sing; the n before g was added later.  
 [source](https://en.wiktionary.org/wiki/nightingale#English)
@@ -169,6 +221,10 @@ Old English nihtegale, night-singer, from night plus gale, to sing; the n before
 **nostalgia** (VERIFIED, 1688 (coined))  
 Coined in 1688 by the physician Johannes Hofer from Greek nostos, return home, and algos, pain, as a learned version of German Heimweh. The word is brand new in the 1689 book and absent in 1589.  
 [source](https://en.wiktionary.org/wiki/nostalgia#English)
+
+**nuncheon** (VERIFIED, Middle English (nonshench))  
+Middle English nonshench, a light refreshment usually taken in the afternoon, from noon plus shench, a drink poured out.  
+[source](https://en.wiktionary.org/wiki/nuncheon#English)
 
 **orphan** (FALSE)  
 Wiktionary defines an orphan as someone who has lost both parents, or more rarely one. It gives no special 'fatherless' sense for the 17th century; the project traced that usage to the City of London's Court of Orphans. The word comes from Greek orphanos via Late Latin.  
@@ -190,6 +246,10 @@ Romani pani, water, inherited from Prakrit and ultimately Sanskrit pānīya. Wik
 Pencil first meant a fine paintbrush, from Old French pincil and Latin penicillum, a little tail; it is not related to pen. The brush sense runs from the 14th century to at least 1603, but the source does not test what a writer would have meant in 1689.  
 [source](https://en.wiktionary.org/wiki/pencil#English)
 
+**Penge** (UNVERIFIABLE)  
+Wiktionary has Penge only as a place, with no etymology. Doc 35 cites Gover, Mawer and Stenton, The Place-Names of Surrey (1934), for pen plus coed; check that book or the Key to English Place-Names.  
+[source](https://en.wiktionary.org/wiki/Penge#English)
+
 **read** (VERIFIED)  
 Old English rǣdan meant to counsel, advise or interpret as well as to read, from a Germanic verb meaning to advise. To read was to make sense of something, not only of letters.  
 [source](https://en.wiktionary.org/wiki/read#English)
@@ -206,13 +266,29 @@ Via French from Old French resourse, a spring, from resourdre, to rise again (La
 Old English scrūd, a garment, is confirmed, and Wiktionary lists the burial cloth and the mast ropes as senses of one word. So they are not unrelated, as the row's first sentence says; the rest of the row stands.  
 [source](https://en.wiktionary.org/wiki/shroud#English)
 
+**silly** (PARTLY VERIFIED)  
+Old English sǣlig, lucky, and Wiktionary traces the slide lucky, innocent, naive, foolish. It gives no dates, so 'still blessed in 1589' is untested.  
+[source](https://en.wiktionary.org/wiki/silly#English)
+
+**spa** (VERIFIED, 1596 (generic use))  
+From the Belgian town of Spa and its iron springs. Wiktionary credits Timothy Bright's 'English Spaw' of 1596, at Harrogate, with starting the generic use.  
+[source](https://en.wiktionary.org/wiki/spa#English)
+
 **spell** (PARTLY VERIFIED)  
 Spell the noun is Old English spell, news or story, kept in gospel. Spell the verb came through Anglo-Norman espeler and merged with Old English spellian, to tell. The 1570s and 14th-century dates are not on the page.  
 [source](https://en.wiktionary.org/wiki/spell#English)
 
+**spirit** (VERIFIED)  
+From Latin spiritus, breath or spirit, from spirare, to breathe. It pushed out Old English gast, which survives as ghost.  
+[source](https://en.wiktionary.org/wiki/spirit#English)
+
 **suburb** (PARTLY VERIFIED)  
 From Old French suburbe, Latin suburbium: sub- plus urbs, under or just outside the city. It pushed out Old English underburg. The swing from disreputable to aspirational is not in the source.  
 [source](https://en.wiktionary.org/wiki/suburb#English)
+
+**tally** (PARTLY VERIFIED)  
+From Anglo-Norman tallie, a notched stick recording a debt, from Latin talea, a cut rod. Wiktionary does not call it unrelated to tell; it even invites comparison with the Germanic word for number, so treat 'unrelated' as likely, not settled.  
+[source](https://en.wiktionary.org/wiki/tally#English)
 
 **telling** (VERIFIED)  
 Tell is Old English tellan, to count or to tell, from a Germanic word for number, and tale shares the root. A bank teller and 'all told' still count.  
@@ -225,6 +301,10 @@ Via Old French from Latin textus, style or texture, from texere, to weave. Text 
 **turnpike** (PARTLY VERIFIED)  
 Middle English turnpyke, a spiked barrier across a road, first used to block a road until a toll was paid. Wiktionary does not mention cavalry; the barrier and the toll are confirmed.  
 [source](https://en.wiktionary.org/wiki/turnpike#English)
+
+**vardo** (PARTLY VERIFIED)  
+Angloromani vardo, from Romani vordon, a borrowing from Iranian, from a root meaning to turn. The mid-19th-century date for the wagon is not tested here. For the consultant.  
+[source](https://en.wiktionary.org/wiki/vardo#English)
 
 **verse** (VERIFIED)  
 From Latin versus, a line of writing and originally a row or furrow, from vertere, to turn. The ploughman's turn at the end of the furrow is the poet's line-break.  
