@@ -143,5 +143,3 @@ dukkeripen; suffragist into suffragette.
   It matters for Jem's mother: raise it with the sensitivity consultant.
 - Doc 13's Surrey dialect table and woodland vocabulary are glosses, not
   etymology claims; they were not harvested.
-- The *thread* row's Note has a typo, "þcrǣd" for "þrǣd". A fix was declined
-  during the session; correct it by hand.

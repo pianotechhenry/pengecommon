@@ -268,7 +268,7 @@ Jump to: [1589](#1589) · [1689](#1689) · [1789](#1789) · [1889](#1889) · [19
 - **spell** (PARTLY VERIFIED): Spell the noun is Old English spell, news or story, kept in gospel. Spell the verb came through Anglo-Norman espeler and merged with Old English spellian, to tell. The 1570s and 14th-century dates are not on the page.
 - **structural** (PARTLY VERIFIED, 19th century): Structure plus -al. Wiktionary says 19th century; the exact year 1821 is not on the page.
 - **text** (VERIFIED): Via Old French from Latin textus, style or texture, from texere, to weave. Text and texture are the same word.
-- **thread** (VERIFIED): Old English þcrǣd, from a root meaning to rub or twist. Throw, Old English þrāwan, to turn or twist, comes from the same root.
+- **thread** (VERIFIED): Old English þrǣd, from a root meaning to rub or twist. Throw, Old English þrāwan, to turn or twist, comes from the same root.
 - **verse** (VERIFIED): From Latin versus, a line of writing and originally a row or furrow, from vertere, to turn. The ploughman's turn at the end of the furrow is the poet's line-break.
 - **villain** (VERIFIED): Villain and villein are doublets from Late Latin villanus, a peasant bound to a villa, via Old French vilein. The moral sense came later.
 - **wastrel** (FALSE, 1847): Wiktionary dates wastrel to 1847 and builds it from waste plus the pejorative suffix -rel, so it was an insult from its first record. Nothing shows it ever meaning a commoner or a person of the waste. The project's own note says 1790; settle the date on Etymonline.
