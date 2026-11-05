@@ -22,6 +22,10 @@ A partial calque of Italian bancarotta, broken bench. Wiktionary links it to a f
 Wiktionary gives bar from Old French barre, a beam, gate or barrier, from Vulgar Latin barra, of uncertain origin. It gives no Old Norse source: the barrier sense is right, the language is wrong.  
 [source](https://en.wiktionary.org/wiki/bar#English)
 
+**beng** (VERIFIED, 1593 (Vulcanius, as Beinck))  
+Romani beng, the Devil, is inherited from Sanskrit vyaṅga, spotted or frog. Wiktionary records it in Vulcanius's 1593 word list, a continental source, and English and Welsh Romani both use it for the Devil. For the consultant.  
+[source](https://en.wiktionary.org/wiki/beng#Romani)
+
 **billet** (VERIFIED)  
 Two different words share one spelling. The log is Old French billette, from bille, a tree trunk, probably Gaulish; the soldier's lodging is Anglo-Norman billette, a list, from Latin bulla, a document.  
 [source](https://en.wiktionary.org/wiki/billet#English)
@@ -29,6 +33,14 @@ Two different words share one spelling. The log is Old French billette, from bil
 **bote** (FALSE, Old English (bōt))  
 Bote is Old English bōt, help, remedy or compensation, and 'to boot' comes straight from it. Better is not its descendant: Wiktionary gives better its own line from Old English betera, and lists bōt among its relatives. They are cousins.  
 [source](https://en.wiktionary.org/wiki/bote#English)
+
+**chavo** (PARTLY VERIFIED)  
+Wiktionary's main entry, ćhavo, means specifically a Romani boy or son, from Prakrit chāva, a young animal, from Sanskrit. The 17th-century attestation in English Romani is not tested. For the consultant.  
+[source](https://en.wiktionary.org/wiki/%C4%87havo#Romani)
+
+**collier** (VERIFIED)  
+Middle English colier, earlier coler, one who makes or sells charcoal, from Old English col. A collier burned wood long before he dug coal, hence Colliers Wood.  
+[source](https://en.wiktionary.org/wiki/collier#English)
 
 **common** (FALSE)  
 Wiktionary cites the 'ordinary or vulgar' sense in Shakespeare's Henry VI, written in 1591, long before the parliamentary enclosures, so it cannot descend from them. Common itself is Latin communis via Anglo-Norman; the legal sense of common as a right is not tested here.  
@@ -42,6 +54,14 @@ Wiktionary derives cushy from Hindustani khushi, happiness, from Persian, not fr
 Deal is Old English dǣlan, to divide or share out, beside the noun dǣl, a part. German Teil is a cognate and dole is related, so the oldest deal is a share-out, not a bargain.  
 [source](https://en.wiktionary.org/wiki/deal#English)
 
+**dismal** (VERIFIED)  
+From Anglo-Norman dismal, Old French dis mals, the bad days, from Medieval Latin dies mali. The unlucky calendar days came first; the gloom followed.  
+[source](https://en.wiktionary.org/wiki/dismal#English)
+
+**drom** (VERIFIED)  
+Romani drom, way or road, is a loan from Medieval Greek dromos, not an Indic word. Dates in English Romani are not tested. For the consultant.  
+[source](https://en.wiktionary.org/wiki/drom#Romani)
+
 **earn** (VERIFIED)  
 Earn is Old English earnian. Wiktionary says the Germanic verb was formed from a noun meaning harvest, so earning began as reaping.  
 [source](https://en.wiktionary.org/wiki/earn#English)
@@ -50,13 +70,25 @@ Earn is Old English earnian. Wiktionary says the Germanic verb was formed from a
 Latin emendare, to free from fault, from ex- plus mendum, a blemish, via Middle English emenden. Emend and amend are the same Latin verb; emend came straight from Latin. Wiktionary gives no date, so c.1400 needs Etymonline.  
 [source](https://en.wiktionary.org/wiki/emend#English)
 
+**essay** (VERIFIED, late 16th century)  
+Essay arrives in the late 16th century from Middle French essai, a trial or attempt, in the sense Montaigne had just given it. Behind it is Latin exagium, a weighing.  
+[source](https://en.wiktionary.org/wiki/essay#English)
+
 **etymology** (PARTLY VERIFIED, Middle English (ethymologie))  
 Via Old French and Latin from Greek etumologia, from etumon, the true sense, and -logia, study. Wiktionary gives no dates for the late 14th century or the 1640s discipline.  
 [source](https://en.wiktionary.org/wiki/etymology#English)
 
+**forest** (PARTLY VERIFIED)  
+Forest comes from medieval Latin forestis, perhaps from foris, outside: the wood outside. Wiktionary offers that beside a Germanic origin and says nothing about 'outside the common law'; the legal meaning is history, not the root.  
+[source](https://en.wiktionary.org/wiki/forest#English)
+
 **glamour** (PARTLY VERIFIED)  
 Wiktionary confirms glamour is a Scots alteration of grammar, meaning magic, and a twin of grimoire and gramarye. The 1720 Allan Ramsay date, Scott in 1805 and the 1840 shift to beauty are not on the page; check them on Etymonline. Not in 1589.  
 [source](https://en.wiktionary.org/wiki/glamour#English)
+
+**gorjer** (VERIFIED)  
+Wiktionary treats gorger, Gorgio and gadjo as forms of one Romani word for a non-Romani person, and glosses Gorgio as a Romani term for a house-dweller. Dates are not tested. For the consultant.  
+[source](https://en.wiktionary.org/wiki/Gorgio#English)
 
 **grimy** (FALSE)  
 Wiktionary derives grimy from grime plus -y, and grime from Middle English grim, soot on the face, from Old English grīma, a mask, probably reinforced by Dutch. Nothing links it to the Grimes family of Croydon colliers: keep that as a story people tell, not an etymology.  
@@ -69,6 +101,10 @@ Hostile is Latin hostilis, from hostis, enemy. Wiktionary's Latin entry cites Va
 **ledger** (PARTLY VERIFIED)  
 Ledger is Middle English liggere, from liggen, a form of lie: to lie still, to stay in place. The stay-put idea holds, but the root is lie, not lay, and Dutch legger is a cousin, not the route in.  
 [source](https://en.wiktionary.org/wiki/ledger#English)
+
+**marry** (VERIFIED)  
+The oath marry is the Virgin's name, from Middle English Marie. It has nothing to do with marrying, which comes from Latin maritare.  
+[source](https://en.wiktionary.org/wiki/marry#English)
 
 **Meiler** (FALSE, late Middle High German (mīler))  
 Duden and Wiktionary both derive Meiler from Medieval Latin miliarium, a quantity of a thousand pieces, after the many stacked billets, from mille, thousand. 'Milestone' is wrong; the Meiler that comes from mile is a different word, a runner of the mile.  
@@ -102,6 +138,14 @@ From Angloromani pal, brother or friend, from Romani phral, brother, from Sanskr
 Wiktionary has the thieves' cant word as pannum, bread or food, probably from Latin panem or Italian pane. Its earliest quotation shown is Brome, 1641–42; the Harman 1567 date is not on the page.  
 [source](https://en.wiktionary.org/wiki/pannum#English)
 
+**pani** (VERIFIED)  
+Romani pani, water, inherited from Prakrit and ultimately Sanskrit pānīya. Wiktionary also lists it in Angloromani, Welsh Romani and even Scots. Dates in English Romani are not tested. For the consultant.  
+[source](https://en.wiktionary.org/wiki/pani#Romani)
+
+**pencil** (PARTLY VERIFIED, paintbrush sense from 14th c.)  
+Pencil first meant a fine paintbrush, from Old French pincil and Latin penicillum, a little tail; it is not related to pen. The brush sense runs from the 14th century to at least 1603, but the source does not test what a writer would have meant in 1689.  
+[source](https://en.wiktionary.org/wiki/pencil#English)
+
 **resource** (VERIFIED)  
 Via French from Old French resourse, a spring, from resourdre, to rise again (Latin resurgere). A resource is a source that keeps rising.  
 [source](https://en.wiktionary.org/wiki/resource#English)
@@ -110,9 +154,17 @@ Via French from Old French resourse, a spring, from resourdre, to rise again (La
 Old English scrūd, a garment, is confirmed, and Wiktionary lists the burial cloth and the mast ropes as senses of one word. So they are not unrelated, as the row's first sentence says; the rest of the row stands.  
 [source](https://en.wiktionary.org/wiki/shroud#English)
 
+**suburb** (PARTLY VERIFIED)  
+From Old French suburbe, Latin suburbium: sub- plus urbs, under or just outside the city. It pushed out Old English underburg. The swing from disreputable to aspirational is not in the source.  
+[source](https://en.wiktionary.org/wiki/suburb#English)
+
 **telling** (VERIFIED)  
 Tell is Old English tellan, to count or to tell, from a Germanic word for number, and tale shares the root. A bank teller and 'all told' still count.  
 [source](https://en.wiktionary.org/wiki/tell#English)
+
+**vesh** (FALSE)  
+Wiktionary gives Romani veś, forest, as a borrowing from Iranian (compare Persian bêše), not from Sanskrit vṛkṣa. Vesh is its anglicised spelling. For the consultant.  
+[source](https://en.wiktionary.org/wiki/ve%C5%9B#Romani)
 
 **wastrel** (FALSE, 1847)  
 Wiktionary dates wastrel to 1847 and builds it from waste plus the pejorative suffix -rel, so it was an insult from its first record. Nothing shows it ever meaning a commoner or a person of the waste. The project's own note says 1790; settle the date on Etymonline.  

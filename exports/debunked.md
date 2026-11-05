@@ -30,6 +30,10 @@ Duden and Wiktionary both derive Meiler from Medieval Latin miliarium, a quantit
 Wiktionary defines an orphan as someone who has lost both parents, or more rarely one. It gives no special 'fatherless' sense for the 17th century; the project traced that usage to the City of London's Court of Orphans. The word comes from Greek orphanos via Late Latin.  
 [source](https://en.wiktionary.org/wiki/orphan#English)
 
+**vesh** (FALSE)  
+Wiktionary gives Romani veś, forest, as a borrowing from Iranian (compare Persian bêše), not from Sanskrit vṛkṣa. Vesh is its anglicised spelling. For the consultant.  
+[source](https://en.wiktionary.org/wiki/ve%C5%9B#Romani)
+
 **wastrel** (FALSE, 1847)  
 Wiktionary dates wastrel to 1847 and builds it from waste plus the pejorative suffix -rel, so it was an insult from its first record. Nothing shows it ever meaning a commoner or a person of the waste. The project's own note says 1790; settle the date on Etymonline.  
 [source](https://en.wiktionary.org/wiki/wastrel#English)
