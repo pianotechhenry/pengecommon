@@ -26,6 +26,18 @@ Wiktionary gives bar from Old French barre, a beam, gate or barrier, from Vulgar
 Two different words share one spelling. The log is Old French billette, from bille, a tree trunk, probably Gaulish; the soldier's lodging is Anglo-Norman billette, a list, from Latin bulla, a document.  
 [source](https://en.wiktionary.org/wiki/billet#English)
 
+**bote** (FALSE, Old English (bōt))  
+Bote is Old English bōt, help, remedy or compensation, and 'to boot' comes straight from it. Better is not its descendant: Wiktionary gives better its own line from Old English betera, and lists bōt among its relatives. They are cousins.  
+[source](https://en.wiktionary.org/wiki/bote#English)
+
+**common** (FALSE)  
+Wiktionary cites the 'ordinary or vulgar' sense in Shakespeare's Henry VI, written in 1591, long before the parliamentary enclosures, so it cannot descend from them. Common itself is Latin communis via Anglo-Norman; the legal sense of common as a right is not tested here.  
+[source](https://en.wiktionary.org/wiki/common#English)
+
+**cushy** (FALSE)  
+Wiktionary derives cushy from Hindustani khushi, happiness, from Persian, not from Romani. Romani kushti, good, is a different word; Wiktionary suggests cushy may in turn have influenced cushty.  
+[source](https://en.wiktionary.org/wiki/cushy#English)
+
 **deal** (VERIFIED)  
 Deal is Old English dǣlan, to divide or share out, beside the noun dǣl, a part. German Teil is a cognate and dole is related, so the oldest deal is a share-out, not a bargain.  
 [source](https://en.wiktionary.org/wiki/deal#English)
@@ -34,6 +46,22 @@ Deal is Old English dǣlan, to divide or share out, beside the noun dǣl, a part
 Earn is Old English earnian. Wiktionary says the Germanic verb was formed from a noun meaning harvest, so earning began as reaping.  
 [source](https://en.wiktionary.org/wiki/earn#English)
 
+**emend** (PARTLY VERIFIED, Middle English (emenden))  
+Latin emendare, to free from fault, from ex- plus mendum, a blemish, via Middle English emenden. Emend and amend are the same Latin verb; emend came straight from Latin. Wiktionary gives no date, so c.1400 needs Etymonline.  
+[source](https://en.wiktionary.org/wiki/emend#English)
+
+**etymology** (PARTLY VERIFIED, Middle English (ethymologie))  
+Via Old French and Latin from Greek etumologia, from etumon, the true sense, and -logia, study. Wiktionary gives no dates for the late 14th century or the 1640s discipline.  
+[source](https://en.wiktionary.org/wiki/etymology#English)
+
+**glamour** (PARTLY VERIFIED)  
+Wiktionary confirms glamour is a Scots alteration of grammar, meaning magic, and a twin of grimoire and gramarye. The 1720 Allan Ramsay date, Scott in 1805 and the 1840 shift to beauty are not on the page; check them on Etymonline. Not in 1589.  
+[source](https://en.wiktionary.org/wiki/glamour#English)
+
+**grimy** (FALSE)  
+Wiktionary derives grimy from grime plus -y, and grime from Middle English grim, soot on the face, from Old English grīma, a mask, probably reinforced by Dutch. Nothing links it to the Grimes family of Croydon colliers: keep that as a story people tell, not an etymology.  
+[source](https://en.wiktionary.org/wiki/grime#English)
+
 **hostile** (VERIFIED)  
 Hostile is Latin hostilis, from hostis, enemy. Wiktionary's Latin entry cites Varro saying hostis once meant a stranger, and its root also gave English guest.  
 [source](https://en.wiktionary.org/wiki/hostis#Latin)
@@ -41,6 +69,14 @@ Hostile is Latin hostilis, from hostis, enemy. Wiktionary's Latin entry cites Va
 **ledger** (PARTLY VERIFIED)  
 Ledger is Middle English liggere, from liggen, a form of lie: to lie still, to stay in place. The stay-put idea holds, but the root is lie, not lay, and Dutch legger is a cousin, not the route in.  
 [source](https://en.wiktionary.org/wiki/ledger#English)
+
+**Meiler** (FALSE, late Middle High German (mīler))  
+Duden and Wiktionary both derive Meiler from Medieval Latin miliarium, a quantity of a thousand pieces, after the many stacked billets, from mille, thousand. 'Milestone' is wrong; the Meiler that comes from mile is a different word, a runner of the mile.  
+[source](https://www.duden.de/rechtschreibung/Meiler_Reaktor)
+
+**mob** (PARTLY VERIFIED)  
+Short for mobile, from Latin mobile vulgus, the fickle crowd. Wiktionary gives no date for it, so the 1680s needs Etymonline.  
+[source](https://en.wiktionary.org/wiki/mob#English)
 
 **navvy** (VERIFIED)  
 Navvy is a clipping of navigator, from the navigation canals the first navvies dug. A word for someone who steers a ship became the word for the man with the spade.  
@@ -54,6 +90,18 @@ Old English nēahġebūr, literally near-dweller: nigh plus ġebūr, a dweller o
 Coined in 1688 by the physician Johannes Hofer from Greek nostos, return home, and algos, pain, as a learned version of German Heimweh. The word is brand new in the 1689 book and absent in 1589.  
 [source](https://en.wiktionary.org/wiki/nostalgia#English)
 
+**orphan** (FALSE)  
+Wiktionary defines an orphan as someone who has lost both parents, or more rarely one. It gives no special 'fatherless' sense for the 17th century; the project traced that usage to the City of London's Court of Orphans. The word comes from Greek orphanos via Late Latin.  
+[source](https://en.wiktionary.org/wiki/orphan#English)
+
+**pal** (PARTLY VERIFIED)  
+From Angloromani pal, brother or friend, from Romani phral, brother, from Sanskrit; English brother is a distant cousin. Wiktionary gives no date, so the 1680s needs checking. For the consultant.  
+[source](https://en.wiktionary.org/wiki/pal#English)
+
+**panam** (PARTLY VERIFIED)  
+Wiktionary has the thieves' cant word as pannum, bread or food, probably from Latin panem or Italian pane. Its earliest quotation shown is Brome, 1641–42; the Harman 1567 date is not on the page.  
+[source](https://en.wiktionary.org/wiki/pannum#English)
+
 **resource** (VERIFIED)  
 Via French from Old French resourse, a spring, from resourdre, to rise again (Latin resurgere). A resource is a source that keeps rising.  
 [source](https://en.wiktionary.org/wiki/resource#English)
@@ -65,6 +113,10 @@ Old English scrūd, a garment, is confirmed, and Wiktionary lists the burial clo
 **telling** (VERIFIED)  
 Tell is Old English tellan, to count or to tell, from a Germanic word for number, and tale shares the root. A bank teller and 'all told' still count.  
 [source](https://en.wiktionary.org/wiki/tell#English)
+
+**wastrel** (FALSE, 1847)  
+Wiktionary dates wastrel to 1847 and builds it from waste plus the pejorative suffix -rel, so it was an insult from its first record. Nothing shows it ever meaning a commoner or a person of the waste. The project's own note says 1790; settle the date on Etymonline.  
+[source](https://en.wiktionary.org/wiki/wastrel#English)
 
 **workhouse** (PARTLY VERIFIED)  
 The compound is older than the row says: Old English weorchūs meant a workshop. The poor-law sense came later, and Wiktionary gives no date for it, so check the 17th-century date on Etymonline.  
